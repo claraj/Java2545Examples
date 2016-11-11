@@ -65,7 +65,13 @@ public class Validation {
             // Since we are inside a while loop, then the loop can repeat and ask the user for input again.
             catch (InputMismatchException ime) {
                 System.out.println("Error - please enter a number");
-                numberScanner.next();   //Clear any other characters from the Scanner
+                numberScanner.next();
+                /* If the value fetched from numberScanner.nextDouble can't be interpreted as a double,
+                then that value is 'left' in the scanner, in case you wanted to try and read it with a numberScanner.nextLine()
+                or other scanner method.
+                So as your loop repeats, it keeps trying to read the same invalid data from the scanner.
+                To fix, in the event of an exception, clear the invalid input with numberScanner.next()
+                */
             }
         }
 
@@ -98,7 +104,13 @@ public class Validation {
             // Since we are inside a while loop, then the loop can repeat and ask the user for input again.
             catch (InputMismatchException ime) {
                 System.out.println("Error - please enter an integer number");
-                numberScanner.next();   //Clear any other characters from the Scanner
+                numberScanner.next();
+                /* If the value fetched from numberScanner.nextInt can't be interpreted as a int,
+                then that value is 'left' in the scanner, in case you wanted to try and read it with a
+                numberScanner.nextLine() or numberScanner.nextDouble() or other scanner method.
+                So as your loop repeats, it keeps trying to read the same invalid data from the scanner.
+                To fix, in the event of an exception, clear the invalid input with numberScanner.next()
+                */
             }
         }
 
