@@ -1,7 +1,7 @@
 package week9_and_more_gui_jlist_combobox.dog;
 
+
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -15,14 +15,14 @@ public class DogGUI extends JFrame {
     private JList<Dog> dogJList;
     private JButton deleteDogButton;
 
-    DefaultListModel<Dog> dogListModel;
+    private DefaultListModel<Dog> dogListModel;
 
-    protected DogGUI() {
+    DogGUI() {
 
-        super("List of Dogs");
+        setTitle("List of Dogs");
         setContentPane(rootPanel);
         pack();
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
 
         dogListModel = new DefaultListModel<>();
@@ -35,7 +35,13 @@ public class DogGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Read data from JTextFields and JCheckBox
-                String dogName = dogNameTextField.getText();  //TODO verify user enters a name
+                String dogName = dogNameTextField.getText();
+                //Check that user entered a name
+                if (dogName.trim().length() == 0) {
+                    JOptionPane.showMessageDialog(DogGUI.this, "Please enter a name");
+                    return;
+                }
+
                 double dogAge;
 
                 // Basic validation - check that age is a positive number
@@ -54,6 +60,11 @@ public class DogGUI extends JFrame {
                 // Create Dog and add to JList's model
                 Dog newDog = new Dog(dogName, dogAge, isPuppy);
                 dogListModel.addElement(newDog);
+
+                //Clear input fields
+                dogNameTextField.setText("");
+                dogAgeTextField.setText("");
+                puppyCheckBox.setSelected(false);
             }
         });
 
