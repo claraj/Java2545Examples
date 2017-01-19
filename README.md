@@ -2,7 +2,7 @@
 
 Code examples for Java Programming. Please report any bugs! Also, send suggestions/requests for more examples.
 
-# How to report bugs, typos, request more examples
+## How to report bugs, typos, request more examples
 
 1. Create a GitHub account - you'll need one for this class. Look for the sign-up link at the top right.  Sign in, and then come back to this page.
 
