@@ -1,9 +1,12 @@
 package week9_and_more_gui_jlist_combobox.dog;
 
 
+import com.sun.codemodel.internal.JOp;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Enumeration;
 
 
 public class DogGUI extends JFrame {
@@ -14,6 +17,7 @@ public class DogGUI extends JFrame {
     private JButton addDogToListButton;
     private JList<Dog> dogJList;
     private JButton deleteDogButton;
+    private JButton findDogByNameButton;
 
     private DefaultListModel<Dog> dogListModel;
 
@@ -79,5 +83,42 @@ public class DogGUI extends JFrame {
                 dogListModel.removeElement(toDelete);
             }
         });
+
+
+        findDogByNameButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+                String name = JOptionPane.showInputDialog(DogGUI.this, "Enter the name to search for");
+
+                // Search by looping getting every item and checking one by one
+//                for (int d = 0 ; d < dogListModel.getSize(); d++){
+//                    Dog test = dogListModel.get(d);
+//                    if (test.getName().equalsIgnoreCase(name)) {
+//                        JOptionPane.showMessageDialog(DogGUI.this, test);  // calls toString to show dog info
+//                        return;
+//                    }
+//                }
+//
+//                JOptionPane.showMessageDialog(DogGUI.this, "No dog with that name was found.");
+
+
+                // OR, search by asking the DefaultListModel to provide an Enumeration - a structure that
+                // can be looped over. This is (probably) more efficient for a large list.
+                Enumeration<Dog> dogs = dogListModel.elements();
+                while (dogs.hasMoreElements()) {
+                    Dog test = dogs.nextElement();
+                    if (test.getName().equalsIgnoreCase(name)) {
+                        JOptionPane.showMessageDialog(DogGUI.this, test);  // calls toString to show dog info
+                        return;
+                    }
+                }
+
+                JOptionPane.showMessageDialog(DogGUI.this, "No dog with that name was found.");
+
+            }
+        });
+
+
     }
 }

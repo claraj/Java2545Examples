@@ -22,5 +22,29 @@ public class Dog {
         return "Dog's name is " + name + " and age is " + age;
 
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getAge() {
+        return age;
+    }
+
+    public void setAge(double age) {
+        this.age = age;
+    }
+
+    public boolean isPuppy() {
+        return isPuppy;
+    }
+
+    public void setPuppy(boolean isPuppy) {
+        this.isPuppy = isPuppy;
+    }
 }
 
