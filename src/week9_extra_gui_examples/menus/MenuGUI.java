@@ -89,7 +89,7 @@ public class MenuGUI extends JFrame {
         messSelection.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                mess();
+                guess();
             }
         });
 
@@ -134,7 +134,7 @@ public class MenuGUI extends JFrame {
         whatSelected.setText("Yes!");
     }
 
-    private void mess() {
+    private void guess() {
         whatSelected.setText("Well, I guess.");
     }
 
