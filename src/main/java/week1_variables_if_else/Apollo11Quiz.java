@@ -2,11 +2,11 @@ package week1_variables_if_else;
 
 import java.util.Scanner;
 
+import static input.InputUtils.intInput;
+
 public class Apollo11Quiz {
 
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
-
+ 
     public static void main(String[] args) {
 
         System.out.println("Quiz time!");
@@ -14,7 +14,7 @@ public class Apollo11Quiz {
 
         //Hint... it was 1969
 
-        int answer = numberScanner.nextInt();
+        int answer = intInput();
 
         // The != operator tests if two values are NOT equal
         // This condition tests if answer is not equal to 1969.
@@ -22,7 +22,6 @@ public class Apollo11Quiz {
             System.out.println("Wrong answer - it was 1969");
         }
 
-        stringScanner.close();
-        numberScanner.close();
+ 
     }
 }

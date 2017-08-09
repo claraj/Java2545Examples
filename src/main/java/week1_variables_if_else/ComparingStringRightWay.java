@@ -1,16 +1,13 @@
 package week1_variables_if_else;
 
-import java.util.Scanner;
+import static input.InputUtils.stringInput;
 
 public class ComparingStringRightWay {
 
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
-
+    
     public static void main(String[] args) {
 
-        System.out.println("Which college do you attend?");
-        String college = numberScanner.nextLine();
+        String college = stringInput("Which college do you attend?");
 
         //This line does not do as you might expect!
         if (college.equals("MCTC")) {
@@ -19,7 +16,6 @@ public class ComparingStringRightWay {
             System.out.println("Too bad, you should go to MCTC!");
         }
 
-        stringScanner.close();
-        numberScanner.close();
+
     }
 }

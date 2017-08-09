@@ -1,17 +1,14 @@
 package week1_variables_if_else;
 
-import java.util.Scanner;
+import static input.InputUtils.doubleInput;
 
 public class AboveFreezing {
-
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
-
+    
     public static void main(String[] args) {
 
 
         System.out.println("Enter today's temperature in F");
-        double temp = numberScanner.nextDouble();
+        double temp = doubleInput();
 
         if (temp > 32) {
             //This will run if the condition is true
@@ -20,9 +17,7 @@ public class AboveFreezing {
 
         //Indentation in if blocks is optional but strongly suggested
         //It's a standard convention and helps readability
-
-        stringScanner.close();
-        numberScanner.close();
+        
     }
 
 }

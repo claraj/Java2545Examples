@@ -1,16 +1,429 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.java" afterPath="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.java" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Replace scanners with InputUtils library - week 1 so far...">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__edu_minneapolis_input_utils_1_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElseElseIf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Greeting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/HelloWorld.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/IntMathError.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/IntMathFix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MandMs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreStringVariables.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberStringConversions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheck.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheckBasic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleNumberVariables.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringFormattingExamples.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/UsingNumberAndStringScanners.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferencesStrings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/AverageTestScoreSimpleLoop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/BreakExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/CalendarInArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ContinueExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/DaysOfJanuaryForLoop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/FirstForLoop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ForLoopPassword5Attempts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/HelloArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/InfiniteWhileLoop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/LoopGetDataForArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/LoopGetDataForArrayAndReadArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/MoreForLoops.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/PrintArrays.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/RandomInteger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SalesTaxWhileLoop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SalesTaxWhileLoopCurrencyFormat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SquareOfStars.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SumArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SwitchWithInts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SwitchWithStrings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/WhileLoopPassword.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/WhileLoopPassword5Attempts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Counting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/FillArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/FillArrayWithValidation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/FormattingMonths.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/HelloMethods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Lemonade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/LemonadeMethods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/MilesToKm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/RepetitiveProgram.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Scope.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Squares.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Squares2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Squares3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/AddingToArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/CapitalizingArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/CapitalizingArrayListGenericTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/CollectionsMethods.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapExamples.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapExamplesGenericTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnowGeneric.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnowGenericUpdateHashMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HelloArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HelloLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HelloLinkedListGenericTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/LinkedListStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/LinkedListStackReverseOrder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/PrintArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/Queues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/RemovingFromArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/SumArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/SumArrayListGenericTypes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/UserInputArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/WebsiteHistory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/AppendingToFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloExceptionCloseReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/OverwritingFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/RandomNumbersInFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/Reading.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingAlt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingConcise.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WriteReadArrayList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/Writing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingActualNumbers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingAlt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingNumbers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingVariables.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/Dinosaur.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/DinosaurManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/ITECCourseManager_NoObjects.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourseManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager/ITECCourse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager/ITECCourseManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourseManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourseManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourseManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/Album.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/CD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/LP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/Album.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/CD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/LP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_no_inheritance/CD.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_no_inheritance/LP.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_no_inheritance/RecordStore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/Static_Variables_Assignment/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/CCValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/CurrencyConverter.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/CurrencyConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/hello_gui/HelloGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/hello_gui/HelloGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/hello_gui/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/pet_survey/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/pet_survey/PetSurvey.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/pet_survey/PetSurvey.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/shout_text_views_labels/LabelsTextViews.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/shout_text_views_labels/LabelsTextViews.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/shout_text_views_labels/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/creditcard/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/Dog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/DogGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/DogGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/BestTimesTableModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/FileIO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/Lake.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/movie/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/race/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/race/RaceGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/race/RaceGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/startingsalary/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo/ToDoList.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo/ToDoList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/DataEntry.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/DataEntry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/custom_dialog/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/custom_dialog/ShowDialogForm.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/custom_dialog/ShowDialogForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/date_spinner/DatesHere.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/date_spinner/DatesHere.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/date_spinner/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/ImageGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/ImageGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/ImageGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/ImageGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/MenuGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/MenuGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/MainForm.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/MainForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab1.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab2.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/AskUserForInputGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/AskUserForInputGUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/MainWindowGUI.form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/MainWindowGUI.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/AboveFreezing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/AboveFreezingElse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/AboveFreezingElseElseIf.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/Apollo11Quiz.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/BloodDonor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/ComparingStringRightWay.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/ComparingStringsWrongWay.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/Dinner.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/Greeting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/HelloWorld.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/IntMathError.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/IntMathFix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/JavascriptQuiz.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/MandMs.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/MoreNumberVariables.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/MoreStringVariables.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/NumberQuizBasic.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/NumberQuizElse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/NumberStringConversions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/PasswordCheck.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/PasswordCheckBasic.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/ProductTotalPrice.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/ScannerTemplate.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/SimpleNumberVariables.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/SimpleStringVariables.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/StringFormattingExamples.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/StringLibraryMethods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/UsingNumberAndStringScanners.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/WeatherPreferences.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/AverageTestScoreSimpleLoop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/BreakExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/CalendarInArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/ContinueExample.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/DaysOfJanuaryForLoop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/FirstForLoop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/ForLoopPassword5Attempts.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/HelloArrays.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/InfiniteWhileLoop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/LoopGetDataForArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/LoopGetDataForArrayAndReadArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/MoreForLoops.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/PrintArrays.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/RandomInteger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SalesTaxWhileLoop.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SalesTaxWhileLoopCurrencyFormat.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SquareOfStars.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SumArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SwitchWithInts.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SwitchWithStrings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/WhileLoopPassword.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/WhileLoopPassword5Attempts.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Counting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/FillArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/FillArrayWithValidation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/FormattingMonths.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/GuessingGame.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/GuessingGameGlobalVariable.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/HelloMethods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Lemonade.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/LemonadeMethods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/MilesToKm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/RepetitiveProgram.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Scope.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Squares.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Squares2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Squares3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Validation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/AddingToArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/CapitalizingArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/CapitalizingArrayListGenericTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/CollectionsMethods.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapExamples.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapExamplesGenericTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapSnow.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapSnowGeneric.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapSnowGenericUpdateHashMap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HelloArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HelloLinkedList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HelloLinkedListGenericTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/LinkedListStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/LinkedListStackReverseOrder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/PrintArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/Queues.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/RemovingFromArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/SumArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/SumArrayListGenericTypes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/UserInputArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/WebsiteHistory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/AppendingToFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/HelloException.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/HelloExceptionCloseReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/OverwritingFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/RandomNumbersInFile.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/Reading.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/ReadingAlt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/ReadingConcise.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/TryWithResourcesReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/TryWithResourcesWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/Validation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WriteReadArrayList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/Writing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WritingActualNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WritingAlt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WritingNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WritingVariables.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/Dinosaurs/Dinosaur.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/Dinosaurs/DinosaurManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/ITECCourseManager_NoObjects.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourseManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager/ITECCourse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager/ITECCourseManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourseManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourseManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourseManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/Album.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/CD.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/LP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/Album.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/CD.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/LP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_no_inheritance/CD.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_no_inheritance/LP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_no_inheritance/RecordStore.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/CCValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_dropdown_box/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_simple/CurrencyConverter.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_simple/CurrencyConverter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_simple/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/hello_gui/HelloGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/hello_gui/HelloGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/hello_gui/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/pet_survey/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/pet_survey/PetSurvey.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/pet_survey/PetSurvey.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/shout_text_views_labels/LabelsTextViews.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/shout_text_views_labels/LabelsTextViews.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/shout_text_views_labels/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/Dog.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/DogGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/DogGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/BestTimesTableModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/FileIO.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/Lake.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/ToDoList.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/ToDoList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/card_layout_switch_views/DataEntry.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/card_layout_switch_views/DataEntry.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/card_layout_switch_views/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog/ShowDialogForm.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog/ShowDialogForm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/date_spinner/DatesHere.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/date_spinner/DatesHere.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/date_spinner/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/ImageGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/ImageGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/ImageGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/ImageGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/MainForm.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/MainForm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Tab1.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Tab1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Tab2.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Tab2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/AskUserForInputGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/AskUserForInputGUI.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/MainWindowGUI.form" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/MainWindowGUI.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples.iml" afterPath="$PROJECT_DIR$/Examples.iml" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,54 +431,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DaemonCodeAnalyzer">
-    <disable_hints />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Java-Week1-Examples" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ImageGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/ImageGUI.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MoreStringVariables.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreStringVariables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="570">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/Main.java">
+      <file leaf-file-name="NumberQuizBasic.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="210">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/Main.java">
+      <file leaf-file-name="ProductTotalPrice.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="210">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/ImageGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="705">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+            <state relative-caret-position="408">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,49 +472,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/menus/Main.java">
+      <file leaf-file-name="SimpleNumberVariables.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleNumberVariables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="255">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#145#146#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuGUI.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1016" max-vertical-offset="1920">
-              <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinksGUI.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java">
+      <file leaf-file-name="StringFormattingExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringFormattingExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4258675" vertical-offset="0" max-vertical-offset="975">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="-297">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringLibraryMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1002">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsingNumberAndStringScanners.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/UsingNumberAndStringScanners.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#mousePressed#0;class#605:1689" expanded="false" />
-                <element signature="method#mouseReleased#0;class#605:1689" expanded="false" />
-                <element signature="method#mouseEntered#0;class#605:1689" expanded="false" />
-                <element signature="method#mouseExited#0;class#605:1689" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinksGUI.form" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
+      <file leaf-file-name="WeatherPreferences.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherPreferencesStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferencesStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleStringVariables.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -131,26 +558,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/Main.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.form" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/Main.java" />
-        <option value="$PROJECT_DIR$/src/week8_first_gui/hello_gui/HelloGUI.form" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/Main.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/Main.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/Main.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/ToDoList.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/ToDoList.form" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.form" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.form" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake/BestTimesTableModel.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake/FileIO.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake/Lake.java" />
         <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake/Main.java" />
         <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake/RunningGUI.java" />
         <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake/RunningGUI.form" />
@@ -185,6 +600,23 @@
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.java" />
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" />
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElseElseIf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Greeting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MandMs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/UsingNumberAndStringScanners.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferencesStrings.java" />
       </list>
     </option>
   </component>
@@ -192,12 +624,20 @@
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
-    <option name="y" value="99" />
+    <option name="x" value="175" />
+    <option name="y" value="23" />
     <option name="width" value="1080" />
-    <option name="height" value="801" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -222,8 +662,11 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,7 +713,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week9_extra_gui_examples" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,33 +731,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week9_extra_gui_examples" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="open_web_browser_from_gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java-Week1-Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="week9_extra_gui_examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="menus" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,33 +753,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week9_extra_gui_examples" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="display_image_from_web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Java-Week1-Examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Examples" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="week9_extra_gui_examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="display_image_from_file" />
+              <option name="myItemId" value="week5_files_exceptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,7 +779,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week9_and_more_gui_jlist_combobox" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week3_methods" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,17 +805,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week9_and_more_gui_jlist_combobox" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dog" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week1_variables_if_else" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -431,12 +845,17 @@
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog" />
+      <recent name="C:\Users\we4954cp\Documents\Java2545examples\src\week9_first_gui\hello_gui" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="week1_variables_if_else" />
       <recent name="week5_files_exceptions" />
       <recent name="week4_data_structures" />
       <recent name="week3" />
       <recent name="week2" />
-      <recent name="week1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -445,35 +864,8 @@
       <recent name="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors" />
       <recent name="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog" />
-      <recent name="C:\Users\we4954cp\Documents\Java2545examples\src\week9_first_gui\hello_gui" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.LinksGUI">
-    <configuration default="false" name="FormattingMonths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="week3_methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="week3_methods.FormattingMonths" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Examples" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.AboveFreezingElse">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -562,65 +954,137 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="AboveFreezingElse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="week1_variables_if_else.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="week1_variables_if_else.AboveFreezingElse" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Examples" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="" />
-      <envMap />
-      <setting name="rowsRange" value="" />
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <method />
     </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -629,9 +1093,9 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
       <option name="OUTPUT_DIRECTORY" />
       <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
@@ -646,46 +1110,26 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="" />
       <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -723,33 +1167,18 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" web_path="">
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
@@ -768,26 +1197,65 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -801,91 +1269,160 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Examples" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
       <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FormattingMonths" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Main (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (3)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LinksGUI" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main (3)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LinksGUI" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AboveFreezingElse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LinksGUI" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (3)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.AboveFreezingElse" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LinksGUI" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main (3)" />
         <item index="3" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -894,6 +1431,7 @@
       <changelist id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="" />
       <created>1472223576186</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1472223576186</updated>
       <workItem from="1472223576961" duration="12868000" />
       <workItem from="1474575359074" duration="968000" />
@@ -914,31 +1452,42 @@
       <workItem from="1492652447800" duration="1380000" />
       <workItem from="1493133457610" duration="1672000" />
       <workItem from="1494456150935" duration="1145000" />
-      <workItem from="1494460195852" duration="667000" />
+      <workItem from="1494460195852" duration="1103000" />
+      <workItem from="1502317029027" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="JOptionPane - simple dialog examples">
       <created>1481520162629</created>
       <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1481520162629</updated>
     </task>
     <task id="LOCAL-00002" summary="String formatting in table">
       <created>1485380077716</created>
       <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1485380077716</updated>
     </task>
     <task id="LOCAL-00003" summary="Menu example">
       <created>1490841340661</created>
       <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1490841340661</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Click on link to open web browser">
+      <created>1494461002849</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494461002849</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47549000" />
+    <option name="totallyTimeSpent" value="48807000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -961,38 +1510,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="99" width="1080" height="801" extended-state="0" />
-    <editor active="false" />
+    <frame x="175" y="23" width="1080" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5133991" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26878613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26798308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24203822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13963328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26878613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1007,13 +1556,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings />
-    </option>
     <MESSAGE value="JOptionPane - simple dialog examples" />
     <MESSAGE value="String formatting in table" />
     <MESSAGE value="Menu example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu example" />
+    <MESSAGE value="Click on link to open web browser" />
+    <MESSAGE value="Replace scanners with InputUtils library - week 1 so far..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace scanners with InputUtils library - week 1 so far..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1026,355 +1574,330 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/week2_loops_arrays/ForLoopPassword5Attempts.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week2_loops_arrays/WhileLoopPassword5Attempts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="8" column="0" selection-start-line="6" selection-start-column="1" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week8_first_gui/CCValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="2" column="92" selection-start-line="2" selection-start-column="92" selection-end-line="2" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week6_first_classes/Dinosaurs/Dinosaur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week6_first_classes/Dinosaurs/DinosaurManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week8_first_gui/hello_gui/HelloGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week8_first_gui/hello_gui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/BestTimesTableModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/ToDoList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/ToDoList.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LAKE_DATA.TXT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/Lake.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="1323" column="10" selection-start-line="1323" selection-start-column="10" selection-end-line="1323" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3_methods/Validation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="103" column="83" selection-start-line="103" selection-start-column="83" selection-end-line="103" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21915585" vertical-offset="120" max-vertical-offset="1095">
+        <state relative-caret-position="0">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager/ITECCourse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager/ITECCourse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+        <state relative-caret-position="0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3_methods/FormattingMonths.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/FormattingMonths.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Squares.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="870">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3_methods/Squares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+        <state relative-caret-position="0">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3_methods/MilesToKm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/MilesToKm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+        <state relative-caret-position="0">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3_methods/RepetitiveProgram.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/RepetitiveProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
+        <state relative-caret-position="0">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week3_methods/Counting.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Counting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="810">
+        <state relative-caret-position="0">
           <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.form">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/MenuGUI.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/DogGUI.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/DogGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/Dog.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+        <state relative-caret-position="0">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state relative-caret-position="0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/ImageGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/DogGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/ImageGUI.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/DogGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6582734" vertical-offset="1149" max-vertical-offset="1875">
+        <state relative-caret-position="0">
           <caret line="106" column="90" selection-start-line="106" selection-start-column="90" selection-end-line="106" selection-end-column="90" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/ImageGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/ImageGUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/ImageGUI.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/ImageGUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/MenuGUI.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="303">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/ImageGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/ImageGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/Validation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1032">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElseElseIf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/Greeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/IntMathError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/IntMathFix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MandMs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreStringVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ScannerTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/menus/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1016" max-vertical-offset="1920">
-          <caret line="95" column="0" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleNumberVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringFormattingExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4258675" vertical-offset="0" max-vertical-offset="975">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="-297">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1002">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/UsingNumberAndStringScanners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#mousePressed#0;class#605:1689" expanded="false" />
-            <element signature="method#mouseReleased#0;class#605:1689" expanded="false" />
-            <element signature="method#mouseEntered#0;class#605:1689" expanded="false" />
-            <element signature="method#mouseExited#0;class#605:1689" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferencesStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

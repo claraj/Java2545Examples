@@ -4,6 +4,13 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="CF5853D45FB72FDAACCDB3EC111D9779" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
