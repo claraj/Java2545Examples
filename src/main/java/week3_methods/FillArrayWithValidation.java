@@ -1,21 +1,16 @@
 package week3_methods;
 
-import java.util.Scanner;
+
+import static input.InputUtils.intInput;
 
 public class FillArrayWithValidation {
 
-    //Create two scanners
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
     //This is the main method - the first code to run
     public static void main(String[] args) {
-
-
-        System.out.println("Please enter a small integer number");
-        int smallNumber = numberScanner.nextInt();
-        System.out.println("Please enter a large integer number");
-        int largeNumber = numberScanner.nextInt();
+    
+        int smallNumber = intInput("Please enter a small integer number");
+        int largeNumber = intInput("Please enter a large integer number");
 
         //Let's check if smallNumber is actually smaller than largeNumber...
 
@@ -31,16 +26,13 @@ public class FillArrayWithValidation {
 
         else {
 
-            //Yay - have a sensible large number and small number
+            // In this case, have a sensible large number and small number
             int[] integerNumberArray = fillArray(smallNumber, largeNumber);
 
             System.out.println("Here's the array I have created");
             printArray(integerNumberArray);
         }
 
-        //Close scanners.
-        stringScanner.close();
-        numberScanner.close();
 
     }    // This is the end of the main method.
 

@@ -1,24 +1,17 @@
 package week3_methods;
 
-import java.util.Scanner;
+
+import static input.InputUtils.doubleInput;
 
 public class MilesToKm {
 
-    //Create two scanners
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
     //This is the main method - the first code to run
     public static void main(String[] args) {
 
-        System.out.println("Please enter number of miles");
-        double miles = numberScanner.nextDouble();
+        double miles = doubleInput("Please enter number of miles");
         double km = milesToKM(miles);
         System.out.println(miles + " miles is equal to " + km + " kilometers");
-
-        //Close scanners.
-        stringScanner.close();
-        numberScanner.close();
 
     }    // This is the end of the main method.
 

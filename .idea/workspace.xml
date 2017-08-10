@@ -3,16 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/AverageTestScoreSimpleLoop.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/AverageTestScoreSimpleLoop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/BreakExample.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/BreakExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ContinueExample.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ContinueExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ForLoopPassword5Attempts.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ForLoopPassword5Attempts.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/LoopGetDataForArray.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/LoopGetDataForArray.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SalesTaxWhileLoop.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SalesTaxWhileLoop.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SalesTaxWhileLoopCurrencyFormat.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SalesTaxWhileLoopCurrencyFormat.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SwitchWithStrings.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SwitchWithStrings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/WhileLoopPassword.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/WhileLoopPassword.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/WhileLoopPassword5Attempts.java" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/WhileLoopPassword5Attempts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/Counting.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Counting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/FillArray.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/FillArray.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/FillArrayWithValidation.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/FillArrayWithValidation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/HelloMethods.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/HelloMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/Lemonade.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Lemonade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/LemonadeMethods.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/LemonadeMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/MilesToKm.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/MilesToKm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/RepetitiveProgram.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/RepetitiveProgram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/Squares.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Squares.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week3_methods/Squares2.java" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Squares2.java" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +36,114 @@
     <favorites_list name="Java-Week1-Examples" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Lemonade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Lemonade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LemonadeMethods.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/LemonadeMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MilesToKm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/MilesToKm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepetitiveProgram.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/RepetitiveProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Squares2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Squares2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuessingGameGlobalVariable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormattingMonths.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/FormattingMonths.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scope.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Scope.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-207">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Squares3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Squares3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Squares.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Squares.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,18 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/Dog.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/DogGUI.java" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/image/Main.java" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/image/Image.java" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/image/Image.form" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/image/ImageGUI.java" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image/ImageGUI.java" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/Main.java" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/ImageGUI.form" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image/ImageGUI.form" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/ImageGUI.form" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/ImageGUI.java" />
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/Main.java" />
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/ImageGUI.java" />
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.java" />
@@ -105,6 +202,18 @@
         <option value="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ContinueExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ForLoopPassword5Attempts.java" />
         <option value="$PROJECT_DIR$/src/main/java/week2_loops_arrays/LoopGetDataForArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/Counting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/FillArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/FillArrayWithValidation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/HelloMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/Lemonade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/LemonadeMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/MilesToKm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/Squares.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/RepetitiveProgram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/Squares2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java" />
       </list>
     </option>
   </component>
@@ -275,7 +384,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week3_methods" />
+              <option name="myItemId" value="week4_data_structures" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,7 +410,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week2_loops_arrays" />
+              <option name="myItemId" value="week3_methods" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -329,7 +438,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="186" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/admin/Development/Java/Examples/src/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java" />
+    <property name="SearchEverywhereHistoryKey" value="Scanner&#9;PSI&#9;JAVA://week3_methods.Counting#numberScanner" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
@@ -937,7 +1046,7 @@
       <workItem from="1493133457610" duration="1672000" />
       <workItem from="1494456150935" duration="1145000" />
       <workItem from="1494460195852" duration="1103000" />
-      <workItem from="1502317029027" duration="4510000" />
+      <workItem from="1502317029027" duration="5128000" />
     </task>
     <task id="LOCAL-00001" summary="JOptionPane - simple dialog examples">
       <created>1481520162629</created>
@@ -981,11 +1090,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502382893246</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Replace scanners with InputUtils library - week 2 so far...">
+      <created>1502383900159</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1502383900159</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52495000" />
+    <option name="totallyTimeSpent" value="53113000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1009,7 +1125,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="23" width="1307" height="877" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1023,7 +1139,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13963328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22450593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22450593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1060,7 +1176,8 @@
     <MESSAGE value="Menu example" />
     <MESSAGE value="Click on link to open web browser" />
     <MESSAGE value="Replace scanners with InputUtils library - week 1 so far..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace scanners with InputUtils library - week 1 so far..." />
+    <MESSAGE value="Replace scanners with InputUtils library - week 2 so far..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace scanners with InputUtils library - week 2 so far..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1073,132 +1190,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/IntMathError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/IntMathFix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MandMs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ScannerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreStringVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheckBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleNumberVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringFormattingExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberAndStringInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferencesStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1396,7 +1387,7 @@
         <state relative-caret-position="298">
           <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1485,6 +1476,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Counting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/FillArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/FillArrayWithValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/HelloMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Lemonade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/LemonadeMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/MilesToKm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Squares.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/RepetitiveProgram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/FormattingMonths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Squares2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Scope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Squares3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>

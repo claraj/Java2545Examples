@@ -1,12 +1,9 @@
 package week3_methods;
 
-import java.util.Scanner;
+
+import static input.InputUtils.stringInput;
 
 public class GuessingGameGlobalVariable {
-
-    //Create two scanners
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
     static String correctAnswer = "chips";
 
@@ -14,8 +11,7 @@ public class GuessingGameGlobalVariable {
     public static void main(String[] args) {
 
         String computerFavoriteFood = "chips";       // sorry
-        System.out.println("Guess what a computer's favorite food is?");
-        String guess = stringScanner.nextLine();
+        String guess = stringInput("Guess what a computer's favorite food is?");
 
         if (checkUserGuess(guess)) {
             System.out.println("Correct!");
@@ -23,9 +19,6 @@ public class GuessingGameGlobalVariable {
             System.out.println("Sorry, the right answer is " + computerFavoriteFood);
         }
 
-        //Close scanners.
-        stringScanner.close();
-        numberScanner.close();
 
     }    // This is the end of the main method.
 

@@ -1,25 +1,15 @@
 package week3_methods;
 
-import java.util.Scanner;
+import static input.InputUtils.stringInput;
 
 public class HelloMethods {
-
-    //Create two scanners
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
     //This is the main method - the first code to run
     public static void main(String[] args) {
 
-        System.out.println("Please enter your name");
-        String name = stringScanner.next();
+        String name = stringInput("Please enter your name");
         String greeting = makeGreeting(name);
         System.out.println(greeting);
-
-
-        //Close scanners.
-        stringScanner.close();
-        numberScanner.close();
 
     }    // This is the end of the main method.
 

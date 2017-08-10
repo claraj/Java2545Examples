@@ -1,24 +1,17 @@
 package week3_methods;
 
-import java.util.Scanner;
+
+import static input.InputUtils.doubleInput;
 
 public class Squares2 {
-
-    //Create two scanners
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
     //This is the main method - the first code to run
     public static void main(String[] args) {
 
-        System.out.println("Please enter a number and I'll square it");
-        double number = numberScanner.nextDouble();
+        double number = doubleInput("Please enter a number and I'll square it");
         double squaredNumber = square(number);
         System.out.println("The square of " + number + " is " + squaredNumber);
 
-        //Close scanners.
-        stringScanner.close();
-        numberScanner.close();
 
     }    // This is the end of the main method.
 
