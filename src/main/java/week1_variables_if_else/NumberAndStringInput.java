@@ -4,7 +4,7 @@ import static input.InputUtils.doubleInput;
 import static input.InputUtils.intInput;
 import static input.InputUtils.stringInput;
 
-public class UsingNumberAndStringScanners {
+public class NumberAndStringInput {
     
     public static void main(String[] args) {
         

@@ -1,423 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Replace scanners with InputUtils library - week 1 so far...">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__edu_minneapolis_input_utils_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElseElseIf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Greeting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/HelloWorld.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/IntMathError.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/IntMathFix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MandMs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreStringVariables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberStringConversions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheck.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheckBasic.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleNumberVariables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringFormattingExamples.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/UsingNumberAndStringScanners.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferencesStrings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/AverageTestScoreSimpleLoop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/BreakExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/CalendarInArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ContinueExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/DaysOfJanuaryForLoop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/FirstForLoop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/ForLoopPassword5Attempts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/HelloArrays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/InfiniteWhileLoop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/LoopGetDataForArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/LoopGetDataForArrayAndReadArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/MoreForLoops.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/PrintArrays.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/RandomInteger.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SalesTaxWhileLoop.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SalesTaxWhileLoopCurrencyFormat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SquareOfStars.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SumArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SwitchWithInts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/SwitchWithStrings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/WhileLoopPassword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/WhileLoopPassword5Attempts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Counting.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/FillArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/FillArrayWithValidation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/FormattingMonths.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/HelloMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Lemonade.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/LemonadeMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/MilesToKm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/RepetitiveProgram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Scope.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Squares.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Squares2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Squares3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/AddingToArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/CapitalizingArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/CapitalizingArrayListGenericTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/CollectionsMethods.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapExamples.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapExamplesGenericTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnowGeneric.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnowGenericUpdateHashMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HelloArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HelloLinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/HelloLinkedListGenericTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/LinkedListStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/LinkedListStackReverseOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/PrintArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/Queues.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/RemovingFromArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/SumArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/SumArrayListGenericTypes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/UserInputArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/WebsiteHistory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/AppendingToFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloExceptionCloseReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/OverwritingFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/RandomNumbersInFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/Reading.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingAlt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingConcise.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesWriter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WriteReadArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/Writing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingActualNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingAlt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingNumbers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingVariables.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/Dinosaur.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/DinosaurManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/ITECCourseManager_NoObjects.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourseManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager/ITECCourse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager/ITECCourseManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourseManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourseManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourseManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/Album.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/CD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/LP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/Album.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/CD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/LP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_no_inheritance/CD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_no_inheritance/LP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_no_inheritance/RecordStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/Static_Variables_Assignment/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/CCValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/CurrencyConverter.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/CurrencyConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/hello_gui/HelloGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/hello_gui/HelloGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/hello_gui/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/pet_survey/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/pet_survey/PetSurvey.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/pet_survey/PetSurvey.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/shout_text_views_labels/LabelsTextViews.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/shout_text_views_labels/LabelsTextViews.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/shout_text_views_labels/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/creditcard/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/DogGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/DogGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/BestTimesTableModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/FileIO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/Lake.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/movie/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/race/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/race/RaceGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/race/RaceGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/startingsalary/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo/ToDoList.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo/ToDoList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/DataEntry.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/DataEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/custom_dialog/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/custom_dialog/ShowDialogForm.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/custom_dialog/ShowDialogForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/date_spinner/DatesHere.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/date_spinner/DatesHere.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/date_spinner/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/ImageGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/ImageGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/ImageGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/ImageGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/MenuGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/MenuGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/MainForm.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/MainForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab1.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab2.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/AskUserForInputGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/AskUserForInputGUI.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/MainWindowGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/MainWindowGUI.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/AboveFreezing.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/AboveFreezingElse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/AboveFreezingElseElseIf.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/Apollo11Quiz.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/BloodDonor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/ComparingStringRightWay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/ComparingStringsWrongWay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/Dinner.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/Greeting.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/HelloWorld.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/IntMathError.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/IntMathFix.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/JavascriptQuiz.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/MandMs.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/MoreNumberVariables.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/MoreStringVariables.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/NumberQuizBasic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/NumberQuizElse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/NumberStringConversions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/PasswordCheck.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/PasswordCheckBasic.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/ProductTotalPrice.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/ScannerTemplate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/SimpleNumberVariables.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/SimpleStringVariables.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/StringFormattingExamples.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/StringLibraryMethods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/UsingNumberAndStringScanners.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1_variables_if_else/WeatherPreferences.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/AverageTestScoreSimpleLoop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/BreakExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/CalendarInArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/ContinueExample.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/DaysOfJanuaryForLoop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/FirstForLoop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/ForLoopPassword5Attempts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/HelloArrays.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/InfiniteWhileLoop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/LoopGetDataForArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/LoopGetDataForArrayAndReadArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/MoreForLoops.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/PrintArrays.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/RandomInteger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SalesTaxWhileLoop.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SalesTaxWhileLoopCurrencyFormat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SquareOfStars.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SumArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SwitchWithInts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/SwitchWithStrings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/WhileLoopPassword.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week2_loops_arrays/WhileLoopPassword5Attempts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Counting.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/FillArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/FillArrayWithValidation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/FormattingMonths.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/GuessingGame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/GuessingGameGlobalVariable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/HelloMethods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Lemonade.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/LemonadeMethods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/MilesToKm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/RepetitiveProgram.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Scope.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Squares.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Squares2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Squares3.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week3_methods/Validation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/AddingToArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/CapitalizingArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/CapitalizingArrayListGenericTypes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/CollectionsMethods.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapExamples.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapExamplesGenericTypes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapSnow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapSnowGeneric.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HashMapSnowGenericUpdateHashMap.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HelloArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HelloLinkedList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/HelloLinkedListGenericTypes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/LinkedListStack.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/LinkedListStackReverseOrder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/PrintArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/Queues.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/RemovingFromArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/SumArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/SumArrayListGenericTypes.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/UserInputArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4_data_structures/WebsiteHistory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/AppendingToFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/HelloException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/HelloExceptionCloseReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/OverwritingFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/RandomNumbersInFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/Reading.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/ReadingAlt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/ReadingConcise.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/TryWithResourcesReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/TryWithResourcesWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/Validation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WriteReadArrayList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/Writing.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WritingActualNumbers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WritingAlt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WritingNumbers.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week5_files_exceptions/WritingVariables.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/Dinosaurs/Dinosaur.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/Dinosaurs/DinosaurManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/ITECCourseManager_NoObjects.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourseManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager/ITECCourse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager/ITECCourseManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourseManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourseManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourseManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/Album.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/CD.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/LP.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/Album.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/CD.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/LP.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_no_inheritance/CD.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_no_inheritance/LP.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_no_inheritance/RecordStore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/CCValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_dropdown_box/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_simple/CurrencyConverter.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_simple/CurrencyConverter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/currency_converter_simple/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/hello_gui/HelloGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/hello_gui/HelloGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/hello_gui/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/pet_survey/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/pet_survey/PetSurvey.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/pet_survey/PetSurvey.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/shout_text_views_labels/LabelsTextViews.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/shout_text_views_labels/LabelsTextViews.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week8_first_gui/shout_text_views_labels/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/creditcard/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/Dog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/DogGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/DogGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/dog/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/BestTimesTableModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/FileIO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/Lake.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/ToDoList.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/todo/ToDoList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/card_layout_switch_views/DataEntry.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/card_layout_switch_views/DataEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/card_layout_switch_views/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog/ShowDialogForm.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog/ShowDialogForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/date_spinner/DatesHere.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/date_spinner/DatesHere.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/date_spinner/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/ImageGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/ImageGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_file/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/ImageGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/ImageGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/display_image_from_web/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/menus/MenuGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/MainForm.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/MainForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Tab1.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Tab1.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Tab2.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/tabbed_j_frame/Tab2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/AskUserForInputGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/AskUserForInputGUI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/MainWindowGUI.form" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week9_extra_gui_examples/two_windows/MainWindowGUI.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElseIfElse.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/UsingNumberAndStringScanners.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberAndStringInput.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examples.iml" afterPath="$PROJECT_DIR$/Examples.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElse.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheck.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheck.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheckBasic.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheckBasic.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -440,11 +40,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MoreStringVariables.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreStringVariables.java">
+      <file leaf-file-name="NumberQuizElse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumberQuizElseIfElse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElseIfElse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BloodDonor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherPreferences.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -453,40 +83,48 @@
       <file leaf-file-name="NumberQuizBasic.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoreNumberVariables.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductTotalPrice.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java">
+      <file leaf-file-name="PasswordCheck.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheck.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleNumberVariables.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleNumberVariables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringFormattingExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringFormattingExamples.java">
+      <file leaf-file-name="Dinner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-297">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavascriptQuiz.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -495,52 +133,8 @@
       <file leaf-file-name="StringLibraryMethods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1002">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsingNumberAndStringScanners.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/UsingNumberAndStringScanners.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherPreferences.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherPreferencesStrings.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferencesStrings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleStringVariables.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="300">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -566,13 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake/Main.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake/RunningGUI.java" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake/RunningGUI.form" />
-        <option value="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.form" />
-        <option value="$PROJECT_DIR$/src/week3_methods/Validation.java" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/card_layout_switch_views/ShowCustomDialogGUI.java" />
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog/ShowCustomDialogGUI.java" />
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog/ShowDialogForm.form" />
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/custom_dialog/Main.java" />
@@ -601,22 +188,29 @@
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" />
         <option value="$PROJECT_DIR$/src/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java" />
         <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezing.java" />
         <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElseElseIf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java" />
         <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Greeting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java" />
         <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MandMs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java" />
         <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java" />
         <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/UsingNumberAndStringScanners.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java" />
         <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferencesStrings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheckBasic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberAndBooleanAndStringInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberAndStringInput.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElseIfElse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java" />
       </list>
     </option>
   </component>
@@ -634,9 +228,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="175" />
-    <option name="y" value="23" />
-    <option name="width" value="1080" />
+    <option name="x" value="346" />
+    <option name="y" value="25" />
+    <option name="width" value="1089" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1453,7 +1047,7 @@
       <workItem from="1493133457610" duration="1672000" />
       <workItem from="1494456150935" duration="1145000" />
       <workItem from="1494460195852" duration="1103000" />
-      <workItem from="1502317029027" duration="822000" />
+      <workItem from="1502317029027" duration="3608000" />
     </task>
     <task id="LOCAL-00001" summary="JOptionPane - simple dialog examples">
       <created>1481520162629</created>
@@ -1483,11 +1077,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494461002849</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Replace scanners with InputUtils library - week 1 so far...">
+      <created>1502318036508</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1502318036508</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48807000" />
+    <option name="totallyTimeSpent" value="51593000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1510,22 +1111,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="23" width="1080" height="877" extended-state="0" />
+    <frame x="346" y="25" width="1089" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866243" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866243" sideWeight="0.4966571" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866243" sideWeight="0.50334287" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24203822" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13963328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26878613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32664755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1556,6 +1157,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="JOptionPane - simple dialog examples" />
     <MESSAGE value="String formatting in table" />
     <MESSAGE value="Menu example" />
@@ -1574,35 +1176,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager/ITECCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/FormattingMonths.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Squares.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/MilesToKm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/RepetitiveProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1662,22 +1235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1699,52 +1256,6 @@
         <state relative-caret-position="150">
           <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1780,16 +1291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MandMs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1800,10 +1301,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ScannerTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1816,19 +1325,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheckBasic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ScannerTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1836,16 +1339,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1858,47 +1351,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringFormattingExamples.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
+        <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringFormattingExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1002">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="15">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/UsingNumberAndStringScanners.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberAndStringInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="69" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferencesStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="240">
           <caret line="17" column="78" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/Apollo11Quiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/AboveFreezingElse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberStringConversions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringsWrongWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ComparingStringRightWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/PasswordCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/JavascriptQuiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/Dinner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizElseIfElse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/BloodDonor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

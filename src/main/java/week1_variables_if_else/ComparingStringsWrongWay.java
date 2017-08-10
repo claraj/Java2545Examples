@@ -15,7 +15,8 @@ public class ComparingStringsWrongWay {
         } else {
             System.out.println("Too bad, you should go to MCTC!");
         }
-
-  
     }
 }
+
+
+

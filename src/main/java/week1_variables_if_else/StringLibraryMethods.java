@@ -1,8 +1,5 @@
 package week1_variables_if_else;
 
-/**
- * Created by admin on 8/16/16.
- */
 public class StringLibraryMethods {
 
     public static void main(String[] args) {
@@ -10,12 +7,10 @@ public class StringLibraryMethods {
         String quote = "Java is to JavaScript what Car is to Carpet.";
 
         //toUpperCase, and toLowerCase
-
         System.out.println(quote.toUpperCase());
         System.out.println(quote.toLowerCase());
 
         //replace - replaces one character with another
-
         String replaced = quote.replace(" ", "#");
         System.out.println(replaced);
 
@@ -31,14 +26,14 @@ public class StringLibraryMethods {
         System.out.println(quote.contains("Java"));
         System.out.println(quote.contains("Ruby"));
 
-        //equals and equalsignorecase. Don't use == to test equality in Strings :(
+        //equals and equalsIgnoreCase. Don't use == to test equality in Strings
 
         String string1 = "HELLO";
         String string2 = "Hello";
         System.out.println(string1.equals(string2));
         System.out.println(string1.equalsIgnoreCase(string2));
 
-        //To join strings, use +
+        //To join strings, you can use +
 
         String a = "The Complete Java";
         String b = "Reference";
@@ -46,7 +41,8 @@ public class StringLibraryMethods {
         System.out.println(textbook);
 
 
-//startsWith and endsWith
+        //startsWith and endsWith
+        
         //Does this string end with a period?
         System.out.println(quote.endsWith("."));
         //Does this string start with C#?
@@ -54,8 +50,8 @@ public class StringLibraryMethods {
         //Does this string start with Java?
         System.out.println(quote.startsWith("Java"));
 
-        //Substring
-        //The arguments are the beginning index and ending index
+        //Substring makes a new String by copying selected characters from a String
+        //The arguments are the beginning character index and ending index
         //Omit the second index and the substring will assume the end is the end of the string
         String endofstring = quote.substring(27);
         System.out.println(endofstring);

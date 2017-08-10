@@ -1,12 +1,9 @@
 package week1_variables_if_else;
 
-import java.util.Scanner;
-
 import static input.InputUtils.intInput;
 
 public class Apollo11Quiz {
-
- 
+    
     public static void main(String[] args) {
 
         System.out.println("Quiz time!");
@@ -21,7 +18,8 @@ public class Apollo11Quiz {
         if ( answer != 1969 ) {
             System.out.println("Wrong answer - it was 1969");
         }
-
- 
+        
     }
 }
+
+

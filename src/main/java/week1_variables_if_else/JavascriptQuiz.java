@@ -14,9 +14,9 @@ public class JavascriptQuiz {
 
         String answer = stringInput();
 
-        // The .equals method is case sensitive. If you don't need
+        // The .equals() method is case sensitive. If you don't need
         // to be case sensitive, you can use the equalsIgnoresCase method.
-        // So JavaScript and JAVASCRIPT and javascript are all correct answers.
+        // So here, JavaScript and JAVASCRIPT and javascript are all correct answers.
         if ( answer.equalsIgnoreCase("javascript") ) {
             System.out.println("Correct!!!");
         } else {
@@ -26,3 +26,5 @@ public class JavascriptQuiz {
 
     }
 }
+
+

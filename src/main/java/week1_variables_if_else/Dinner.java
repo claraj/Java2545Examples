@@ -1,17 +1,17 @@
 package week1_variables_if_else;
 
-import java.util.Scanner;
-
 import static input.InputUtils.stringInput;
 
 public class Dinner {
     
     public static void main(String[] args) {
         
-        String dinnerSuggestion = stringInput("\"What should we have for dinner?\"");
+        String dinnerSuggestion = stringInput("What should we have for dinner?");
 
-        //Computers only like pizza and tacos.
-        //So, print one response for pizza, another response one for tacos, and another response for anything else.
+        // Computers only like pizza and tacos.
+        // So, print one response for pizza,
+        // a different response for tacos,
+        // and another response for anything else.
 
         if (dinnerSuggestion.equalsIgnoreCase("pizza")) {
             System.out.println("Pizza sounds good!");
@@ -20,8 +20,8 @@ public class Dinner {
         } else {
             System.out.println("How about pizza, or tacos?");
         }
-
         
     }
 }
+
 

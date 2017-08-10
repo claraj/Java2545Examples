@@ -1,16 +1,13 @@
 package week1_variables_if_else;
 
-
 import static input.InputUtils.doubleInput;
 import static input.InputUtils.intInput;
 
 public class BloodDonor {
-
-
+    
     public static void main(String args[]) {
-
-
-        //Testing if two things are true with AND, the && operator
+        
+        // Testing if two things are true with AND, the && operator
         // A person can be a blood donor if
         // they weigh at least 110lbs AND are 17 or over
 
@@ -25,7 +22,8 @@ public class BloodDonor {
         } else {
             System.out.println("Sorry, you are not eligible");
         }
-
-
+        
     }
 }
+
+
