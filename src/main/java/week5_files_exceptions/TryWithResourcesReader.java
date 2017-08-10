@@ -11,8 +11,7 @@ public class TryWithResourcesReader {
 
     public static void main(String[] args) {
 
-        String filename = "file_that_doesnt_exist.txt"  ; // Change to a file that does exist?
-
+        String filename = "file_that_doesnt_exist.txt"  ; // Deliberately try to open a file that doesn't exist to see an exception thrown
         // Open the resource as the try block starts.
         try ( BufferedReader bufReader = new BufferedReader(new FileReader(filename))) {
 

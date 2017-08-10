@@ -43,8 +43,7 @@ public class ITECCourse {
         this.name = name;
     }
 
-    //Rest of code follows, check in GitHub....
-
+  
 
     //Constructor - public
     public ITECCourse(String courseName, int courseCode, int courseMaxStudents) {

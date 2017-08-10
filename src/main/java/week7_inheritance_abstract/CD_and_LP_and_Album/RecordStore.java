@@ -1,15 +1,14 @@
 package week7_inheritance_abstract.CD_and_LP_and_Album;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
+import static input.InputUtils.stringInput;
 
 /**
  * Record Store admin class - testing our CD and LP classes
  */
 public class RecordStore {
-
-    static Scanner stringScanner = new Scanner(System.in);
-
+    
     public static void main(String[] args) {
 
         //Create some example CDs and add them to an inventory list
@@ -45,11 +44,9 @@ public class RecordStore {
         allInventory.addAll(cdInventory);
 
         //Search inventory for any CD or LP that matches a search term
-        System.out.println("Enter artist or title to search for. Works for partial artists/titles.");
-        String searchString = stringScanner.nextLine();
+        String searchString = stringInput("Enter artist or title to search for. Works for partial artists/titles.");
         searchForAlbum(allInventory, searchString);
 
-        stringScanner.close();
     }
 
 
