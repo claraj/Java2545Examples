@@ -9,7 +9,7 @@ public class WebsiteHistory {
 
     public static void main(String[] args) {
 
-        LinkedList<String> history = new LinkedList();
+        LinkedList<String> history = new LinkedList<String>();
 
         //Visit google then buzzfeed then youtube then minneapolis.edu
         history.push("www.google.com");

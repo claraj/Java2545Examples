@@ -1,24 +1,23 @@
 package week4_data_structures;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
+import static input.InputUtils.stringInput;
 
 /**
  * Ask user for data, store in ArrayList<String></String>
  */
+
 public class UserInputArrayList {
 
-    static Scanner stringScanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
         ArrayList<String> userData = new ArrayList<String>();
 
         while (true) {
-
-            System.out.println("Please type in data, or press Enter to quit");
-
-            String data = stringScanner.nextLine();
+            
+            String data = stringInput("Please type in data, or press Enter to quit");
 
             if (data.length() == 0) {   // If the user just presses Enter, the length of text is 0.
                 break;
@@ -33,7 +32,6 @@ public class UserInputArrayList {
             System.out.println(input);
         }
 
-    stringScanner.close();
 
     }
 }

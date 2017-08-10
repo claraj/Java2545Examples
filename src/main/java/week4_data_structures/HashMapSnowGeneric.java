@@ -1,6 +1,5 @@
 package week4_data_structures;
 
-import week2_loops_arrays.InfiniteWhileLoop;
 
 import java.util.HashMap;
 

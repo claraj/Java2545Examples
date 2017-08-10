@@ -1,14 +1,14 @@
 package week4_data_structures;
 
 import java.util.LinkedList;
-import java.util.Scanner;
+
+import static input.InputUtils.stringInput;
 
 /**
  * LinkedList as a Queue - tech support issues queue
  */
 public class Queues {
 
-    public static Scanner stringScanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -25,13 +25,11 @@ public class Queues {
         while (! techSupportIssuesQueue.isEmpty() ) {
             String issue = techSupportIssuesQueue.remove();
             System.out.println("Description of issue: " + issue);
-            System.out.println("Press Enter when you have resolved this issue");
-            stringScanner.nextLine();  //Ignore input, let loop repeat
+            stringInput("Press Enter when you have resolved this issue");  //Ignore input, let loop repeat
 
         }
 
         System.out.println("All issues have been fixed!");
 
-        stringScanner.close();
     }
 }
