@@ -2,14 +2,11 @@ package week2_loops_arrays;
 
 
 import java.util.Arrays;
-import java.util.Scanner;
+
+import static input.InputUtils.stringInput;
 
 public class LoopGetDataForArray {
-
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
-
-
+    
     public static void main(String[] args) {
 
         //Create an array to store 5 Strings
@@ -23,8 +20,7 @@ public class LoopGetDataForArray {
         for (int number = 0 ; number < textbooks.length ; number++) {
 
             //Get data about one book from the user
-            System.out.println("Please enter name of textbook");
-            String bookName = stringScanner.nextLine();
+            String bookName = stringInput("Please enter name of textbook");
 
             // Using the loop counter to write to each array element in turn
             textbooks[number] = bookName;
@@ -34,9 +30,6 @@ public class LoopGetDataForArray {
         System.out.println("Thank you: here is the data you entered");
 
         System.out.println(Arrays.toString(textbooks));
-
-        stringScanner.close();
-        numberScanner.close();
 
 
     }

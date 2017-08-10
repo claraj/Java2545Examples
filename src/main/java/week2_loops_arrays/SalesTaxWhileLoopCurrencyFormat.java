@@ -1,23 +1,21 @@
 package week2_loops_arrays;
 
-
 import java.text.NumberFormat;
-import java.util.Scanner;
+
+import static input.InputUtils.doubleInput;
+import static input.InputUtils.yesNoInput;
 
 public class SalesTaxWhileLoopCurrencyFormat {
-
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
-
+    
     public static void main(String[] args) {
 
-        String moreCalculations = "y";
+        boolean moreCalculations = true;
         double price;
         double salesTax = 1.07;
 
-        while (moreCalculations.equals("y")) {
-            System.out.println("Type in a price");
-            price = numberScanner.nextDouble();
+        while (moreCalculations) {
+            
+            price = doubleInput("Type in a price");
             double priceInclTax = price * salesTax;
 
             //Create a NumberFormat object - this takes numbers, and formats them to a particular format
@@ -30,15 +28,11 @@ public class SalesTaxWhileLoopCurrencyFormat {
 
             System.out.println("The price plus sales tax is " + formattedPrice);
 
-            System.out.println("Do you want to continue? Type y to continue");
-            moreCalculations = numberScanner.next();
+            moreCalculations = yesNoInput("Do you want to continue? ");
         }
 
         System.out.println("Thanks for using the program - goodbye!");
-
-        stringScanner.close();
-        numberScanner.close();
-
+        
     }
 
 }

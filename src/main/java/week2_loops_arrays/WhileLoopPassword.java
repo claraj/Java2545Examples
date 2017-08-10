@@ -1,18 +1,16 @@
 package week2_loops_arrays;
 
-import java.util.Scanner;
+
+import static input.InputUtils.stringInput;
 
 public class WhileLoopPassword {
-
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
         String secretPassword = "kittens";
 
-        System.out.println("Enter the password");
-        String userPassword = stringScanner.nextLine();
+        System.out.println();
+        String userPassword = stringInput("Enter the password");
 
         //Always use the .equals method to check if two Strings have the exact same characters
 
@@ -24,7 +22,7 @@ public class WhileLoopPassword {
             // And ask user to try again.
             System.out.println("Try again");
             // Replace userPassword with the user's next attempt.
-            userPassword = stringScanner.nextLine();
+            userPassword = stringInput("Enter the password");
             // If the user gets it wrong again, the loop will repeat.
         }
 
@@ -34,8 +32,6 @@ public class WhileLoopPassword {
         System.out.println("Correct password - access granted");
 
         // TODO - top secret program here!
-
-        stringScanner.close();
-        numberScanner.close();
+        
     }
 }

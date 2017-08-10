@@ -1,11 +1,8 @@
 package week2_loops_arrays;
 
-import java.util.Scanner;
+import static input.InputUtils.stringInput;
 
 public class ForLoopPassword5Attempts {
-
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -15,8 +12,7 @@ public class ForLoopPassword5Attempts {
 
         for (int attempt = 0 ; attempt < passwordAttempts ; attempt++) {
 
-            System.out.println("Please enter the password");
-            String password = stringScanner.nextLine();
+            String password = stringInput("Please enter the password");
 
             if (password.equals(secretPassword)) {
                 accessAllowed = true;
@@ -30,9 +26,6 @@ public class ForLoopPassword5Attempts {
             System.out.println("You are not authorized to access the secret program");
         }
 
-
-        stringScanner.close();
-        numberScanner.close();
     }
 
 }

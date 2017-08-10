@@ -1,15 +1,12 @@
 package week2_loops_arrays;
 
-import java.util.Scanner;
+import static input.InputUtils.stringInput;
 
 public class SwitchWithStrings {
-
-    static Scanner stringScanner = new Scanner(System.in);
-
+    
     public static void main(String args[]) {
 
-        System.out.println("Please tell me the name of a programming language?");
-        String language = stringScanner.nextLine();
+        String language = stringInput("Please tell me the name of a programming language?");
 
         switch (language.toLowerCase()) {
 
@@ -25,8 +22,6 @@ public class SwitchWithStrings {
             default:
                 System.out.println("I don't know about that language");
         }
-
-        stringScanner.close();
-
+        
     }
 }

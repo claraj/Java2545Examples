@@ -1,12 +1,9 @@
 package week2_loops_arrays;
 
 
-import java.util.Scanner;
+import static input.InputUtils.doubleInput;
 
 public class AverageTestScoreSimpleLoop {
-
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
 
     public static void main(String[] args) {
@@ -14,21 +11,15 @@ public class AverageTestScoreSimpleLoop {
         double testScore;
         double testScoreSum = 0.0;
         double testScoreAverage;
-        Scanner numberScanner = new Scanner(System.in);
 
         for (int test = 1 ; test <= numberOfTests ; test++) {
-            System.out.println("Enter test score #" + test );
-            testScore = numberScanner.nextDouble();
+            testScore = doubleInput("Enter test score #" + test);
             testScoreSum = testScoreSum + testScore;
         }
 
         testScoreAverage = testScoreSum / numberOfTests;
         System.out.println("Average score = " + testScoreAverage);
-
-
-        numberScanner.close();
-        stringScanner.close();
-
+        
     }
 
 }

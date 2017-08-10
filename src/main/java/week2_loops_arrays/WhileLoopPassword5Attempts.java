@@ -1,19 +1,16 @@
 package week2_loops_arrays;
 
-import java.util.Scanner;
+import static input.InputUtils.stringInput;
 
 public class WhileLoopPassword5Attempts {
 
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
-
+   
     public static void main(String[] args) {
 
         String secretPassword = "kittens";
         int passwordAttemptsAllowed = 4;   // Question - why is this 4, not 5? Hint: think about the loop condition
 
-        System.out.println("Enter the password");
-        String userPassword = stringScanner.nextLine();
+        String userPassword = stringInput("Enter the password");
 
         //Always use the .equals method to check if two Strings have the exact same characters
 
@@ -29,7 +26,7 @@ public class WhileLoopPassword5Attempts {
             // And ask user to try again.
             System.out.println("Try again - you have " + passwordAttemptsAllowed + " attempt(s) left");
             // Replace userPassword with the user's next attempt.
-            userPassword = stringScanner.nextLine();
+            userPassword = stringInput();
             // If the user gets it wrong again, the loop will repeat.
 
             // Subtract 1 from passwordAttemptsAllowed
@@ -54,8 +51,5 @@ public class WhileLoopPassword5Attempts {
             System.out.println("Sorry, you got the password wrong too many times. Bye!");
         }
 
-
-        stringScanner.close();
-        numberScanner.close();
     }
 }

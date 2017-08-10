@@ -3,10 +3,10 @@ package week2_loops_arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+import static input.InputUtils.stringInput;
+
 public class BreakExample {
 
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -17,10 +17,9 @@ public class BreakExample {
             System.out.println("Would you like a random number?");
             System.out.println("Enter any key for a random number, or Q to quit");
 
-            String userInput = stringScanner.nextLine();
+            String userInput = stringInput();
 
             if (userInput.equalsIgnoreCase("Q")) {
-
                 break;   //immediately stops the loop, jump to next statement after the loop
             }
 
@@ -35,9 +34,6 @@ public class BreakExample {
         }
 
         System.out.println("Thanks for using the program - bye!");
-
-        stringScanner.close();
-        numberScanner.close();
 
     }
 
