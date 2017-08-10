@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -221,8 +217,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="66" />
-    <option name="y" value="23" />
+    <option name="x" value="126" />
+    <option name="y" value="96" />
     <option name="width" value="1307" />
     <option name="height" value="877" />
   </component>
@@ -1130,7 +1126,7 @@
       <workItem from="1493133457610" duration="1672000" />
       <workItem from="1494456150935" duration="1145000" />
       <workItem from="1494460195852" duration="1103000" />
-      <workItem from="1502317029027" duration="5648000" />
+      <workItem from="1502317029027" duration="6251000" />
     </task>
     <task id="LOCAL-00001" summary="JOptionPane - simple dialog examples">
       <created>1481520162629</created>
@@ -1195,11 +1191,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502384924311</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Replace scanners with InputUtils library">
+      <created>1502385212165</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1502385212165</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53633000" />
+    <option name="totallyTimeSpent" value="54236000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1222,8 +1225,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="66" y="23" width="1307" height="877" extended-state="0" />
-    <editor active="true" />
+    <frame x="126" y="96" width="1307" height="877" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1276,7 +1279,8 @@
     <MESSAGE value="Replace scanners with InputUtils library - week 1 so far..." />
     <MESSAGE value="Replace scanners with InputUtils library - week 2 so far..." />
     <MESSAGE value="Replace scanners with InputUtils library - week 4 so far..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Replace scanners with InputUtils library - week 4 so far..." />
+    <MESSAGE value="Replace scanners with InputUtils library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Replace scanners with InputUtils library" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
