@@ -2,7 +2,7 @@ package week2_loops_arrays;
 
 import static input.InputUtils.intInput;
 
-public class ContinueExample {
+public class ContinueExampleAddingNumbers {
 
 
     public static void main(String[] args) {

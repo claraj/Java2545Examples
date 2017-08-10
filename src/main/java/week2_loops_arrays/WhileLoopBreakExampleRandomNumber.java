@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import static input.InputUtils.stringInput;
 
-public class BreakExample {
+public class WhileLoopBreakExampleRandomNumber {
 
 
     public static void main(String[] args) {
@@ -38,3 +38,5 @@ public class BreakExample {
     }
 
 }
+
+

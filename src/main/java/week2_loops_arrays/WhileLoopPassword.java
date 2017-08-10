@@ -12,7 +12,7 @@ public class WhileLoopPassword {
         System.out.println();
         String userPassword = stringInput("Enter the password");
 
-        //Always use the .equals method to check if two Strings have the exact same characters
+        //Always use the .equals() method to check if two Strings have the exact same characters
 
         //Before we let the user in, we need to check that the password is correct
         //This loop will repeat while the password is NOT "kittens", our secretPassword

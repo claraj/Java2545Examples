@@ -1,12 +1,10 @@
 package week2_loops_arrays;
 
-
 import static input.InputUtils.doubleInput;
 import static input.InputUtils.yesNoInput;
 
 public class SalesTaxWhileLoop {
-
-
+    
     public static void main(String[] args) {
 
         boolean moreCalculations = true;
@@ -29,7 +27,5 @@ public class SalesTaxWhileLoop {
         System.out.println("Thanks for using the program - goodbye!");
         
     }
-    
-    
     
 }
