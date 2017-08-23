@@ -4,7 +4,7 @@ public class StringLibraryMethods {
 
     public static void main(String[] args) {
 
-        String quote = "Java is to JavaScript what Car is to Carpet.";
+        String quote = "Java is to JavaScript what Car is to Carpet.";  // Chris Heilmann, https://christianheilmann.com/
 
         //toUpperCase, and toLowerCase
         System.out.println(quote.toUpperCase());
