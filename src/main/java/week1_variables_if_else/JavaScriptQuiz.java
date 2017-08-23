@@ -1,7 +1,5 @@
 package week1_variables_if_else;
 
-import java.util.Scanner;
-
 import static input.InputUtils.stringInput;
 
 public class JavaScriptQuiz {
@@ -24,8 +22,6 @@ public class JavaScriptQuiz {
         } else {
             System.out.println("Sorry, the answer is 'Carpet'. ");
         }
-
-
     }
 }
 
