@@ -3,7 +3,7 @@ package week5_files_exceptions;
 /**
  * Created by clara on 9/1/17. First exception handling program
  */
-public class HelloException {
+public class HelloExceptionCatch {
     
     public static void main(String[] args) {
         
@@ -22,8 +22,11 @@ public class HelloException {
     
     
     public static int countCharacters(String str) {
-        return str.length();
+        try {
+            return str.length();
+        } catch (NullPointerException npe) {
+            return 0;
+        }
     }
     
 }
-

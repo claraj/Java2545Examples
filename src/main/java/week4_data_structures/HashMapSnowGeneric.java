@@ -14,7 +14,7 @@ public class HashMapSnowGeneric {
         //You need to specify the type of the Keys, and the type of the Values
         //Specify in pointy brackets: < TypeOfKey, TypeOfValues>
         //In this example, all the keys must be Strings and all the values must be Integers
-        HashMap<String, Integer> snowfall = new HashMap<String, Integer>();
+        HashMap<String, Integer> snowfall = new HashMap<>();
 
         snowfall.put("January", 3);
         snowfall.put("February", 10);

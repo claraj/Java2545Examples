@@ -9,8 +9,7 @@ import static input.InputUtils.stringInput;
  */
 
 public class UserInputArrayList {
-
-
+    
     public static void main(String[] args) {
 
         ArrayList<String> userData = new ArrayList<String>();
@@ -31,7 +30,7 @@ public class UserInputArrayList {
         for (String input : userData) {
             System.out.println(input);
         }
-
-
     }
 }
+
+
