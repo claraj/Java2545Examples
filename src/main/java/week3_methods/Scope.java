@@ -12,9 +12,9 @@ public class Scope {
             // every time the for loop repeats, timesTwo goes out of scope, and then is created again
         }
 
-        //  System.out.println(timesTwo);  // Uncommenting this line produces an error! timesTwo only exists inside the for loop
-
-
+          //System.out.println(timesTwo);  // Uncommenting this line produces an error!
+                                    // timesTwo only exists inside the for loop
+        
         // This version works (if you fix the error on the line above)
         // the timesThree variable is defined outside the loop, and inside the main() method
         // so the scope of timesThree is the whole of the main method, after the line that it is declared on
@@ -34,14 +34,15 @@ public class Scope {
         // someData only exists inside myMethod. So we can't refer to it from main()
 
         // Uncommenting this line creates an error
-        // System.out.println(someData);   //error - someData variable doesn't exist here
+         //System.out.println(someData);   //error - someData variable doesn't exist here
 
     }
 
     public static void myMethod() {
         // Variables declared inside methods are only in scope inside that method.
         String someData = "hello";
-        //the someData variable disappears as soon as this method ends. It is not accessible from other parts of the code
+        //the someData variable disappears as soon as this method ends.
+        // It is not accessible from other parts of the code
         System.out.println(someData);
     }
 }
