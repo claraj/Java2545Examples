@@ -4,9 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * Created by we4954cp on 8/25/2016.
- */
+
 public class HelloGUI extends JFrame{
     private JPanel mainPanel;
     private JButton clickMeButton;
@@ -16,12 +14,16 @@ public class HelloGUI extends JFrame{
         setContentPane(mainPanel);
         pack();
         setVisible(true);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         clickMeButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                
                 myFirstLabel.setText("Hello, GUI!");
             }
         });
     }
 }
+
+

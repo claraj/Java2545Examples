@@ -13,17 +13,20 @@ public class CurrencyConverter extends JFrame{
     private JButton convertButton;
     private JPanel rootPanel;
     private JLabel conversionResultLabel;
-    private JComboBox<String> currencyComboBox;    //JComboBoxes can also use generics to only display one type of object
-
-    private double dollarsToEurosExchangeRate = 0.89;  //1 Dollar is equivalent to 0.89 Euros; as of 26 Aug 2016.
-    private double dollarsToPoundsExchangeRate = 0.76;  //1 Dollars is equivalent to 0.76 UK Pounds
+    //JComboBoxes can also use generics to only display one type of object
+    private JComboBox<String> currencyComboBox;
+    
+    private double dollarsToEurosExchangeRate = 0.84;  //1 Dollar is equivalent to 0.84 Euros; as of 16 Sep 2017.
+    private double dollarsToPoundsExchangeRate = 0.74;  //1 Dollar is equivalent to 0.74 UK Pounds
     //TODO how could you keep this program up to date with the latest exchange rates?
-
-    private final String EUROS = "Euros";      //Constants to display in te JComboBox and also keys in a HashMap
+    
+    //Constants to display in the JComboBox; and keys in the exchangeRates HashMap
+    private final String EUROS = "Euros";
     private final String POUNDS = "Pounds";
-
-    private HashMap<String, Double> exchangeRates = new HashMap<>();   //Names of currencies and their exchange rates with dollars
-
+    
+    //Map of names of currencies and their exchange rates with dollars
+    private HashMap<String, Double> exchangeRates = new HashMap<>();
+    
 
     protected CurrencyConverter(){
         setContentPane(rootPanel);
@@ -48,7 +51,7 @@ public class CurrencyConverter extends JFrame{
 
                 try {
                     double dollars = Double.parseDouble(dollarString);
-                    String toCurrency = currencyComboBox.getSelectedItem().toString();
+                    String toCurrency = (String) currencyComboBox.getSelectedItem();  // Convert selected item to expected type
 
                     //Get the exchange rate for this currency from the HashMap, using whatever was selected from the JComboBox as the key
                     double exchangeRate = exchangeRates.get(toCurrency);
@@ -56,7 +59,7 @@ public class CurrencyConverter extends JFrame{
                     //And the math
                     double converted = dollars * exchangeRate;
 
-                    //Use format strings to round to 2 decimal places, and is neater than joining strings
+                    //Format String to display values with 2 decimal places
                     String resultString = String.format("%.2f dollars is equivalent to %.2f %s", dollars, converted, toCurrency);
                     conversionResultLabel.setText(resultString);
 
@@ -67,12 +70,8 @@ public class CurrencyConverter extends JFrame{
                     //In some circumstances, you may want to clear the JTextField of the invalid input like this,
                     //dollarsTextField.setText("");
                     //But here, you probably want to leave the invalid input so use can see what they typed, and correct it.
-
                 }
-
             }
         });
     }
-
-
 }
