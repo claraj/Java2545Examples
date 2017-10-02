@@ -79,6 +79,7 @@ public class Game {
         int playerIndex = 0;
         int totalPlayers = players.size();
         
+        // Loop until there is only one player left.
         while (moreThanOnePlayerInPlay(players)) {
             
             Player currentPlayer = players.get(playerIndex);
@@ -92,12 +93,14 @@ public class Game {
                 
                 stringInput("Player " + currentPlayer.getName() + ", press enter to roll:");
                 
+                // Give the player the cup of dice, for them to roll the dice for their turn.
                 String turnResult = currentPlayer.playTurn(cup);
+                
                 System.out.println(turnResult);
                 
             }
             
-            playerIndex = (playerIndex+1) % totalPlayers;
+            playerIndex = (playerIndex+1) % totalPlayers;  // For looping around the ArrayList
         }
     }
     
