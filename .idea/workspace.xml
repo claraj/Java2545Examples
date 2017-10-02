@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,34 +44,34 @@
       <file leaf-file-name="Dice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="270">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
               <folding>
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#616#617#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="38" column="10" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="10" />
+            <state relative-caret-position="495">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
               <folding>
-                <element signature="e#816#817#0" expanded="true" />
-                <element signature="e#864#865#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1056#1057#0" expanded="true" />
-                <element signature="e#1091#1092#0" expanded="true" />
-                <element signature="e#1118#1119#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1235#1236#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1073#1074#0" expanded="true" />
+                <element signature="e#1108#1109#0" expanded="true" />
+                <element signature="e#1135#1136#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1252#1253#0" expanded="true" />
+                <element signature="e#1285#1286#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +80,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-394">
-              <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+            <state relative-caret-position="501">
+              <caret line="136" column="76" selection-start-line="136" selection-start-column="76" selection-end-line="136" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,12 +92,9 @@
       <file leaf-file-name="DiceCup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,14 +109,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrencyConverter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CurrencyConverter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
+            <state relative-caret-position="441">
               <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,6 +149,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week8_first_gui/sliders_and_checkboxes/MovieGUI.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloExceptionCatch.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloException.java" root0="SKIP_INSPECTION" />
@@ -207,8 +205,8 @@
         <option value="$PROJECT_DIR$/src/main/java/week8_first_gui/sliders_and_checkboxes/MovieGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java" />
       </list>
     </option>
@@ -227,8 +225,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="215" />
-    <option name="y" value="60" />
+    <option name="x" value="354" />
+    <option name="y" value="62" />
     <option name="width" value="1072" />
     <option name="height" value="840" />
   </component>
@@ -1021,7 +1019,7 @@
       <workItem from="1503515834723" duration="1265000" />
       <workItem from="1504224247312" duration="7401000" />
       <workItem from="1505574649251" duration="11778000" />
-      <workItem from="1506950119235" duration="3881000" />
+      <workItem from="1506950119235" duration="5435000" />
     </task>
     <task id="LOCAL-00001" summary="JOptionPane - simple dialog examples">
       <created>1481520162629</created>
@@ -1149,11 +1147,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506953834080</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Comments">
+      <created>1506954021624</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1506954021624</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80906000" />
+    <option name="totallyTimeSpent" value="82460000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1176,7 +1181,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="215" y="60" width="1072" height="840" extended-state="0" />
+    <frame x="354" y="62" width="1072" height="840" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1184,14 +1189,14 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275401" sideWeight="0.48961157" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15374331" sideWeight="0.22815534" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.22815534" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15374331" sideWeight="0.7718447" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.7718447" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5040107" sideWeight="0.4968383" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19417475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.066019416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1236,7 +1241,8 @@
     <MESSAGE value="More exception handling examples" />
     <MESSAGE value="GUI Examples" />
     <MESSAGE value="basic dice game oo example" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic dice game oo example" />
+    <MESSAGE value="Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1248,7 +1254,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1504,6 +1510,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,6 +1560,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1578,16 +1586,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week8_first_gui/sliders_and_checkboxes/MovieGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1598,56 +1596,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1285#1286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#616#617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
+        <state relative-caret-position="501">
+          <caret line="136" column="76" selection-start-line="136" selection-start-column="76" selection-end-line="136" selection-end-column="76" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1161#1162#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="38" column="10" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="10" />
-          <folding>
-            <element signature="e#816#817#0" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1056#1057#0" expanded="true" />
-            <element signature="e#1091#1092#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="441">
+          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>

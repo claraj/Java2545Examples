@@ -24,7 +24,7 @@ public class Game {
         ArrayList<Player> players = createPlayers(numberOfPlayers);
         
         // Get each player's knock-out number. Can only be 6, 7 or 8
-        getKnockoutNumbers(players);
+        setKnockoutNumbers(players);
         
         // Play one round of the game; until all players but one are knocked out
         
@@ -54,8 +54,8 @@ public class Game {
     }
     
     
-    // For all the players in the players ArrayList, get their knockout number.
-    private void getKnockoutNumbers(ArrayList<Player> players) {
+    // For all the players in the players ArrayList, set their knockout number.
+    private void setKnockoutNumbers(ArrayList<Player> players) {
         
         for (Player p : players) {
             
@@ -63,11 +63,17 @@ public class Game {
             
             do {
             
-                knockOutNumber = intInput("Player " + p.getName() + ", please enter your knock-out number. It must be 6, 7, or 8");
+                knockOutNumber = intInput("Player " + p.getName() + ", " +
+                        "please enter your knock-out number. It must be 6, 7, or 8");
             
             } while ( knockOutNumber < 6 || knockOutNumber > 8 );     // Validation
              
             p.setKnockOutNumber(knockOutNumber);    // Set this player's knockout number
+            
+            // Nothing to return! Java objects are passed by reference, which means that there's only
+            // one copy of the ArrayList<Player> players. This players object is the same object as the
+            // players ArrayList<Player> in the playGame() method. So if this method modifies it,
+            // then it's changed in the calling method.
         }
     }
     
@@ -86,16 +92,13 @@ public class Game {
             System.out.println();
             
             if (currentPlayer.isKnockedOut()) {
-                
-                System.out.println("Player " + currentPlayer.getName() + " you are knocked out.");
+                System.out.println("Sorry player " + currentPlayer.getName() + ", you are knocked out.");
                 
             } else {
-                
                 stringInput("Player " + currentPlayer.getName() + ", press enter to roll:");
                 
                 // Give the player the cup of dice, for them to roll the dice for their turn.
                 String turnResult = currentPlayer.playTurn(cup);
-                
                 System.out.println(turnResult);
                 
             }

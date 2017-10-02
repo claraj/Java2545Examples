@@ -13,6 +13,8 @@ public class Player {
         this.knockedOut = false;
     }
     
+}
+    
     
     String playTurn(DiceCup cup) {
         int[] dice = cup.rollAll();
@@ -27,6 +29,8 @@ public class Player {
         
         return result;
     }
+    
+    
     
     private boolean isKnockout(int score) {
         return (score == knockOutNumber);
