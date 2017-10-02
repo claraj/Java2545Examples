@@ -71,6 +71,7 @@ public class MovieGUI extends JFrame {
             @Override
             public void changedUpdate(DocumentEvent e) {}
         });
+    
         
         quitButton.addActionListener(new ActionListener() {
             @Override
