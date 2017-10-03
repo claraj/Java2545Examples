@@ -13,10 +13,8 @@ public class Player {
         this.knockedOut = false;
     }
     
-}
-    
-    
     String playTurn(DiceCup cup) {
+        
         int[] dice = cup.rollAll();
         int score = cup.rollTotal(dice);
         
@@ -24,6 +22,7 @@ public class Player {
             knockedOut = true;
         }
         
+        // TODO this relies on exactly 2 dice - can it be made more robust?
         String resultTemplate = "Player %s rolled %d, %d for a total of %d and %s knocked out. (Your knockout number is %d)";
         String result = String.format(resultTemplate, name, dice[0], dice[1], score, knockedOut ? "was" : "was not", knockOutNumber);
         

@@ -6,6 +6,24 @@ import static input.InputUtils.intInput;
 import static input.InputUtils.stringInput;
 
 
+/**
+ *
+ * Simple Knockout dice game. Fun for very small children learning to add up :)
+ *
+ * Players: 2 or more
+ * Equipment: 2 dice
+ *
+ * Game play:
+ *
+ * Each player picks their own knockout number: 6, 7, 8 or 9.
+ *
+ * Each player takes turns rolling two dice. If the total of their dice is their knockout number,
+ * they are knocked out of the game.
+ *
+ * Play continues until only one player is left. The last player not knocked out is the winner.
+ *
+ * */
+
 public class Game {
     
     public static void main(String[] args) {
@@ -23,7 +41,7 @@ public class Game {
         int numberOfPlayers = intInput("How many players?");
         ArrayList<Player> players = createPlayers(numberOfPlayers);
         
-        // Get each player's knock-out number. Can only be 6, 7 or 8
+        // Get each player's knock-out number. Can only be 6, 7, 8 or 9
         setKnockoutNumbers(players);
         
         // Play one round of the game; until all players but one are knocked out
@@ -64,9 +82,9 @@ public class Game {
             do {
             
                 knockOutNumber = intInput("Player " + p.getName() + ", " +
-                        "please enter your knock-out number. It must be 6, 7, or 8");
+                        "please enter your knock-out number. It must be 6, 7, 8, or 9");
             
-            } while ( knockOutNumber < 6 || knockOutNumber > 8 );     // Validation
+            } while ( knockOutNumber < 6 || knockOutNumber > 9 );     // Validation
              
             p.setKnockOutNumber(knockOutNumber);    // Set this player's knockout number
             

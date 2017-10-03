@@ -1,8 +1,6 @@
 package week9_and_more_gui_jlist_combobox.dog;
 
 
-import com.sun.codemodel.internal.JOp;
-
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

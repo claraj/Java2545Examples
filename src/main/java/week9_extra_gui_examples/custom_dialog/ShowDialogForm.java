@@ -1,7 +1,5 @@
 package week9_extra_gui_examples.custom_dialog;
 
-import com.sun.codemodel.internal.*;
-
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.JLabel;
