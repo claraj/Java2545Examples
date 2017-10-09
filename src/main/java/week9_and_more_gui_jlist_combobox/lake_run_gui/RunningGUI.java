@@ -37,7 +37,10 @@ public class RunningGUI extends JFrame {
     public RunningGUI() {
 
         super("Running Times");
-
+    
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    
+        
         lakeVector = FileIO.getLakes();    // Read all data from a file
 
         setContentPane(rootPanel);

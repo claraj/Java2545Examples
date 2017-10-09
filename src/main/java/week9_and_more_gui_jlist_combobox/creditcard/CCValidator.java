@@ -23,21 +23,28 @@ public class CCValidator extends JFrame {
     private final String AMEX = "American Express";
 
     protected CCValidator() {
-
+    
         super("Credit Card Validator");
         setContentPane(rootPanel);
-
+    
         setPreferredSize(new Dimension(500, 200));   //Set preferred size before call to pack()
-
+    
         pack();
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
-
+    
         ccTypeComboBox.addItem(VISA);
         ccTypeComboBox.addItem(MASTERCARD);
         ccTypeComboBox.addItem(AMEX);
+        
+        addListeners();
+    
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    }
 
-
+    
+    private void addListeners(){
+    
         validateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

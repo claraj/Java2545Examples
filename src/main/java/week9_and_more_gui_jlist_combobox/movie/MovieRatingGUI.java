@@ -21,7 +21,10 @@ public class MovieRatingGUI extends JFrame{
 
         pack();
         setVisible(true);
-
+    
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    
+    
     }
 
 

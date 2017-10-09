@@ -20,19 +20,24 @@ public class DogGUI extends JFrame {
     private DefaultListModel<Dog> dogListModel;
 
     DogGUI() {
-
+    
         setTitle("List of Dogs");
         setContentPane(rootPanel);
         pack();
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
-
+    
         dogListModel = new DefaultListModel<>();
         dogJList.setModel(dogListModel);
         //Configure JList to only allow user to select one item at a time
         //Default is multiple selections.
         dogJList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-
+    
+        addListeners();
+    }
+    
+    private void addListeners() {
+        
         addDogToListButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

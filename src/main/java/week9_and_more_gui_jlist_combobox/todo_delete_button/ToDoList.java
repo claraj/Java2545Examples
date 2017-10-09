@@ -1,4 +1,4 @@
-package week9_and_more_gui_jlist_combobox.todo;
+package week9_and_more_gui_jlist_combobox.todo_delete_button;
 
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
@@ -15,9 +15,9 @@ public class ToDoList extends JFrame {
     private DefaultListModel<String> listModel;     // A JList needs a model to provide data
 
     private JButton addToDoButton;
-    private JPanel rootPanel;
     private JButton deleteSelectedButton;
-    
+    private JPanel rootPanel;
+
     protected ToDoList() {
         setContentPane(rootPanel);
         setPreferredSize(new Dimension(500, 500));
@@ -36,9 +36,8 @@ public class ToDoList extends JFrame {
 
         pack();
         setVisible(true);
-    
+        
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-    
     }
 
 
@@ -58,7 +57,8 @@ public class ToDoList extends JFrame {
 
                 //Check to see if the JTextField is empty - if so, ignore.
                 if (newToDo.length() == 0) {
-                    return;
+                    // show a popup
+                    JOptionPane.showMessageDialog(ToDoList.this, "Enter a to do item.");
                 }
 
                 listModel.addElement(newToDo);  //Add new item to the JList's MODEL.
@@ -66,19 +66,21 @@ public class ToDoList extends JFrame {
             }
         });
 
-        //And, listen for the list being clicked on, which should remove the selected item.
-
-        toDoList.addListSelectionListener(new ListSelectionListener() {
+        
+        deleteSelectedButton.addActionListener(new ActionListener(){
             @Override
-            public void valueChanged(ListSelectionEvent e) {
-                //What was selected?
+            public void actionPerformed(ActionEvent e) {
+    
                 int selectedIndex = toDoList.getSelectedIndex(); //Ask the LIST what is selected
                 if (selectedIndex != -1) {
                     listModel.remove(selectedIndex);  //Remove this item from the MODEL.
+                } else {
+                    JOptionPane.showMessageDialog(ToDoList.this, "Please select an item to delete");
                 }
             }
+            
         });
+        
     }
-
-
+    
 }
