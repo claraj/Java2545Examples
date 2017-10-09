@@ -63,8 +63,8 @@ public class ToDoList extends JFrame {
         // Add a mouse listener to select item in list when user right-clicks.
         // The list items are only selected with left clicks. So without this,
         // the popup will be associated with the correct item, but that item won't
-        // automatically be selected when the user right-clicks on it - whatever was last selected
-        // would still be selected, which would be confusing.
+        // automatically be selected when the user right-clicks on it - whatever was
+        // last selected would still be selected, which would be confusing.
         
         toDoList.addMouseListener(new MouseListener() {
             @Override
@@ -73,7 +73,8 @@ public class ToDoList extends JFrame {
                 toDoList.setSelectedIndex(selection);
             }
     
-            // Even though we don't need these events to do anything, still required to provide the methods.
+            // Even though we don't need these events to do anything, still
+            // required to provide the methods.
             @Override
             public void mousePressed(MouseEvent e) {}
             @Override
