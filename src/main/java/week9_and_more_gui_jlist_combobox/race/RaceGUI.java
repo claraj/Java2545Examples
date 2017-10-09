@@ -1,6 +1,7 @@
 package week9_and_more_gui_jlist_combobox.race;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -24,9 +25,9 @@ public class RaceGUI extends JFrame {
     private DefaultListModel<String> distanceListModel;
 
     RaceGUI () {
-
+    
         setContentPane(root);
-
+    
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         distanceListModel = new DefaultListModel<>();
@@ -35,53 +36,7 @@ public class RaceGUI extends JFrame {
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
-                //Fetch data from 3 JTextFields, and validate
-                String errorMessage = null;
-                double startDistance = 0 , targetDistance = 0 , percentIncrease = 0;
-                try {
-                    startDistance = Double.parseDouble(startDistanceTextField.getText());
-                    targetDistance = Double.parseDouble(targetDistanceTextField.getText());
-                    percentIncrease = Double.parseDouble(percentIncreaseTextField.getText());
-
-                    if (startDistance < 0) {
-                        errorMessage = "Please enter a positive start distance";
-                    }
-
-                    else if (targetDistance < 0 || targetDistance <= startDistance) {
-                        errorMessage = "Target distance must be greater than start distance";
-                    }
-
-                    else if (percentIncrease < 0 || percentIncrease > 100) {
-                        errorMessage = "Please enter a positive percent value, between 0 and 100";
-                    }
-
-
-
-                } catch (NumberFormatException nfe) {
-                    errorMessage = "Please enter numerical values for all three inputs";
-                }
-
-                //Show error dialog if errorMessage has been set
-                if (errorMessage != null) {
-                    JOptionPane.showMessageDialog(RaceGUI.this, errorMessage);
-                }
-
-                //Otherwise, data was validated successfully. Calculate the schedule and display.
-
-                else {
-
-                    //Clear any data in the JList's model, which will also clear the GUI
-                    distanceListModel.clear();
-
-                    //Calculate the schedule, based on the data entered
-                    ArrayList<String> schedule = raceSchedule(startDistance, targetDistance, percentIncrease);
-
-                    //And add to the list model
-                    for (String s : schedule) {
-                        distanceListModel.addElement(s);
-                    }
-                }
+                handleCalculateButtonClick();
             }
         });
 
@@ -91,6 +46,56 @@ public class RaceGUI extends JFrame {
     }
 
 
+    private void handleCalculateButtonClick(){
+        //Fetch data from 3 JTextFields, and validate
+        String errorMessage = null;
+        double startDistance = 0 , targetDistance = 0 , percentIncrease = 0;
+        try {
+            startDistance = Double.parseDouble(startDistanceTextField.getText());
+            targetDistance = Double.parseDouble(targetDistanceTextField.getText());
+            percentIncrease = Double.parseDouble(percentIncreaseTextField.getText());
+        
+            if (startDistance < 0) {
+                errorMessage = "Please enter a positive start distance";
+            }
+        
+            else if (targetDistance < 0 || targetDistance <= startDistance) {
+                errorMessage = "Target distance must be greater than start distance";
+            }
+        
+            else if (percentIncrease < 0 || percentIncrease > 100) {
+                errorMessage = "Please enter a positive percent value, between 0 and 100";
+            }
+        
+        
+        
+        } catch (NumberFormatException nfe) {
+            errorMessage = "Please enter numerical values for all three inputs";
+        }
+    
+        //Show error dialog if errorMessage has been set
+        if (errorMessage != null) {
+            JOptionPane.showMessageDialog(RaceGUI.this, errorMessage);
+        }
+    
+        //Otherwise, data was validated successfully. Calculate the schedule and display.
+    
+        else {
+        
+            //Clear any data in the JList's model, which will also clear the GUI
+            distanceListModel.clear();
+        
+            //Calculate the schedule, based on the data entered
+            ArrayList<String> schedule = raceSchedule(startDistance, targetDistance, percentIncrease);
+        
+            //And add to the list model
+            for (String s : schedule) {
+                distanceListModel.addElement(s);
+            }
+        }
+    
+    }
+    
 
     private ArrayList<String> raceSchedule(double startDistance, double targetDistance, double percentIncrease) {
 
@@ -100,7 +105,7 @@ public class RaceGUI extends JFrame {
 
         int weekCounter = 1;
 
-        results.add("In the first week, you run " + startDistance +  " mile(s)");
+        results.add("In the first week, you run " + startDistance +  " miles");
 
         while (startDistance < targetDistance) {
             startDistance = startDistance * increase;
