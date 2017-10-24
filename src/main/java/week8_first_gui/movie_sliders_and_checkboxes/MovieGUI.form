@@ -22,6 +22,7 @@
         </constraints>
         <properties>
           <maximum value="5"/>
+          <value value="0"/>
         </properties>
       </component>
       <component id="9e764" class="javax.swing.JCheckBox" binding="wouldSeeAgainCheckBox" default-binding="true">

@@ -29,8 +29,7 @@ public class MovieGUI extends JFrame {
     
     private void configureEventHandlers() {
     
-        // Moving the ratingSlider updates the sliderValueLabel
-        // and updates the opinion String
+        // Moving the ratingSlider updates the sliderValueLabel and updates the opinion String
         ratingSlider.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
@@ -40,34 +39,33 @@ public class MovieGUI extends JFrame {
             }
         });
     
-        
-        // Checkbox change listener - updates the opinon Sring
+    
+        // Checkbox change listener - updates the opinion String
         wouldSeeAgainCheckBox.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
                 updateOpinion();
             }
         });
-        
-        
-        // Typing in the text box - a little trickier. Add a listener to the JTextBox's document
+    
+        // Typing in the text box - a little trickier. Add a listener to the JTextBox's Document
         // Update the opinion String as the user types or deletes text.
-        
+    
         movieTitleTextField.getDocument().addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
                 // Called when user types or adds text
                 updateOpinion();
             }
-    
+        
             @Override
             public void removeUpdate(DocumentEvent e) {
                 // Called when user deletes text
                 updateOpinion();
             }
-    
+        
             @Override
-            public void changedUpdate(DocumentEvent e) {}
+            public void changedUpdate(DocumentEvent e) { }  // Need this method, but it doesn't need any code.
         });
     
         
@@ -79,7 +77,6 @@ public class MovieGUI extends JFrame {
                         "Quit", JOptionPane.OK_CANCEL_OPTION) == JOptionPane.OK_OPTION) {
                     System.exit(0);
                 }
-        
             }
         });
         
@@ -97,11 +94,13 @@ public class MovieGUI extends JFrame {
         
         else {
             int rating = ratingSlider.getValue();
+            
             boolean seeAgain = wouldSeeAgainCheckBox.isSelected();
     
             String template = "You rated '%s' %d stars. You %s see again.";
     
             String seeAgainStr = seeAgain ? "would" : "would not";
+            
             String opinion = String.format(template, title, rating, seeAgainStr);
     
             movieOpinionLabel.setText(opinion);
@@ -109,4 +108,6 @@ public class MovieGUI extends JFrame {
     }
     
 }
+
+
 
