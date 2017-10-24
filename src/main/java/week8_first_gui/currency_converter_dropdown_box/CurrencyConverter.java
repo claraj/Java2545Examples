@@ -41,7 +41,9 @@ public class CurrencyConverter extends JFrame{
         //Set up JComboBox - add the currencies we can convert to
         currencyComboBox.addItem(EUROS);
         currencyComboBox.addItem(POUNDS);
-
+    
+        getRootPane().setDefaultButton(convertButton);
+        
         convertButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

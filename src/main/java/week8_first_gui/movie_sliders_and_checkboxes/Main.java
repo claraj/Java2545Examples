@@ -1,4 +1,4 @@
-package week8_first_gui.sliders_and_checkboxes;
+package week8_first_gui.movie_sliders_and_checkboxes;
 
 
 public class Main {

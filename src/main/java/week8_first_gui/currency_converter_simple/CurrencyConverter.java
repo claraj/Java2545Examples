@@ -9,23 +9,23 @@ public class CurrencyConverter extends JFrame {
     private JButton convertButton;
     private JPanel mainPanel;
     private JLabel eurosResultLabel;
-    private JComboBox currencComboBox;
     
     private double dollarsToEurosExchangeRate = 0.84;
     //1 Dollar is equivalent to 0.84 Euros; as of Sept 16 2017.
-    //TODO how could you keep this program up to date with the latest exchange rates?
     
-    protected CurrencyConverter() {
+    CurrencyConverter() {
         setContentPane(mainPanel);
         pack();
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         
+        getRootPane().setDefaultButton(convertButton);
+        
         convertButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 
-                //Read input from JTextField and convert to a double. Must handle exceptions!
+                //Read input from JTextField and convert to a double, and handle exceptions.
                 String dollarString = dollarsTextField.getText();
                 
                 try {

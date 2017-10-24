@@ -1,6 +1,4 @@
-package week8_first_gui.sliders_and_checkboxes;
-
-import jdk.nashorn.internal.scripts.JO;
+package week8_first_gui.movie_sliders_and_checkboxes;
 
 import javax.swing.*;
 import javax.swing.event.ChangeEvent;
