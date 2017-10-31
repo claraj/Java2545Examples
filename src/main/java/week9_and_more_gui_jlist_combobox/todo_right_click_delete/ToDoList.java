@@ -99,7 +99,8 @@ public class ToDoList extends JFrame {
             JOptionPane.showMessageDialog(this, "Select an item to delete");
         } else {
             String deleteItem = toDoList.getSelectedValue();
-            if (JOptionPane.showConfirmDialog(this, "Delete " + deleteItem + "?", "Delete", JOptionPane.OK_CANCEL_OPTION) == JOptionPane.OK_OPTION) {
+            if (JOptionPane.showConfirmDialog(this, "Delete " + deleteItem + "?", "Delete",
+                    JOptionPane.OK_CANCEL_OPTION) == JOptionPane.OK_OPTION) {
                 listModel.remove(selectedIndex);  //Remove this item from the MODEL.
             }
         }
