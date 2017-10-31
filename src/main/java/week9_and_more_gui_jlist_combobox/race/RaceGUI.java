@@ -47,8 +47,10 @@ public class RaceGUI extends JFrame {
 
 
     private void handleCalculateButtonClick(){
-        //Fetch data from 3 JTextFields, and validate
-        String errorMessage = null;
+        //Fetch data from the three JTextFields, and validate
+        
+        String errorMessage = null;  // If no errors, this will not be changed from null
+        
         double startDistance = 0 , targetDistance = 0 , percentIncrease = 0;
         try {
             startDistance = Double.parseDouble(startDistanceTextField.getText());
@@ -63,8 +65,8 @@ public class RaceGUI extends JFrame {
                 errorMessage = "Target distance must be greater than start distance";
             }
         
-            else if (percentIncrease < 0 || percentIncrease > 100) {
-                errorMessage = "Please enter a positive percent value, between 0 and 100";
+            else if (percentIncrease < 1 || percentIncrease > 100) {
+                errorMessage = "Please enter a positive percent value, between 1 and 100";
             }
         
         
