@@ -29,6 +29,9 @@ public class ToDoList extends JFrame {
         //Configure the JList to use this model as its data source.
         toDoList.setModel(listModel);
 
+        // Single selection model - user can only select one thing from the list at a time
+        toDoList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        
         addListeners();    //Move event listener configuration into separate method, keep things tidier .
 
         //Configure the submitButton to be the default button that is clicked when the user presses the Enter key
