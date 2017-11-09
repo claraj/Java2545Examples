@@ -99,7 +99,8 @@ public class ToDoList extends JFrame {
             JOptionPane.showMessageDialog(this, "Select an item to delete");
         } else {
             String deleteItem = toDoList.getSelectedValue();
-            if (JOptionPane.showConfirmDialog(this, "Delete " + deleteItem + "?", "Delete", JOptionPane.OK_CANCEL_OPTION) == JOptionPane.OK_OPTION) {
+            if (JOptionPane.showConfirmDialog(this, "Delete " + deleteItem + "?", "Delete", JOptionPane.OK_CANCEL_OPTION)
+                    == JOptionPane.OK_OPTION) {
                 listModel.remove(selectedIndex);  //Remove this item from the MODEL.
             }
         }
@@ -117,13 +118,13 @@ public class ToDoList extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String newToDo = newToDoTextField.getText();
                 newToDo = newToDo.trim(); //remove whitespace
-
+    
                 //Check to see if the JTextField is empty - if so, ignore.
-                if (newToDo.length() == 0) {
+                if (newToDo.isEmpty()) {
                     // show a popup
-                    JOptionPane.showMessageDialog(ToDoList.this, "Please enter a to do item.");
+                    JOptionPane.showMessageDialog(ToDoList.this, "Enter a to do item.");
                 }
-
+    
                 listModel.addElement(newToDo);  //Add new item to the JList's MODEL.
                 newToDoTextField.setText("");  //Clear the JTextField
                 toDoList.setSelectedIndex(listModel.size() - 1);  // Select the last item to highlight it

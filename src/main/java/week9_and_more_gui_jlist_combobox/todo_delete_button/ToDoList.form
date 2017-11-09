@@ -28,7 +28,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Type a new to do item in the box. Select item and click Delete Selected to remove it"/>
+          <text value="Type a new to do item in the box. Select item, click Delete Selected to remove"/>
         </properties>
       </component>
       <component id="e3d80" class="javax.swing.JButton" binding="addToDoButton">

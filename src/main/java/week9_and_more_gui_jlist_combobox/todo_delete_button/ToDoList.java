@@ -22,7 +22,7 @@ public class ToDoList extends JFrame {
         setContentPane(rootPanel);
         setPreferredSize(new Dimension(500, 500));
 
-        listModel = new DefaultListModel<String>();
+        listModel = new DefaultListModel<>();
         // Create a listModel. The list starts empty, so no data to add yet.
         // When you add data to the list, you actually need to add it to the list's * model *.
 
@@ -57,15 +57,15 @@ public class ToDoList extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 String newToDo = newToDoTextField.getText();
                 newToDo = newToDo.trim(); //remove whitespace
-
-                //Check to see if the JTextField is empty - if so, ignore.
-                if (newToDo.length() == 0) {
-                    // show a popup
+    
+                // Was some text entered?
+                if (newToDo.isEmpty()) {
+                    // If not, show a popup
                     JOptionPane.showMessageDialog(ToDoList.this, "Enter a to do item.");
+                } else {
+                    listModel.addElement(newToDo);  //Add new item to the JList's MODEL.
+                    newToDoTextField.setText("");  //Clear the JTextField
                 }
-
-                listModel.addElement(newToDo);  //Add new item to the JList's MODEL.
-                newToDoTextField.setText("");  //Clear the JTextField
             }
         });
 
