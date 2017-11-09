@@ -21,7 +21,7 @@ public class ToDoList extends JFrame {
         setContentPane(rootPanel);
         setPreferredSize(new Dimension(500, 500));
 
-        listModel = new DefaultListModel<String>();
+        listModel = new DefaultListModel<>();
         // Create a listModel. The list starts empty, so no data to add yet.
         // When you add data to the list, you actually need to add it to the list's * model *.
 
@@ -99,9 +99,11 @@ public class ToDoList extends JFrame {
             JOptionPane.showMessageDialog(this, "Select an item to delete");
         } else {
             String deleteItem = toDoList.getSelectedValue();
-            if (JOptionPane.showConfirmDialog(this, "Delete " + deleteItem + "?", "Delete", JOptionPane.OK_CANCEL_OPTION)
-                    == JOptionPane.OK_OPTION) {
+            if (JOptionPane.showConfirmDialog(this, "Delete " + deleteItem + "?", "Delete",
+                    JOptionPane.OK_CANCEL_OPTION) == JOptionPane.OK_OPTION) {
+
                 listModel.remove(selectedIndex);  //Remove this item from the MODEL.
+
             }
         }
         
@@ -127,7 +129,6 @@ public class ToDoList extends JFrame {
     
                 listModel.addElement(newToDo);  //Add new item to the JList's MODEL.
                 newToDoTextField.setText("");  //Clear the JTextField
-                toDoList.setSelectedIndex(listModel.size() - 1);  // Select the last item to highlight it
             }
         });
         

@@ -9,7 +9,6 @@ import static input.InputUtils.stringInput;
  */
 public class RecordStore {
 
-
     public static void main(String[] args) {
 
         //Create some example CDs and add them to an inventory list

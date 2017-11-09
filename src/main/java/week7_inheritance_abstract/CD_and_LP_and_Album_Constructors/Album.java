@@ -40,5 +40,13 @@ public class Album {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "Album{" +
+                "artist='" + artist + '\'' +
+                ", title='" + title + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
 
