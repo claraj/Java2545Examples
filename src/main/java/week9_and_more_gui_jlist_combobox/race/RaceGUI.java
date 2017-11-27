@@ -57,11 +57,11 @@ public class RaceGUI extends JFrame {
             targetDistance = Double.parseDouble(targetDistanceTextField.getText());
             percentIncrease = Double.parseDouble(percentIncreaseTextField.getText());
         
-            if (startDistance < 0) {
-                errorMessage = "Please enter a positive start distance";
+            if (startDistance <= 0) {
+                errorMessage = "Please enter a positive start distance. It must be greater than 0.";
             }
         
-            else if (targetDistance < 0 || targetDistance <= startDistance) {
+            else if (targetDistance <= 0 || targetDistance <= startDistance) {
                 errorMessage = "Target distance must be greater than start distance";
             }
         

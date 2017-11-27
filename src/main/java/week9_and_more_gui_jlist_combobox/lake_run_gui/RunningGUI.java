@@ -58,6 +58,8 @@ public class RunningGUI extends JFrame {
         //Configure each component to use its model
         tableBestTimes.setModel(bestTimesTableModel);
         
+        // Enable clickable column headers to sort the data in the JTable.
+        // Java can figure out how to sort numbers, Strings sensibly.
         tableBestTimes.setAutoCreateRowSorter(true);
         
         comboBoxExistingLakeNames.setModel(lakeNamesComboModel);
