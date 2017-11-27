@@ -57,6 +57,9 @@ public class RunningGUI extends JFrame {
 
         //Configure each component to use its model
         tableBestTimes.setModel(bestTimesTableModel);
+        
+        tableBestTimes.setAutoCreateRowSorter(true);
+        
         comboBoxExistingLakeNames.setModel(lakeNamesComboModel);
         listAllTimesForOneLake.setModel(allTimesForOneLakeListModel);
 
