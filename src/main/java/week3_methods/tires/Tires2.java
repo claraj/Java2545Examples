@@ -14,7 +14,7 @@ public class Tires2 {
         tirePricer();
         tirePricer();
 
-        // We can still improve... see Tires3.java
+        // We can still improve... see Tires3.primary_keys
 
     }
 

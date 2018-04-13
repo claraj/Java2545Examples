@@ -43,6 +43,6 @@ public class Tires {
 
         System.out.println("The " + tireName3 + " tire costs " + pricePer1000Miles3 + " per 1000 miles." );
 
-        // That's a lot of repetition! Can we improve? See Tires2.java
+        // That's a lot of repetition! Can we improve? See Tires2.primary_keys
     }
 }

@@ -5,7 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /**
- * Read in a file. Assume you've got a file called hello.txt, which you will, if you've run Reader.java.
+ * Read in a file. Assume you've got a file called hello.txt, which you will, if you've run Reader.primary_keys.
  */
 public class ReadingAlt {
 

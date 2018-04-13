@@ -17,7 +17,7 @@ public class Tires3 {
         // hard to read. The input and output are all mixed together
         // Can we print a report about all the tires when
         // all the data has been entered?
-        // See Tires4.java
+        // See Tires4.primary_keys
 
     }
 
