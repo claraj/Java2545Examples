@@ -7,39 +7,41 @@ public class HelloDB {
     
     public static void main(String[] args) throws SQLException {
         
-        String url =  "jdbc:sqlite:databases/hello.sqlite";
+        String url =  "jdbc:sqlite:databases/hello.sqlite";     // Where's the database?
         
-        Connection connection = DriverManager.getConnection(url);
+        Connection connection = DriverManager.getConnection(url);   // Connect
         
-        String createTableSql = "CREATE TABLE cats (name TEXT, age INTEGER)";
+        Statement statement = connection.createStatement();   // Statements are used to issue queries
+    
+        String createTableSql = "CREATE TABLE IF NOT EXISTS cats (name TEXT, age INTEGER)";  // SQL to create table
+        statement.execute(createTableSql);    // Execute this SQL
         
-        Statement statement = connection.createStatement();
+        String insertDataSql = "INSERT INTO cats VALUES ('Maru', 10)";   // More SQL to insert a row of data
+        statement.execute(insertDataSql);    // And execute statement to insert data
         
-        statement.execute(createTableSql);
+        insertDataSql = "INSERT INTO cats VALUES ('Hello Kitty', 45)";   // More SQL! Insert more data
+        statement.execute(insertDataSql);    // Execute this to insert the data
         
-        String insertDataSql = "INSERT INTO cats VALUES ('Maru', 10)";
+        String getAllCatsSql = "SELECT * FROM cats";   // Query to fetch data
+        ResultSet allCats = statement.executeQuery(getAllCatsSql);   // Use executeQuery. It returns a ResultSet
         
-        statement.execute(insertDataSql);
-        
-        insertDataSql = "INSERT INTO cats VALUES ('Hello Kitty', 45)";
-        
-        statement.execute(insertDataSql);
-        
-        String getAllCatsSql = "SELECT * FROM cats";
-        
-        ResultSet allCats = statement.executeQuery(getAllCatsSql);
-        
-        while (allCats.next()) {
-            
-            String catName = allCats.getString("name");
+        while (allCats.next()) {                            // Have to loop over the ResultSet to read it. Loop reads one row at a time
+            String catName = allCats.getString("name");     // Can get data from each column, by column name
             int catAge = allCats.getInt("age");
             System.out.printf("%s is %d years old\n", catName, catAge);
-            
         }
+    
+        allCats.close();      // Close result set when done using it
+    
+        String dropTableSql = "DROP TABLE cats";    // Delete - drop - the cats table
+        //  statement.execute(dropTableSql);    // Execute drop table statement
         
-        allCats.close();
-        statement.close();
-        connection.close();
+        statement.close();      // Close statement
+        connection.close();     // And finally close connection
         
     }
 }
+
+
+// If the table might exist already and that's ok, use this instead.
+//String createTableSql = "CREATE TABLE IF NOT EXISTS cats (name TEXT, age INTEGER)";
