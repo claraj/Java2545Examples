@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Place.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/databases/hello.sqlite" afterPath="$PROJECT_DIR$/databases/hello.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,7 +105,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaceGUI.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlaceGUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
@@ -129,19 +124,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaceDB.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PlaceDB.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+            <state relative-caret-position="521">
+              <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#525#526#0" expanded="true" />
                 <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#2667#2674#0" expanded="true" />
-                <marker date="1523936310000" expanded="true" signature="1771:1818" ph="INSERT INTO places... " />
-                <marker date="1523936310000" expanded="true" signature="2875:2889" ph="SELECT * FRO... elevations" />
-                <marker date="1523936310000" expanded="true" signature="3582:3635" ph="DELETE FROM " />
+                <element signature="e#2592#2599#0" expanded="true" />
+                <marker date="1523936611000" expanded="true" signature="1696:1743" ph="INSERT INTO places... " />
+                <marker date="1523936611000" expanded="true" signature="2800:2814" ph="SELECT * FRO... elevations" />
+                <marker date="1523936611000" expanded="true" signature="3507:3560" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -268,9 +263,9 @@
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Place.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.form" />
-        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" />
       </list>
     </option>
   </component>
@@ -1046,7 +1041,7 @@
       <workItem from="1512409841694" duration="3030000" />
       <workItem from="1512577096822" duration="1282000" />
       <workItem from="1523650970413" duration="15787000" />
-      <workItem from="1523930434959" duration="4580000" />
+      <workItem from="1523930434959" duration="4714000" />
     </task>
     <task id="LOCAL-00001" summary="JOptionPane - simple dialog examples">
       <created>1481520162629</created>
@@ -1258,11 +1253,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523719765063</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="SQLite and swing JList DB example">
+      <created>1523936498829</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1523936498829</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116815000" />
+    <option name="totallyTimeSpent" value="116949000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1286,6 +1288,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="104" y="67" width="1336" height="770" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1300,7 +1303,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51111114" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.251932" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.251932" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1374,7 +1377,8 @@
     <MESSAGE value="File chooser example" />
     <MESSAGE value="Hello SQLite example" />
     <MESSAGE value="More sqlite db examples, primary keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="More sqlite db examples, primary keys" />
+    <MESSAGE value="SQLite and swing JList DB example" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQLite and swing JList DB example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1538,22 +1542,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#2667#2674#0" expanded="true" />
-            <marker date="1523936310000" expanded="true" signature="1771:1818" ph="INSERT INTO places... " />
-            <marker date="1523936310000" expanded="true" signature="2875:2889" ph="SELECT * FRO... elevations" />
-            <marker date="1523936310000" expanded="true" signature="3582:3635" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1575,6 +1563,22 @@
           <caret line="76" column="21" lean-forward="true" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="38" column="12" lean-forward="false" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#2592#2599#0" expanded="true" />
+            <marker date="1523936611000" expanded="true" signature="1696:1743" ph="INSERT INTO places... " />
+            <marker date="1523936611000" expanded="true" signature="2800:2814" ph="SELECT * FRO... elevations" />
+            <marker date="1523936611000" expanded="true" signature="3507:3560" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>

@@ -36,8 +36,6 @@ public class PlaceDB {
             String createTableSQL = String.format(createTableSQLTemplate, TABLE_NAME, NAME_COL, ELEV_COL);
             
             statement.executeUpdate(createTableSQL);
-            System.out.println("Info: created places table");
-            
             
         } catch (SQLException sqle) {
             throw new RuntimeException(sqle);
