@@ -7,16 +7,16 @@ import javax.swing.*;
  */
 public class HelloTableGUI extends JFrame {
     private JPanel containsTable;
-    private JTable ideTable;
+    private JTable helloTable;
     
     HelloTableGUI() {
         setContentPane(containsTable);
-        pack();
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         
-        ideTable.setModel(new HelloTableModel());
-        
+        helloTable.setModel(new HelloTableModel());
+        pack();
+    
     }
 }
 
