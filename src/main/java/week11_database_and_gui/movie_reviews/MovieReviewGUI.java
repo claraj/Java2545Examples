@@ -126,6 +126,9 @@ public class MovieReviewGUI extends JFrame {
     
         //Set up JTable
         movieDataTable.setGridColor(Color.BLACK);
+        
+        //Enable sorting
+        movieDataTable.setAutoCreateRowSorter(true);
     
         columnNames = db.getColumnNames();
         Vector data = db.getAllMovies();
