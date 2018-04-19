@@ -39,8 +39,7 @@ public class BirdDatabase {
             }
         }
     }
-    
-    
+
     Vector getColumnNames() {
         
         Vector colNames = new Vector();
