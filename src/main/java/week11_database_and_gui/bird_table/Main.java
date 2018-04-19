@@ -1,8 +1,7 @@
-package week11_database_and_gui.pizza_stats;
+package week11_database_and_gui.bird_table;
 
 
 public class Main {
-    
     
     public static void main(String args[]) {
         
@@ -11,3 +10,5 @@ public class Main {
         
     }
 }
+
+

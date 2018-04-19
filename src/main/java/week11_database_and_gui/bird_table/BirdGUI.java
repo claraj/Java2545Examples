@@ -1,4 +1,4 @@
-package week11_database_and_gui.pizza_stats;
+package week11_database_and_gui.bird_table;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -9,7 +9,7 @@ import java.util.Vector;
 public class BirdGUI extends JFrame {
     
     private JTable birdDataTable;
-    private JPanel rootPanel;
+    private JPanel mainPanel;
     
     private BirdDatabase db;
     
@@ -20,7 +20,7 @@ public class BirdGUI extends JFrame {
     
         this.db = db;
     
-        setContentPane(rootPanel);
+        setContentPane(mainPanel);
         pack();
         setTitle("Bird Database Application");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);

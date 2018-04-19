@@ -1,4 +1,4 @@
-package week11_database_and_gui.pizza_stats;
+package week11_database_and_gui.bird_table;
 import java.sql.*;
 import java.util.Vector;
 
@@ -44,6 +44,8 @@ public class BirdDatabase {
     Vector getColumnNames() {
         
         Vector colNames = new Vector();
+    
+        colNames.add("ID");
         colNames.add("Name");
         colNames.add("Description");
         
