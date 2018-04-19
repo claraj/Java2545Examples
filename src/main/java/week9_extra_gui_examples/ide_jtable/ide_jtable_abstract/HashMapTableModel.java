@@ -1,4 +1,4 @@
-package week9_extra_gui_examples.ide_jtable.hello_jtable;
+package week9_extra_gui_examples.ide_jtable.ide_jtable_abstract;
 
 import javax.swing.table.AbstractTableModel;
 import java.util.HashMap;
@@ -6,9 +6,12 @@ import java.util.HashMap;
 public class HashMapTableModel extends AbstractTableModel{
     
     private HashMap data;
+    private String[] columnNames;
     
-    HashMapTableModel(HashMap map) {
+    HashMapTableModel(HashMap map, String[] columnNames) {
         this.data = map;
+        this.columnNames = columnNames;
+        
     }
     
     @Override
@@ -33,6 +36,12 @@ public class HashMapTableModel extends AbstractTableModel{
         }
         
     }
+    
+    @Override
+    public String getColumnName(int col) {
+        return columnNames[col];
+    }
+    
 }
 
 

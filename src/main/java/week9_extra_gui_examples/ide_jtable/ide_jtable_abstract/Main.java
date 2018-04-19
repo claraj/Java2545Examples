@@ -1,4 +1,4 @@
-package week9_extra_gui_examples.ide_jtable.hello_jtable;
+package week9_extra_gui_examples.ide_jtable.ide_jtable_abstract;
 
 import java.util.HashMap;
 

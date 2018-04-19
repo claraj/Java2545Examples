@@ -1,4 +1,4 @@
-package week9_extra_gui_examples.hello_jtable.hello_jtable;
+package week9_extra_gui_examples.hello_jtable.hello_jtable_default;
 
 /**
  * Created by clara on 4/18/18.

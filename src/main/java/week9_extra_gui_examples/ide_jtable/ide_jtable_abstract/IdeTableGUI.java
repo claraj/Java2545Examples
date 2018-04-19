@@ -1,4 +1,4 @@
-package week9_extra_gui_examples.ide_jtable.hello_jtable;
+package week9_extra_gui_examples.ide_jtable.ide_jtable_abstract;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -19,13 +19,14 @@ public class IdeTableGUI extends JFrame {
         setContentPane(containsTable);
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    
+        String[] columnNames = {"Language", "IDE"};
         
-        HashMapTableModel tableModel = new HashMapTableModel(languages);
+        HashMapTableModel tableModel = new HashMapTableModel(languages, columnNames);
         
         ideTable.setModel(tableModel);
     
         pack();
-        
         
         addButton.addActionListener(new ActionListener() {
             @Override
