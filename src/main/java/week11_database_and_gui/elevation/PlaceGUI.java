@@ -26,13 +26,11 @@ public class PlaceGUI extends JFrame {
         this.controller = controller;  //Store a reference to the controller object.
         // Need this to make requests to the database.
         
-        
         //Configure the list model
-        
         allPlacesListModel = new DefaultListModel<Place>();
         placeList.setModel(allPlacesListModel);
         
-        //and listeners - only one in this program, but put in method to keep tidy.
+        //and listeners
         addListeners();
         
         //Regular setup stuff for the window / JFrame
@@ -43,7 +41,54 @@ public class PlaceGUI extends JFrame {
         
     }
     
+    
+    private void errorDialog(String msg) {
+        JOptionPane.showMessageDialog(PlaceGUI.this, msg, "Error", JOptionPane.ERROR_MESSAGE);
+    }
+    
     private void addListeners() {
+        
+        addButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                
+                //Read data, send message to database via controller
+                String place = placeNameText.getText();
+                
+                if (place.isEmpty()) {
+                    errorDialog("Enter a place name");
+                    return;
+                }
+                
+                double elev;
+                
+                try {
+                    elev = Double.parseDouble(elevationText.getText());
+                } catch (NumberFormatException nfe) {
+                    errorDialog("Enter a number for elevation");
+                    return;
+                }
+                
+                Place placeRecord = new Place(place, elev);
+                String result = controller.addPlaceToDatabase(placeRecord);
+                
+                if (result.equals(PlaceDB.OK)) {
+                    
+                    // Clear input JTextFields
+                    placeNameText.setText("");
+                    elevationText.setText("");
+                    
+                    // And request all data from DB to update list
+                    ArrayList<Place> allData = controller.getAllData();
+                    setListData(allData);
+                    
+                } else {
+                    errorDialog(result);
+                }
+            }
+        });
+    
+    
         
         deleteButton.addActionListener(new ActionListener() {
             @Override
@@ -59,53 +104,15 @@ public class PlaceGUI extends JFrame {
                 }
             }
         });
-        
-        addButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                
-                //Read data, send message to database via controller
-                
-                String place = placeNameText.getText();
-                
-                if (place.isEmpty()) {
-                    JOptionPane.showMessageDialog(PlaceGUI.this, "Enter a place name", "Error adding new place", JOptionPane.ERROR_MESSAGE);
-                    return;
-                }
-                double elev;
-                
-                try {
-                    elev = Double.parseDouble(elevationText.getText());
-                } catch (NumberFormatException nfe) {
-                    JOptionPane.showMessageDialog(PlaceGUI.this, "Enter a number for elevation", "Error adding new place", JOptionPane.ERROR_MESSAGE);
-                    return;
-                }
-                
-                Place placeRecord = new Place(place, elev);
-                String result = controller.addPlaceToDatabase(placeRecord);
-                
-                if (result.equals(PlaceDB.OK)) {
     
-                    // Clear input JTextFields
-                    placeNameText.setText("");
-                    elevationText.setText("");
     
-                    // And request all data from DB to update list
-                    ArrayList<Place> allData = controller.getAllData();
-                    setListData(allData);
-                
-                } else {
-                    JOptionPane.showMessageDialog(PlaceGUI.this, result, "Error adding new place", JOptionPane.ERROR_MESSAGE);
-                }
-            }
-        });
-        
     }
     
     
     void setListData(ArrayList<Place> data) {
         
-        //Display data in allDataTextArea
+        //Display data in allPlacesListModel
+        
         allPlacesListModel.clear();
         
         if (data != null) {
@@ -116,4 +123,5 @@ public class PlaceGUI extends JFrame {
     }
     
 }
+
 

@@ -11,36 +11,30 @@ public class Controller {
     private PlaceDB db;
     
     public static void main(String[] args) {
-        
-        Controller controller = new Controller();
-        controller.startApp();
-        
+        new Controller().startApp();
     }
     
     private void startApp() {
-        
         db = new PlaceDB();
         
         ArrayList<Place> allData = db.fetchAllRecords();
         
         gui = new PlaceGUI(this);
         gui.setListData(allData);
-        
     }
-    
     
     ArrayList<Place> getAllData() {
         return db.fetchAllRecords();
     }
-    
-    
+
     String addPlaceToDatabase(Place place) {
         return db.addRecord(place);
     }
     
-    
     void deletePlace(Place place) {
         db.delete(place);
     }
-    
 }
+
+
+

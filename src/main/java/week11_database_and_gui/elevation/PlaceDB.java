@@ -42,35 +42,6 @@ public class PlaceDB {
         }
     }
     
-    
-    String addRecord(Place place)  {
-        
-        String addPlaceSQL = "INSERT INTO " + TABLE_NAME + " VALUES ( ? , ? ) " ;
-        final int SQLITE_CONSTRAINT_PRIMARYKEY = 19;
-        
-        try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
-             PreparedStatement addPlacePs = conn.prepareStatement(addPlaceSQL)) {
-            
-            addPlacePs.setString(1, place.getName());
-            addPlacePs.setDouble(2, place.getElevation());
-            
-            addPlacePs.execute();
-            
-            return OK;
-            
-        } catch (SQLException sqle) {
-    
-            if (sqle.getErrorCode() == SQLITE_CONSTRAINT_PRIMARYKEY){
-                return "Duplicate place name.";
-                
-            } else {
-                throw new RuntimeException(sqle);
-            }
-        }
-        
-    }
-    
-    
     ArrayList<Place> fetchAllRecords() {
         
         ArrayList<Place> allRecords = new ArrayList<Place>();
@@ -98,19 +69,52 @@ public class PlaceDB {
     }
     
     
-    void delete(Place place) {
+    String addRecord(Place place)  {
         
-        String deleteSQL = "DELETE FROM " + TABLE_NAME+ " WHERE "+ NAME_COL+" = ?";
+        String addPlaceSQL = "INSERT INTO " + TABLE_NAME + " VALUES ( ? , ? ) " ;
+        final int SQLITE_CONSTRAINT_PRIMARYKEY = 19;
         
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
-             PreparedStatement deletePreparedStatement = conn.prepareStatement(deleteSQL)) {
+             PreparedStatement addPlacePs = conn.prepareStatement(addPlaceSQL)) {
             
+            addPlacePs.setString(1, place.getName());
+            addPlacePs.setDouble(2, place.getElevation());
+            
+            addPlacePs.execute();
+            
+            return OK;
+            
+        } catch (SQLException sqle) {
+            
+            if (sqle.getErrorCode() == SQLITE_CONSTRAINT_PRIMARYKEY){
+                return "Duplicate place name.";
+                
+            } else {
+                throw new RuntimeException(sqle);
+            }
+        }
+        
+    }
+    
+    
+    void delete(Place place) {
+
+        String deleteSQL = "DELETE FROM " + TABLE_NAME + " WHERE " + NAME_COL+ " = ?";
+
+        try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
+             PreparedStatement deletePreparedStatement = conn.prepareStatement(deleteSQL)) {
+
             deletePreparedStatement.setString(1, place.getName());
             deletePreparedStatement.execute();
-            
+
         } catch (SQLException sqle) {
             throw new RuntimeException(sqle);
         }
     }
     
 }
+
+
+
+
+
