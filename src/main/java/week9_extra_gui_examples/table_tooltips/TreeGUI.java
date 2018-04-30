@@ -15,7 +15,7 @@ public class TreeGUI extends JFrame {
     private JTable treeTable;
     
     private String[] treeNames = { "Giant Sequoia", "Oak", "Giant Redwood" };
-    private Integer[] treeHeights = { 1000, 150, 2000 };
+    private Integer[] treeHeights = { 250, 100, 380 };
     private String[] treeDescriptions = new String[]{
             "On average, the world's largest tree by mass. Native to California's Sierra Mountains.",
             "Common hardwood tree with many sub-species. The seeds of this tree are known as acorns.",
