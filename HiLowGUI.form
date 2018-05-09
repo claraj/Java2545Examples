@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HighLow.HiLowGUI">
+  <grid id="27dc6" binding="Main_Panel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="592" y="29" width="535" height="400"/>
+    </constraints>
+    <properties>
+      <font name="Rockwell Extra Bold" size="20" style="1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="61127" class="javax.swing.JRadioButton" binding="InBetwenRadioButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="399" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Rockwell Extra Bold" size="20" style="1"/>
+          <text value="In Between"/>
+        </properties>
+      </component>
+      <component id="3714d" class="javax.swing.JLabel" binding="HighCard">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="74" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Rockwell Extra Bold" size="20" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b70f4" class="javax.swing.JLabel" binding="Result">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="74" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a12c7" class="javax.swing.JLabel" binding="LowCard">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Franklin Gothic Heavy" size="20" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2add3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="399" height="21"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Rockwell Extra Bold" size="30" style="1"/>
+          <text value="High Low IN BETWEEN"/>
+        </properties>
+      </component>
+      <component id="b2f0b" class="javax.swing.JRadioButton" binding="HighRadioButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="399" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Rockwell Extra Bold" size="20" style="1"/>
+          <text value="High"/>
+        </properties>
+      </component>
+      <component id="74875" class="javax.swing.JRadioButton" binding="lowRadioButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="399" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Rockwell Extra Bold" size="20" style="1"/>
+          <text value="Low"/>
+        </properties>
+      </component>
+      <component id="6bf99" class="javax.swing.JButton" binding="newCardButton">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Franklin Gothic Heavy" size="20" style="1"/>
+          <text value="New Game"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
