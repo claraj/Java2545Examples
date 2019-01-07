@@ -31,7 +31,7 @@ public class MoreNumberVariables {
         System.out.println("Total widget cost is $" + allWidgetCost);
 
         double widgetsPlusShipping = allWidgetCost + shippingPrice;
-        System.out.printf("Total with shipping is $" + widgetsPlusShipping);
+        System.out.printf("Total with shipping is $%.2f.", widgetsPlusShipping);
 
 
     }
