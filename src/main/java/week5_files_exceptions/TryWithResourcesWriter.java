@@ -19,9 +19,9 @@ public class TryWithResourcesWriter {
 
             bufWriter.write("Some example data\n");
             bufWriter.write("Some more example data\n");
-            bufWriter.close();  //Still need to close file - do all the regular file IO tasks
-
             //Question: what could go wrong when writing a file?
+            
+            // BufferedWriter is automatically closed here.
         }
 
         //If an exception is thrown, the resource(s) opened in the try statement will be closed

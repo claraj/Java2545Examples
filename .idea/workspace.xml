@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberOfClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/CollectionsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_data_structures/CollectionsMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TimingExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TimingExceptions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingNumbers.java" afterDir="false" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,74 +49,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SimpleNumberVariables.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleNumberVariables.java">
+      <file leaf-file-name="ReadingConcise.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingConcise.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleStringVariables.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java">
+      <file leaf-file-name="ReadingAlt.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingAlt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherPreferences.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/WeatherPreferences.java">
+      <file leaf-file-name="RandomNumbersInFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/RandomNumbersInFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberOfClasses.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberOfClasses.java">
+      <file leaf-file-name="OverwritingFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/OverwritingFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringLibraryMethods.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/StringLibraryMethods.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoreNumberVariables.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MoreStringVariables.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreStringVariables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NumberAndStringInput.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberAndStringInput.java">
+      <file leaf-file-name="HelloFileException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloFileException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -120,20 +94,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberQuizBasic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java">
+      <file leaf-file-name="HelloExceptionCloseReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloExceptionCloseReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberStringConversions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberStringConversions.java">
+      <file leaf-file-name="HelloExceptionCatch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloExceptionCatch.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppendingToFile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/AppendingToFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reading.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/Reading.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -171,13 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/hello_jtable/hello_jtable/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/hello_jtable/hello_jtable/HelloTableGUI.form" />
-        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/hello_jtable/hello_jtable/HelloTableModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/hello_jtable/hello_jtable/HelloTableGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/ide_jtable/hello_jtable/IdeTableModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/ide_jtable/hello_jtable/HashMapTableModel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/ide_jtable/hello_jtable/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/ide_jtable/hello_jtable/IdeTableGUI.form" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/ide_jtable/hello_jtable/IdeTableGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable/IdeTableGUI.java" />
@@ -222,6 +216,13 @@
         <option value="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener/TreeGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java" />
         <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberOfClasses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week4_data_structures/CollectionsMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingEmojis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TimingExceptions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesWriter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java" />
       </list>
     </option>
   </component>
@@ -238,16 +239,19 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="201" />
-    <option name="y" value="145" />
-    <option name="width" value="1172" />
-    <option name="height" value="835" />
+    <option name="x" value="66" />
+    <option name="y" value="52" />
+    <option name="width" value="1248" />
+    <option name="height" value="852" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,11 +262,6 @@
             <path>
               <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="Examples" type="462c0819:PsiDirectoryNode" />
-              <item name="databases" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -284,7 +283,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="week1_variables_if_else" type="462c0819:PsiDirectoryNode" />
+              <item name="week4_data_structures" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
@@ -292,7 +291,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="week2_loops_arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="week5_files_exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
@@ -366,9 +365,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,12 +393,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener" />
-      <recent name="$PROJECT_DIR$/src/main/java/week11_database_and_gui/pizza_stats" />
-      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_default" />
       <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_default" />
-      <recent name="$PROJECT_DIR$/src/main/java/week11_database_and_gui/ide_jtable" />
+      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_abstract" />
+      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable" />
+      <recent name="$PROJECT_DIR$/src/main/java/week10_intro_to_jdbc_sqlite" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="week5_files_exceptions" />
@@ -411,12 +407,12 @@
       <recent name="week3" />
       <recent name="week2" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener" />
+      <recent name="$PROJECT_DIR$/src/main/java/week11_database_and_gui/pizza_stats" />
+      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_default" />
       <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_default" />
-      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_abstract" />
-      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable" />
-      <recent name="$PROJECT_DIR$/src/main/java/week10_intro_to_jdbc_sqlite" />
+      <recent name="$PROJECT_DIR$/src/main/java/week11_database_and_gui/ide_jtable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,22 +427,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberOfClasses">
+  <component name="RunManager" selected="Application.TimingExceptions">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
-    </configuration>
-    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week11_database_and_gui.elevation.Controller" />
-      <module name="Examples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week11_database_and_gui.elevation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week9_extra_gui_examples.table_tooltips.Main" />
@@ -455,17 +440,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="week9_extra_gui_examples.table_tooltips.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week9_extra_gui_examples.table_row_click_listener.Main" />
-      <module name="Examples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week9_extra_gui_examples.table_row_click_listener.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -564,6 +538,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="week1_variables_if_else.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TimingExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week5_files_exceptions.TimingExceptions" />
+      <module name="Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week5_files_exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="WritingEmojis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week5_files_exceptions.WritingEmojis" />
+      <module name="Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week5_files_exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -952,19 +948,19 @@
       <pass-parent-envs>true</pass-parent-envs>
     </configuration>
     <list>
-      <item itemvalue="Application.Controller" />
       <item itemvalue="Application.Main (3)" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.MoreNumberVariables" />
       <item itemvalue="Application.NumberOfClasses" />
+      <item itemvalue="Application.WritingEmojis" />
+      <item itemvalue="Application.TimingExceptions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TimingExceptions" />
+        <item itemvalue="Application.WritingEmojis" />
         <item itemvalue="Application.NumberOfClasses" />
         <item itemvalue="Application.MoreNumberVariables" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Controller" />
       </list>
     </recent_temporary>
   </component>
@@ -1018,7 +1014,8 @@
       <workItem from="1524185372280" duration="2320000" />
       <workItem from="1525089392317" duration="3536000" />
       <workItem from="1525107035215" duration="247000" />
-      <workItem from="1546828528458" duration="262000" />
+      <workItem from="1546828528458" duration="1131000" />
+      <workItem from="1549289604370" duration="2060000" />
     </task>
     <task id="LOCAL-00001" summary="JOptionPane - simple dialog examples">
       <created>1481520162629</created>
@@ -1307,11 +1304,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525107199703</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Number of classes example from week 1">
+      <created>1546828938708</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1546828938708</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140782000" />
+    <option name="totallyTimeSpent" value="143711000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1334,24 +1338,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="230" y="191" width="1172" height="835" extended-state="0" />
+    <frame x="66" y="52" width="1248" height="852" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32567567" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3252818" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.08344371" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.11916264" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25486726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29933664" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1401,7 +1405,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="&quot;Java is to JavaScript as ham is to hamster&quot;" />
     <MESSAGE value="Static vs instance example" />
     <MESSAGE value="More exception handling examples" />
     <MESSAGE value="GUI Examples" />
@@ -1426,7 +1429,8 @@
     <MESSAGE value="Tidy elevation GUI" />
     <MESSAGE value="JTable tool tip and list selection listener examples" />
     <MESSAGE value="Looked up how tall example trees are instead of wildly guessing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Looked up how tall example trees are instead of wildly guessing" />
+    <MESSAGE value="Number of classes example from week 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number of classes example from week 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1438,110 +1442,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_default/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieReviewGUI.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieTableModel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieReviewGUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_table/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_table/BirdGUI.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_table/BirdDatabase.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_table/BirdGUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieDatabase.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week2_loops_arrays/WhileLoopPassword5Attempts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week2_loops_arrays/SwitchWithStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.form" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week2_loops_arrays/MoreForLoops.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Squares3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/Scope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/LemonadeMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week3_methods/FillArrayWithValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Place.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/DataEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/DataEntry.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab1.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab2.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/MainForm.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/MainForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_default/IdeTableGUI.form" />
     <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_default/IdeTableGUI.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_tooltips/TreeTableModel.java" />
@@ -1551,25 +1451,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_tooltips/TreeGUI.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener/TreeGUI.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_tooltips/TreeGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1589,7 +1479,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/MoreNumberVariables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="495">
           <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
         </state>
       </provider>
@@ -1645,11 +1535,231 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberOfClasses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/ProductTotalPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week2_loops_arrays/InfiniteWhileLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-224">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week2_loops_arrays/LoopGetDataForArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week2_loops_arrays/LoopGetDataForArrayAndReadArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week2_loops_arrays/SumArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week4_data_structures/AddingToArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week4_data_structures/CollectionsMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week4_data_structures/SumArrayListGenericTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emojis.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" lean-forward="true" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingEmojis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week4_data_structures/WebsiteHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingVariables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingAlt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingActualNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/Writing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/WriteReadArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/UserEntersData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/TimingExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingConcise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/Reading.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingAlt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/RandomNumbersInFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/OverwritingFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloFileException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloExceptionCloseReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloExceptionCatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/AppendingToFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>

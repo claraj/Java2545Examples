@@ -1,7 +1,5 @@
 package week1_variables_if_else;
 
-import java.util.Scanner;
-
 import static input.InputUtils.doubleInput;
 import static input.InputUtils.intInput;
 import static input.InputUtils.stringInput;
@@ -9,9 +7,7 @@ import static input.InputUtils.stringInput;
 public class ProductTotalPrice {
     
     public static void main(String[] args) {
-
-        // Write your code between here...
-
+        
         System.out.println("What is the name of the product?");
         String productName = stringInput();
 

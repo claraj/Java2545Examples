@@ -1,7 +1,7 @@
 package week5_files_exceptions;
 
 /**
- * Created by admin on 8/18/16.
+ * Created by clara on 8/18/16.
  */
 
 import java.io.BufferedWriter;

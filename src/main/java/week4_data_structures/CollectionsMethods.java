@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- *  Collections uility methods for ArrayList and LinkedList
+ *  Collections utility methods for ArrayList and LinkedList
  */
 public class CollectionsMethods {
 
