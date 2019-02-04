@@ -73,8 +73,9 @@ public class RemovingFromArrayList {
 
         //So how do you remove an int from an ArrayList?
 
-        // Convert your int to an Integer object, and then remove that. This removes the element containing 100
-        myList.remove(new Integer(100));
+        // Convert your int to an Integer object, and then remove that.
+        // This removes the element containing 100
+        myList.remove(Integer.valueOf(100));
         System.out.println(myList);
         //Now myList is [Hello, 4, 12.34, Even more data!]
 
@@ -88,11 +89,13 @@ public class RemovingFromArrayList {
         // So, if we want to search the ArrayList for an integer number and remove that, we need to turn that int into an Object.
         // All primitive types have a corresponding Object type. The Object type simply 'wraps' the primitive type.
         // So, there are int (primitive) and Integer (Object).
-        // To remove an int element from an ArrayList, convert it into an Integer and then use remove() to remove that Integer object.
+        // To remove an int element from an ArrayList, create an Integer from it with
+        // Integer.valueOf(number)
+        // and then use remove() to remove that Integer object.
 
-        myList.remove(new Integer(4));   // Removes the int 4 from the ArrayList.
+        myList.remove(Integer.valueOf(4));   // Removes the int 4 from the ArrayList.
         System.out.println(myList);
-        // Now myList is [Hello, Data, Even more data!]
+        // Now myList is ["Hello", "Data", "Even more data!"]
 
         // Remove by element number and save the data removed
 
