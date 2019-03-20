@@ -21,7 +21,8 @@ public class RecordStore {
 
         //And some example LPs and add them to an inventory list
         ArrayList<LP> lpInventory = new ArrayList<LP>();
-        LP testLP1 = new LP("Michael Jackson", "Thriller", 4, 9.99);
+
+        LP testLP1 = new LP("Queen", "Bohemian Rhapsody", 4, 9.99);
         LP testLP2 = new LP("Replacements", "Hootenanny", 3, 7.99);
 
         lpInventory.add(testLP1);
