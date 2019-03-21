@@ -44,7 +44,8 @@ public class RecordStore {
         allInventory.addAll(cdInventory);
 
         //Search inventory for any CD or LP that matches a search term
-        String searchString = stringInput("Enter artist or title to search for. Works for partial artists/titles.");
+        String searchString = stringInput("Enter artist or title to search for. " +
+                "Works for partial artists/titles.");
         searchForAlbum(allInventory, searchString);
 
     }

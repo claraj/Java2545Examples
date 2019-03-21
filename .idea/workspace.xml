@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/CD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/LP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/RecordStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Pool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" afterDir="false" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,24 +55,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="948" />
-          <entry key="txt" value="14" />
+          <entry key="java" value="1107" />
+          <entry key="txt" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="948" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="JAVA" value="1107" />
+          <entry key="PLAIN_TEXT" value="69" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -84,6 +83,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/Dinosaur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -93,28 +119,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="21" column="32" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="48" column="26" lean-forward="true" selection-end-line="161" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Pool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="e#259#260#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
@@ -133,53 +164,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/DinosaurManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="23" lean-forward="true" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/RecordStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/LP.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/Album.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state relative-caret-position="328">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
               <folding>
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#833#834#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#909#910#0" expanded="true" />
-                <element signature="e#941#942#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
                 <element signature="e#969#970#0" expanded="true" />
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
+                <element signature="e#1109#1110#0" expanded="true" />
+                <element signature="e#1136#1137#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
+                <element signature="e#1278#1279#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/CD.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -216,8 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_abstract/HelloTableGUI.form" />
-        <option value="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_abstract/IdeTableGUI.form" />
         <option value="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_abstract/HashMapTableModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_abstract/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_abstract/IdeTableGUI.java" />
@@ -259,11 +270,13 @@
         <option value="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Pool.java" />
         <option value="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/CD.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/RecordStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/Album.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/RecordStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Pool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" />
         <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java" />
         <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java" />
@@ -283,10 +296,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
-    <option name="y" value="23" />
-    <option name="width" value="1303" />
-    <option name="height" value="846" />
+    <option name="x" value="159" />
+    <option name="y" value="34" />
+    <option name="width" value="1271" />
+    <option name="height" value="866" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -333,6 +346,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="week6_first_classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Dinosaurs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2545Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="week6_first_classes" type="462c0819:PsiDirectoryNode" />
               <item name="KnockOut" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -341,7 +363,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="week6_first_classes" type="462c0819:PsiDirectoryNode" />
+              <item name="Swimming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2545Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="week7_inheritance_abstract" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2545Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="week7_inheritance_abstract" type="462c0819:PsiDirectoryNode" />
+              <item name="CD_and_LP_and_Album" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2545Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="week7_inheritance_abstract" type="462c0819:PsiDirectoryNode" />
+              <item name="CD_and_LP_and_Album_Constructors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
@@ -374,7 +423,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="304" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553124813152" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553136076723" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;DDL Data Source" />
     <property name="dynamic.classpath" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -423,7 +472,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RecordStore (1)">
+  <component name="RunManager" selected="Application.Game">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -541,13 +590,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CapitalizingArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4_data_structures.CapitalizingArrayList" />
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week6_first_classes.KnockOut.Game" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4_data_structures.*" />
+          <option name="PATTERN" value="week6_first_classes.KnockOut.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -777,19 +826,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CapitalizingArrayList" />
       <item itemvalue="Application.RemovingFromArrayList" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.RecordStore" />
       <item itemvalue="Application.RecordStore (1)" />
+      <item itemvalue="Application.Game" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Game" />
         <item itemvalue="Application.RecordStore (1)" />
         <item itemvalue="Application.RecordStore" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.RemovingFromArrayList" />
-        <item itemvalue="Application.CapitalizingArrayList" />
       </list>
     </recent_temporary>
   </component>
@@ -846,7 +895,7 @@
       <workItem from="1546828528458" duration="1131000" />
       <workItem from="1549289604370" duration="2825000" />
       <workItem from="1551922135137" duration="4200000" />
-      <workItem from="1552781338698" duration="1839000" />
+      <workItem from="1552781338698" duration="6176000" />
     </task>
     <task id="LOCAL-00001" summary="JOptionPane - simple dialog examples">
       <created>1481520162629</created>
@@ -1163,11 +1212,32 @@
       <option name="project" value="LOCAL" />
       <updated>1553122239962</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Match method for album">
+      <created>1553124692069</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1553124692069</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Match method for album">
+      <created>1553124729046</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1553124729046</updated>
+    </task>
+    <task id="LOCAL-00048" summary="example album">
+      <created>1553124835827</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1553124835827</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150515000" />
+    <option name="totallyTimeSpent" value="154852000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1190,10 +1260,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="23" width="1303" height="846" extended-state="0" />
+    <frame x="159" y="34" width="1271" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33465505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30675346" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1202,7 +1272,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34217507" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.089147285" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1210,7 +1280,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.11916264" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.394702" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.23845008" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1257,8 +1327,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="basic dice game oo example" />
-    <MESSAGE value="Comments" />
     <MESSAGE value="Knockout dice game rules" />
     <MESSAGE value="Clean up race schedule" />
     <MESSAGE value="More examples for deleting from list" />
@@ -1282,34 +1350,15 @@
     <MESSAGE value="tidying" />
     <MESSAGE value="exception handling vs. checks" />
     <MESSAGE value="Swimming pools" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swimming pools" />
+    <MESSAGE value="Match method for album" />
+    <MESSAGE value="example album" />
+    <option name="LAST_COMMIT_MESSAGE" value="example album" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberQuizBasic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/NumberStringConversions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleNumberVariables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week1_variables_if_else/SimpleStringVariables.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1542,20 +1591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1567,24 +1602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="22" selection-start-line="76" selection-start-column="22" selection-end-line="76" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Pool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1614,6 +1631,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/LP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/RecordStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/DinosaurManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/Dinosaur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Pool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="42" column="8" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1621,31 +1726,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="21" column="32" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="48" column="26" lean-forward="true" selection-end-line="161" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="23" lean-forward="true" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/RecordStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="825">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
