@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.HashMap;
+import java.util.Map;
 
 
 /* Currency converter with a drop-down box to select the currency from */
@@ -13,30 +14,24 @@ public class CurrencyConverter extends JFrame{
     private JButton convertButton;
     private JPanel rootPanel;
     private JLabel conversionResultLabel;
-    //JComboBoxes can also use generics to only display one type of object
+    // JComboBoxes can also use generics to only display one type of object
     private JComboBox<String> currencyComboBox;
-    
-    private double dollarsToEurosExchangeRate = 0.84;  //1 Dollar is equivalent to 0.84 Euros; as of 16 Sep 2017.
-    private double dollarsToPoundsExchangeRate = 0.74;  //1 Dollar is equivalent to 0.74 UK Pounds
-    //TODO how could you keep this program up to date with the latest exchange rates?
-    
-    //Constants to display in the JComboBox; and keys in the exchangeRates HashMap
+
+
+    // Constants to display in the JComboBox; and keys in the exchangeRates HashMap
     private final String EUROS = "Euros";
     private final String POUNDS = "Pounds";
     
-    //Map of names of currencies and their exchange rates with dollars
-    private HashMap<String, Double> exchangeRates = new HashMap<>();
-    
+    // Map of names of currencies and their exchange rates with dollars
+    private Map<String, Double> exchangeRates = Map.of(
+            EUROS, 0.87,
+            POUNDS, 0.65 );    // Example exchange rates
 
     protected CurrencyConverter(){
         setContentPane(rootPanel);
         pack();
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-
-        //Set up exchange rates HashMap. Will refer to this when the conversion is performed.
-        exchangeRates.put(EUROS, dollarsToEurosExchangeRate);
-        exchangeRates.put(POUNDS, dollarsToPoundsExchangeRate);
 
         //Set up JComboBox - add the currencies we can convert to
         currencyComboBox.addItem(EUROS);
