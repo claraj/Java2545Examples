@@ -114,9 +114,11 @@ public class MovieReviewGUI extends JFrame {
         if (currentRow == -1) {      // -1 means no row is selected. Display error message.
             JOptionPane.showMessageDialog(rootPane, "Please choose a movie to delete");
         }
-    
+
         else {
-            db.deleteMovie(currentRow);
+            // Get the ID of the selected movie
+            int id = (Integer) tableModel.getValueAt(currentRow, 0);
+            db.deleteMovie(id);
             updateTable();
         }
     }

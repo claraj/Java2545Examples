@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Use Map.of initializer">
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Fix variable names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases/birds.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_table/BirdDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_table/BirdDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieReviewGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieReviewGUI.java" afterDir="false" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,29 +53,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2409" />
-          <entry key="txt" value="122" />
+          <entry key="java" value="2498" />
+          <entry key="txt" value="142" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2409" />
-          <entry key="PLAIN_TEXT" value="122" />
+          <entry key="JAVA" value="2498" />
+          <entry key="PLAIN_TEXT" value="142" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="form" value="2" />
-          <entry key="java" value="30" />
+          <entry key="java" value="32" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="GUI_DESIGNER_FORM" value="2" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="32" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -119,7 +118,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_table/BirdDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -127,6 +126,24 @@
               <folding>
                 <element signature="e#1798#1806#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1454">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieReviewGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="124" column="4" lean-forward="true" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -177,7 +194,6 @@
         <option value="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_default/IdeTableGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieDatabase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieReviewGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/pizza_stats/BirdGUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/pizza_stats/BirdGUI.form" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/pizza_stats/BirdDatabase.java" />
@@ -225,6 +241,7 @@
         <option value="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_api/currency_converter_simple/CurrencyAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_dropdown_box/CurrencyConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_table/BirdDatabase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieReviewGUI.java" />
       </list>
     </option>
   </component>
@@ -276,6 +293,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2545Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2545Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="week11_database_and_gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2545Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="week11_database_and_gui" type="462c0819:PsiDirectoryNode" />
+              <item name="movie_reviews" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-Week1-Examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2545Examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="week11_database_and_gui" type="462c0819:PsiDirectoryNode" />
+              <item name="movie_reviews" type="462c0819:PsiDirectoryNode" />
+              <item name="MovieReviewGUI" type="e9f4de52:FormNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -296,7 +347,7 @@
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="479" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555545788601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555546550722" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;DDL Data Source" />
     <property name="dynamic.classpath" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -345,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -477,20 +528,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week6_first_classes.KnockOut.Game" />
-      <module name="Examples" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week6_first_classes.KnockOut.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week8_first_gui.currency_converter_dropdown_box.Main" />
       <module name="Examples" />
@@ -512,6 +549,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="week11_database_and_gui.bird_table.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week11_database_and_gui.movie_reviews.Main" />
+      <module name="Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week11_database_and_gui.movie_reviews.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -680,19 +731,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Game" />
       <item itemvalue="Application.CurrencyAPI" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CurrencyAPI" />
-        <item itemvalue="Application.Game" />
       </list>
     </recent_temporary>
   </component>
@@ -752,14 +803,7 @@
       <workItem from="1552781338698" duration="6195000" />
       <workItem from="1553728281446" duration="4252000" />
       <workItem from="1554329819946" duration="2247000" />
-      <workItem from="1555545571265" duration="214000" />
-    </task>
-    <task id="LOCAL-00003" summary="Menu example">
-      <created>1490841340661</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1490841340661</updated>
+      <workItem from="1555545571265" duration="963000" />
     </task>
     <task id="LOCAL-00004" summary="Click on link to open web browser">
       <created>1494461002849</created>
@@ -1097,11 +1141,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554330386066</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Fix variable names">
+      <created>1555546102289</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1555546102290</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161584000" />
+    <option name="totallyTimeSpent" value="162333000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1127,7 +1178,7 @@
     <frame x="27" y="23" width="1412" height="866" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18540145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18540145" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1136,7 +1187,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32945737" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1627907" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1627907" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1191,7 +1242,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Default button in currency converter" />
     <MESSAGE value="Couple of typos in comments" />
     <MESSAGE value="Sortable JTable. And fixing running GUI infinite loop when starting at 0." />
     <MESSAGE value="Background task with progress bar updates" />
@@ -1216,27 +1266,14 @@
     <MESSAGE value="knockout" />
     <MESSAGE value="currency API" />
     <MESSAGE value="Use Map.of initializer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use Map.of initializer" />
+    <MESSAGE value="Fix variable names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix variable names" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingAlt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingActualNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/week5_files_exceptions/Writing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1429,6 +1466,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1436,6 +1477,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1443,6 +1489,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#201#202#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1523,6 +1572,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1564,6 +1616,20 @@
           <folding>
             <element signature="e#1798#1806#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1454">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/week11_database_and_gui/movie_reviews/MovieReviewGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="124" column="4" lean-forward="true" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="4" />
         </state>
       </provider>
     </entry>
