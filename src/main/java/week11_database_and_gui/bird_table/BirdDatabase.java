@@ -5,14 +5,10 @@ import java.util.Vector;
 public class BirdDatabase {
     
     private static final String DB_CONNECTION_URL = "jdbc:sqlite:databases/birds.sqlite";
-    
-    private static final String ID_COLUMN = "id";             //Primary key column. Each movie will have a unique ID.
-    private static final String NAME_COLUMN = "name";                 // e.g. "Great Horned Owl"
-    private static final String DESCRIPTION_COLUMN = "description";   // e.g. "Large brown owl"
-    
+
     // SQL statements
     private static final String CREATE_BIRD_TABLE = "CREATE TABLE birds (id INTEGER PRIMARY KEY , name TEXT, description TEXT)";
-    private static final String GET_ALL_MOVIES = "SELECT * FROM birds";
+    private static final String GET_ALL_BIRDS = "SELECT * FROM birds";
     
     
     BirdDatabase() {
@@ -42,7 +38,7 @@ public class BirdDatabase {
 
     Vector getColumnNames() {
         
-        Vector colNames = new Vector();
+        Vector<String> colNames = new Vector<String>();
     
         colNames.add("ID");
         colNames.add("Name");
@@ -57,7 +53,7 @@ public class BirdDatabase {
         try (Connection connection = DriverManager.getConnection(DB_CONNECTION_URL);
              Statement statement = connection.createStatement()) {
             
-            ResultSet rs = statement.executeQuery(GET_ALL_MOVIES);
+            ResultSet rs = statement.executeQuery(GET_ALL_BIRDS);
             
             Vector<Vector> vectors = new Vector<>();
             
@@ -66,9 +62,9 @@ public class BirdDatabase {
             
             while (rs.next()) {
                 
-                id = rs.getInt(ID_COLUMN);
-                name = rs.getString(NAME_COLUMN);
-                description = rs.getString(DESCRIPTION_COLUMN);
+                id = rs.getInt("id");
+                name = rs.getString("name");
+                description = rs.getString("description");
                 
                 Vector v = new Vector();
                 v.add(id); v.add(name); v.add(description);
