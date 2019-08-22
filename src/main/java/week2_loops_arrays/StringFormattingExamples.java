@@ -9,13 +9,12 @@ public class StringFormattingExamples {
         
         // Just a lot of examples of string formatting vs. string concatenation
         
-    
         // Some variables containing data about Java, and this class (2018)
         
         String college = "Minneapolis College";
         String className = "Java Programming";
         String department = "ITEC";
-        int classCode = 2454;
+        int classCode = 2545;
         double credits = 6;   // A class can be a non-integer number of credits
         double averageGrade = 84.32721;
         int students = 24;

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Oil change loop, Bus fare loop">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week3_methods/StringFormattingExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week3_methods/tires/Tires2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/tires/Tires2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week3_methods/tires/Tires3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/tires/Tires3.java" afterDir="false" />
-    </list>
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="String formatting examples" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -530,14 +525,7 @@
       <workItem from="1560178559838" duration="21000" />
       <workItem from="1565631858813" duration="5305000" />
       <workItem from="1566487945887" duration="2520000" />
-      <workItem from="1566492503757" duration="1123000" />
-    </task>
-    <task id="LOCAL-00010" summary="Replace scanners with InputUtils library">
-      <created>1502385212165</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1502385212165</updated>
+      <workItem from="1566492503757" duration="1381000" />
     </task>
     <task id="LOCAL-00011" summary="Replace scanners with InputUtils library">
       <created>1502387576139</created>
@@ -875,7 +863,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566490247689</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="String formatting examples">
+      <created>1566496925352</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1566496925352</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -924,7 +919,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="SQLite and swing JList DB example" />
     <MESSAGE value="JTable examples" />
     <MESSAGE value="JTable examples - move to more appropriate package" />
     <MESSAGE value="JTable example with sqlite DB" />
@@ -949,7 +943,8 @@
     <MESSAGE value="AND vs OR - transport to school" />
     <MESSAGE value="Welding safely, combining AND and OR" />
     <MESSAGE value="Oil change loop, Bus fare loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oil change loop, Bus fare loop" />
+    <MESSAGE value="String formatting examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="String formatting examples" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
