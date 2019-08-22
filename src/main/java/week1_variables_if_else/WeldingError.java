@@ -36,7 +36,6 @@ public class WeldingError {
            regardless of whether closedToeShoes is true or false
             */
         
-        
         if (cottonClothes || woolClothes && closedToeShoes) {
             System.out.println("You are dressed safely for welding.");
         } else {
