@@ -16,7 +16,10 @@ public class StringFormattingExamples {
         String department = "ITEC";
         int classCode = 2545;
         double credits = 6;   // A class can be a non-integer number of credits
+        
         double averageGrade = 84.32721;
+        System.out.printf("The average grade is %.2f points.\n", averageGrade);
+        
         int students = 24;
         
         // Each pair of statements prints the same thing. This program compares using concatenation, using +

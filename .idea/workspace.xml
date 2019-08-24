@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="String formatting examples" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="String formatting examples">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/Comments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/BusFareTotalArrayDayNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/BusFareTotalArrayDayNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/StringFormattingExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week2_loops_arrays/StringFormattingExamples.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -525,14 +531,7 @@
       <workItem from="1560178559838" duration="21000" />
       <workItem from="1565631858813" duration="5305000" />
       <workItem from="1566487945887" duration="2520000" />
-      <workItem from="1566492503757" duration="1381000" />
-    </task>
-    <task id="LOCAL-00011" summary="Replace scanners with InputUtils library">
-      <created>1502387576139</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1502387576139</updated>
+      <workItem from="1566492503757" duration="4941000" />
     </task>
     <task id="LOCAL-00012" summary="Replace scanners with InputUtils library">
       <created>1502392435744</created>
@@ -870,7 +869,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566496925352</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="String formatting examples">
+      <created>1566497109499</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1566497109499</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
