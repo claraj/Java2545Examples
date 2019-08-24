@@ -5,9 +5,11 @@ import static input.InputUtils.*;
 /**
  * Created by clara on 2019-08-23.
  */
-public class Tires4 {
+public class TiresFinal {
     
     public static void main(String[] args) {
+    
+        System.out.println("Welcome to the Tire Price Comparison Calculator");
         
         int numberOfTiresToCompare = positiveIntInput("Please enter the number of tires to compare");
         String[] tireReports = new String[numberOfTiresToCompare];
@@ -18,6 +20,7 @@ public class Tires4 {
         }
         
         printReportTable(tireReports);
+        
     }
     
     private static String getTireInfo() {
@@ -26,9 +29,10 @@ public class Tires4 {
         int mileWarranty = positiveIntInput("Enter the number of miles warranty");
         
         double dollarsPerMile = price / mileWarranty;
+        double dollarsPer1000Miles = dollarsPerMile * 1000;
         
-        return String.format("%s costs %f, has a %d mile warranty, costs $%.3f per mile",
-                name, price, mileWarranty, dollarsPerMile);
+        return String.format("%s costs %f, has a %d mile warranty, costs $%.3f per 1000 miles",
+                name, price, mileWarranty, dollarsPer1000Miles);
     }
     
     private static void printReportTable(String[] tireReports) {
@@ -37,7 +41,6 @@ public class Tires4 {
         }
     }
 }
-
 
 
 
