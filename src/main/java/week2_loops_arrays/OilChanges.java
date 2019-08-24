@@ -25,7 +25,7 @@ public class OilChanges {
         
         for (int oilChange = 0; oilChange < 8; oilChange++) {
             miles = miles + oilChangeInterval;
-            System.out.println(miles);
+            System.out.printf("Get oil changed at %d miles\n", miles, true);
         }
         
     }

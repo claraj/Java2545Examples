@@ -18,13 +18,24 @@ public class StringFormattingExamples {
         double credits = 6;   // A class can be a non-integer number of credits
         
         double averageGrade = 84.32721;
-        System.out.printf("The average grade is %.2f points.\n", averageGrade);
         
         int students = 24;
+        boolean isOnline = false;
         
+        // These both print the same message. Which one is easier to write? To read?
+        // The Java Programming class has 24 students, average grade of 84.327210. Is it online? false.
+        
+        System.out.printf("The %s class has %d students, average grade of %f. Is it online? %b.\n",
+                className, students, averageGrade, isOnline);
+    
+        System.out.println("The " + className + " class has " + students + " students, " +
+                        "average grade of " + averageGrade + ". Is it online? " + isOnline+ ".");
+    
         // Each pair of statements prints the same thing. This program compares using concatenation, using +
         // vs String formatting, using System.out.printf() and % placeholders.
         // Sometimes concatenation is simpler, sometimes string formatting is easier.
+    
+        
         
         // Minneapolis College has a Java class called Java Programming
         System.out.println(college + " has a Java class called " + className + ".");
@@ -39,7 +50,13 @@ public class StringFormattingExamples {
         // In 2018, 24 students took the Java Programming class. Their average grade was 84.32721 percent.
         System.out.println("In 2018, " + students + " students took the " + className + " class. Their average grade was " + averageGrade + " percent.");
         // In this example, %.2f is used to format the averageGrade variable to 2 decimal places.
+        
         // In 2018, 24 took the Java Programming class. Their average grade was 84.33 percent
-        System.out.printf("In 2018, %s students took the %s class. Their average grade was %.2f percent\n", students, className, averageGrade);
+        System.out.printf("In 2018, %s students took the %s class. Their average grade was %.2f percent\n",
+                students, className, averageGrade);
+        
+    
+    
+    
     }
 }
