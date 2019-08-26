@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="tires">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week3_methods/ModifyingArrayInMethod.java" afterDir="false" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="modifying array in method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3_methods/NotModifyingPrimitiveTypes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week3_methods/NotModifyingPrimitiveTypesBUG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week3_methods/ModifyingArrayInMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/ModifyingArrayInMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week3_methods/Scope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Scope.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,11 +117,11 @@
       <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_abstract" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="week3_methods" />
       <recent name="week3_methods.tiresdev" />
       <recent name="week2_loops_arrays" />
       <recent name="week1_variables_if_else" />
       <recent name="week5_files_exceptions" />
-      <recent name="week4_data_structures" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/image_in_jtable" />
@@ -140,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ModifyingArrayInMethod">
+  <component name="RunManager" selected="Application.NotModifyingPrimitiveTypes">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -266,8 +269,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreditsToGraduate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3_methods.CreditsToGraduate" />
+    <configuration name="HelloMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3_methods.HelloMethods" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -294,13 +297,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tires1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week3_methods.tires.Tires1" />
+    <configuration name="NotModifyingPrimitiveTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3_methods.NotModifyingPrimitiveTypes" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week3_methods.tires.*" />
+          <option name="PATTERN" value="week3_methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,19 +454,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CreditsToGraduate" />
-      <item itemvalue="Application.Tires1" />
       <item itemvalue="Application.TiresFinal" />
       <item itemvalue="Application.Tires3" />
       <item itemvalue="Application.ModifyingArrayInMethod" />
+      <item itemvalue="Application.HelloMethods" />
+      <item itemvalue="Application.NotModifyingPrimitiveTypes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotModifyingPrimitiveTypes" />
+        <item itemvalue="Application.HelloMethods" />
         <item itemvalue="Application.ModifyingArrayInMethod" />
         <item itemvalue="Application.Tires3" />
         <item itemvalue="Application.TiresFinal" />
-        <item itemvalue="Application.Tires1" />
-        <item itemvalue="Application.CreditsToGraduate" />
       </list>
     </recent_temporary>
   </component>
@@ -530,14 +533,7 @@
       <workItem from="1560178559838" duration="21000" />
       <workItem from="1565631858813" duration="5305000" />
       <workItem from="1566487945887" duration="2520000" />
-      <workItem from="1566492503757" duration="14184000" />
-    </task>
-    <task id="LOCAL-00015" summary="Static vs instance example">
-      <created>1504226176963</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1504226176963</updated>
+      <workItem from="1566492503757" duration="16056000" />
     </task>
     <task id="LOCAL-00016" summary="More exception handling examples">
       <created>1504285672190</created>
@@ -875,7 +871,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566616099905</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="modifying array in method">
+      <created>1566846727508</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1566846727511</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -924,7 +927,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix columns" />
     <MESSAGE value="Clean up extra variables" />
     <MESSAGE value="Tidy elevation GUI" />
     <MESSAGE value="JTable tool tip and list selection listener examples" />
@@ -949,7 +951,8 @@
     <MESSAGE value="Comments" />
     <MESSAGE value="Array to upper" />
     <MESSAGE value="tires" />
-    <option name="LAST_COMMIT_MESSAGE" value="tires" />
+    <MESSAGE value="modifying array in method" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifying array in method" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

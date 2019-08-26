@@ -45,4 +45,6 @@ public class Scope {
         // It is not accessible from other parts of the code
         System.out.println(someData);
     }
+    
+    
 }
