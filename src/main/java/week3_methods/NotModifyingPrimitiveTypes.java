@@ -34,5 +34,4 @@ public class NotModifyingPrimitiveTypes {
         return stars;
     }
     
-    
 }

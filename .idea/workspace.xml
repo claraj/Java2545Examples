@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="modifying array in method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week3_methods/NotModifyingPrimitiveTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week3_methods/NotModifyingPrimitiveTypesBUG.java" afterDir="false" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="modifying array in method, modifying primitive types">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week3_methods/ModifyingArrayInMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/ModifyingArrayInMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week3_methods/Scope.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/Scope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week3_methods/NotModifyingPrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/NotModifyingPrimitiveTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week3_methods/NotModifyingPrimitiveTypesBUG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week3_methods/NotModifyingPrimitiveTypesBUG.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -533,14 +532,7 @@
       <workItem from="1560178559838" duration="21000" />
       <workItem from="1565631858813" duration="5305000" />
       <workItem from="1566487945887" duration="2520000" />
-      <workItem from="1566492503757" duration="16056000" />
-    </task>
-    <task id="LOCAL-00016" summary="More exception handling examples">
-      <created>1504285672190</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1504285672196</updated>
+      <workItem from="1566492503757" duration="17223000" />
     </task>
     <task id="LOCAL-00017" summary="GUI Examples">
       <created>1505580452338</created>
@@ -878,7 +870,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566846727511</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="modifying array in method, modifying primitive types">
+      <created>1566848745258</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1566848745262</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -927,7 +926,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Clean up extra variables" />
     <MESSAGE value="Tidy elevation GUI" />
     <MESSAGE value="JTable tool tip and list selection listener examples" />
     <MESSAGE value="Looked up how tall example trees are instead of wildly guessing" />
@@ -952,7 +950,8 @@
     <MESSAGE value="Array to upper" />
     <MESSAGE value="tires" />
     <MESSAGE value="modifying array in method" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifying array in method" />
+    <MESSAGE value="modifying array in method, modifying primitive types" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifying array in method, modifying primitive types" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

@@ -20,11 +20,9 @@ public class NotModifyingPrimitiveTypesBUG {
     */
     
     public static void main(String[] args) {
-        
         int starsOutOfTen = 8;  // I rated a movie 8/10
-        // Let's see what the user rates it
-        getStarsOutOfTen(starsOutOfTen);
-        System.out.printf("You rated the movie %d/10. \n", starsOutOfTen);
+        getStarsOutOfTen(starsOutOfTen); // Let's see what the user rates it
+        System.out.printf("You rated the movie %d/10. \n", starsOutOfTen);  // BUG! Always prints 8/10
     }
     
     public static void getStarsOutOfTen(int stars) {
@@ -33,3 +31,5 @@ public class NotModifyingPrimitiveTypesBUG {
     }
     
 }
+
+
