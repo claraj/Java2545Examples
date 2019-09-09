@@ -1,7 +1,8 @@
-package week4_data_structures;
+package week5_map_data_structure;
 
 
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Hello HashMap with Generic types
@@ -14,7 +15,7 @@ public class HashMapSnowGeneric {
         //You need to specify the type of the Keys, and the type of the Values
         //Specify in pointy brackets: < TypeOfKey, TypeOfValues>
         //In this example, all the keys must be Strings and all the values must be Integers
-        HashMap<String, Integer> snowfall = new HashMap<>();
+        Map<String, Integer> snowfall = new HashMap<>();
 
         snowfall.put("January", 3);
         snowfall.put("February", 10);

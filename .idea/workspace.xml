@@ -2,70 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="comments">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/AddingToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/AddingToArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/CapitalizingArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/CapitalizingArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/CapitalizingArrayListGenericTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/CapitalizingArrayListGenericTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/CollectionsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/CollectionsMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_map_data_structure/HashMapExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapExamplesGenericTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_map_data_structure/HashMapExamplesGenericTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_map_data_structure/HashMapSnow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnow.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnowGeneric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_map_data_structure/HashMapSnowGeneric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/HashMapSnowGenericUpdateHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_map_data_structure/HashMapSnowGenericUpdateHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/HelloArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/HelloArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/HelloLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/HelloLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/HelloLinkedListGenericTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/HelloLinkedListGenericTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/LinkedListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/LinkedListStackReverseOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/LinkedListStackReverseOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/PrintArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/PrintArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/Queues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/Queues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/RemovingFromArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/RemovingFromArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/Speed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/Speed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/SumArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/SumArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/SumArrayListGenericTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/SumArrayListGenericTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/UserInputArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/UserInputArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_data_structures/WebsiteHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/WebsiteHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/AppendingToFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/AppendingToFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/HelloException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloExceptionCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/HelloExceptionCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloExceptionCloseReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/HelloExceptionCloseReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/HelloFileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/HelloFileException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/OverwritingFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/OverwritingFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/RandomNumbersInFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/RandomNumbersInFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/Reading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/Reading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingAlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/ReadingAlt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/ReadingConcise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/ReadingConcise.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TimingExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/TimingExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/TryWithResourcesReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/TryWithResourcesWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/TryWithResourcesWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/UserEntersData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/UserEntersData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WriteReadArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/WriteReadArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/Writing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/Writing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingActualNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/WritingActualNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingAlt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/WritingAlt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/WritingNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_files_exceptions/WritingVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week6_files_exceptions/WritingVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/Dinosaur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/Dinosaurs/Dinosaur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/Dinosaurs/DinosaurManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/Dinosaurs/DinosaurManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/ITECCourseManager_NoObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/ITECCourseManager_NoObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Dice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Dice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/DiceCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/DiceCup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/KnockOut/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager/ITECCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager/ITECCourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager/ITECCourseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor/ITECCourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor/ITECCourseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourseManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/Swimming/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week6_first_classes/Swimming/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/Swimming/Pool.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -594,14 +535,7 @@
       <workItem from="1566487945887" duration="2520000" />
       <workItem from="1566492503757" duration="17841000" />
       <workItem from="1567515152930" duration="480000" />
-      <workItem from="1567522619324" duration="1668000" />
-    </task>
-    <task id="LOCAL-00018" summary="basic dice game oo example">
-      <created>1506953834080</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1506953834080</updated>
+      <workItem from="1567522619324" duration="1856000" />
     </task>
     <task id="LOCAL-00019" summary="Comments">
       <created>1506954021624</created>
@@ -939,7 +873,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566850423913</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Use List instead of specific type&#10;Move hashmap examples to own package">
+      <created>1568068928761</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1568068928767</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -988,7 +929,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="JTable tool tip and list selection listener examples" />
     <MESSAGE value="Looked up how tall example trees are instead of wildly guessing" />
     <MESSAGE value="Number of classes example from week 1" />
     <MESSAGE value="tidying" />
@@ -1013,7 +953,8 @@
     <MESSAGE value="modifying array in method" />
     <MESSAGE value="modifying array in method, modifying primitive types" />
     <MESSAGE value="comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="comments" />
+    <MESSAGE value="Use List instead of specific type&#10;Move hashmap examples to own package" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use List instead of specific type&#10;Move hashmap examples to own package" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
