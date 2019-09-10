@@ -28,8 +28,8 @@ public class PrintArrayList {
 
         //Another loop - often a nicer way - the enhanced for loop!
 
-        for (Object ob : myList) {
-            System.out.println(ob);
+        for (String st : myList) {
+            System.out.println(st);
         }
 
 

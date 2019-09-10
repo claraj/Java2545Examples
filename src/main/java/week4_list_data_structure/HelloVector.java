@@ -1,14 +1,13 @@
 package week4_list_data_structure;
 
-
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Vector;
 
-public class HelloArrayList {
+public class HelloVector {
 
     public static void main(String[] args) {
 
-        List<String> trees = new ArrayList<>();  // Create ArrayList
+        List<String> trees = new Vector<>();  // Create Vector
     
         trees.add("Pine");     // Add data at the end
         trees.add("Oak");      // Add data at the end
@@ -16,7 +15,7 @@ public class HelloArrayList {
         trees.add("Aspen");    // Add data at the end
     
         trees.add(2, "Palm");   // Add data at index 2, in the middle
-    
+        
         System.out.println("Tree at index 1 is " + trees.get(1));  // Get by index. Prints "Oak"
     
         for (String tree: trees) {
