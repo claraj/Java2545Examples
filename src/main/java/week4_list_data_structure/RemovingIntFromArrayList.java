@@ -11,21 +11,22 @@ public class RemovingIntFromArrayList {
 
     public static void main(String[] args) {
 
-        List<Integer> myList = new ArrayList<>();
-
-        // Add some data and variables
-        myList.add(100);
-        myList.add(5);
-        myList.add(42);
-        myList.add(71);
-        myList.add(201);
-        myList.add(22);
+        List<Integer> numbers = new ArrayList<>();
         
-        System.out.println(myList);   // [100, 5, 42, 71, 201, 22]
+        numbers.add(100);   // Add int value
         
-        myList.remove(5);
+        // Add some more ints
+        numbers.add(5);
+        numbers.add(42);
+        numbers.add(71);
+        numbers.add(201);
+        numbers.add(22);
         
-        System.out.println(myList);  // [100, 5, 42, 71, 201].
+        System.out.println(numbers);   // [100, 5, 42, 71, 201, 22]
+        
+        numbers.remove(5);
+        
+        System.out.println(numbers);  // [100, 5, 42, 71, 201].
         
         // What happened? The data 5 is still in the list.
         // The call to remove(5) removed the element at index 5.
@@ -43,8 +44,8 @@ public class RemovingIntFromArrayList {
         // Convert your int to an Integer object, and then remove that.
         // This removes the element with the value 5
         
-        myList.remove(Integer.valueOf(5));
-        System.out.println(myList);        // [100, 42, 71, 201]
+        numbers.remove(Integer.valueOf(5));
+        System.out.println(numbers);        // [100, 42, 71, 201]
        
         // Why? There are two versions of remove().
         // One takes an int as an argument. The other takes an Object as the argument.
@@ -60,32 +61,32 @@ public class RemovingIntFromArrayList {
         // Integer.valueOf(number)
         // and then use remove() to remove that Integer object.
 
-        myList.remove(Integer.valueOf(42));   // Removes the int 4 from the ArrayList.
-        System.out.println(myList);
+        numbers.remove(Integer.valueOf(42));   // Removes the int 4 from the ArrayList.
+        System.out.println(numbers);
         
         // Remove by element number and save the data removed
         
-        int first = myList.remove(0);
+        int first = numbers.remove(0);
      
         System.out.println("The first element is " + first);   // The first element is 100
-        System.out.println("And the list is now " + myList);   // And the list is now [71, 201]
+        System.out.println("And the list is now " + numbers);   // And the list is now [71, 201]
         
-        int moreData = myList.remove(1);
+        int moreData = numbers.remove(1);
         System.out.println("Removed this element from the ArrayList: " + moreData);   // Removed this element from the ArrayList 201
-        System.out.println("The ArrayList is now " + myList);    //  The ArrayList is now [71]
+        System.out.println("The ArrayList is now " + numbers);    //  The ArrayList is now [71]
     
         
         // If you try to remove an element that is not in the ArrayList, then the remove statement has no effect
-        myList.remove(Integer.valueOf(888));  // no effect on the ArrayList
+        numbers.remove(Integer.valueOf(888));  // no effect on the ArrayList
     
         // remove(yourElement) actually returns a boolean value, which reflects whether an item was removed or not,
         // so you can use it to verify if the item was found and removed.
     
-        System.out.println("Attempting to remove \"Another non-existent element\"");
-        if (myList.remove(Integer.valueOf(10000))) {
-            System.out.println("The element was removed");
+        System.out.println("Attempting to remove 100000");
+        if (numbers.remove(Integer.valueOf(100000))) {
+            System.out.println("The element 100000 was removed");
         } else {
-            System.out.println("The element was not found in the list, so nothing was removed");
+            System.out.println("The element 100000 was not found in the list, so nothing was removed");
         }
         
     }

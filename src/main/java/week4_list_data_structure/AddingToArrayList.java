@@ -8,6 +8,7 @@ public class AddingToArrayList {
     public static void main(String[] args) {
 
         List<String> cities = new ArrayList<>();
+        
         cities.add("Minneapolis");
         cities.add("St. Paul");
         cities.add("Brooklyn Park");

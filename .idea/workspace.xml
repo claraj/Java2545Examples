@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Map examples with generic types">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/HelloArrayListLinkedListVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/HelloVector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/RemovingIntFromArrayList.java" afterDir="false" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="List examples">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/AddToArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/EnhancedForLoopLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/GetFromArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/UserInputNumberArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/CollectionsMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/CollectionsMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/HelloArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/HelloArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/HelloLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/HelloLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/PrintArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/PrintArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/AddingToArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/AddingToArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/RemovingFromArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/RemovingFromArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/RemovingIntFromArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/RemovingIntFromArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/UserInputArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4_list_data_structure/UserInputTodoTasksArrayList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,16 +49,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>elevation</find>
-      <find>syst</find>
-      <find>system</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>place</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemovingIntFromArrayList">
+  <component name="RunManager" selected="Application.EnhancedForLoopLists">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -277,13 +267,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4_list_data_structure.CollectionsMethods" />
+    <configuration name="AreYouOnline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2_loops_arrays.AreYouOnline" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4_list_data_structure.*" />
+          <option name="PATTERN" value="week2_loops_arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -291,13 +281,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4_list_data_structure.HelloArrayList" />
+    <configuration name="CurrentTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week2_loops_arrays.CurrentTime" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week4_list_data_structure.*" />
+          <option name="PATTERN" value="week2_loops_arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -305,8 +295,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4_list_data_structure.HelloVector" />
+    <configuration name="EnhancedForLoopLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4_list_data_structure.EnhancedForLoopLists" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -333,8 +323,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovingIntFromArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week4_list_data_structure.RemovingIntFromArrayList" />
+    <configuration name="UserInputNumberArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4_list_data_structure.UserInputNumberArrayList" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -462,19 +452,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HelloArrayList" />
-      <item itemvalue="Application.HelloVector" />
-      <item itemvalue="Application.CollectionsMethods" />
+      <item itemvalue="Application.AreYouOnline" />
+      <item itemvalue="Application.CurrentTime" />
+      <item itemvalue="Application.UserInputNumberArrayList" />
       <item itemvalue="Application.RemovingFromArrayList" />
-      <item itemvalue="Application.RemovingIntFromArrayList" />
+      <item itemvalue="Application.EnhancedForLoopLists" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemovingIntFromArrayList" />
+        <item itemvalue="Application.EnhancedForLoopLists" />
         <item itemvalue="Application.RemovingFromArrayList" />
-        <item itemvalue="Application.CollectionsMethods" />
-        <item itemvalue="Application.HelloArrayList" />
-        <item itemvalue="Application.HelloVector" />
+        <item itemvalue="Application.UserInputNumberArrayList" />
+        <item itemvalue="Application.CurrentTime" />
+        <item itemvalue="Application.AreYouOnline" />
       </list>
     </recent_temporary>
   </component>
@@ -543,28 +533,7 @@
       <workItem from="1566487945887" duration="2520000" />
       <workItem from="1566492503757" duration="17841000" />
       <workItem from="1567515152930" duration="480000" />
-      <workItem from="1567522619324" duration="7638000" />
-    </task>
-    <task id="LOCAL-00020" summary="Comments">
-      <created>1506955576310</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1506955576310</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Knockout dice game rules">
-      <created>1507048867737</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1507048867737</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Clean up race schedule">
-      <created>1507576573097</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1507576573098</updated>
+      <workItem from="1567522619324" duration="15690000" />
     </task>
     <task id="LOCAL-00023" summary="More examples for deleting from list">
       <created>1507579102471</created>
@@ -888,7 +857,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568069018975</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="List examples">
+      <created>1568084898127</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1568084898127</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Are you online? While loop">
+      <created>1568130577726</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1568130577728</updated>
+    </task>
+    <task id="LOCAL-00071" summary="While loop, print time">
+      <created>1568131120776</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1568131120776</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -937,9 +927,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Number of classes example from week 1" />
-    <MESSAGE value="tidying" />
-    <MESSAGE value="exception handling vs. checks" />
     <MESSAGE value="Swimming pools" />
     <MESSAGE value="Match method for album" />
     <MESSAGE value="example album" />
@@ -962,7 +949,10 @@
     <MESSAGE value="comments" />
     <MESSAGE value="Use List instead of specific type&#10;Move hashmap examples to own package" />
     <MESSAGE value="Map examples with generic types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map examples with generic types" />
+    <MESSAGE value="List examples" />
+    <MESSAGE value="Are you online? While loop" />
+    <MESSAGE value="While loop, print time" />
+    <option name="LAST_COMMIT_MESSAGE" value="While loop, print time" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

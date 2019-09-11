@@ -11,7 +11,62 @@ public class RemovingFromArrayList {
     public static void main(String[] args) {
 
         List<String> animals = new ArrayList<>();
-
+    
+        animals.add("Lion");
+        animals.add("Tiger");
+        animals.add("Bear");
+    
+        System.out.println(animals);   // [Lion, Tiger, Bear]
+        System.out.println("Is the list empty? " + animals.isEmpty());  // false
+        
+        // Remove everything
+        animals.clear();
+    
+        System.out.println(animals);   // []
+        System.out.println("Is the list empty? " + animals.isEmpty());  // true
+    
+        
+        animals.add("Lion");
+        animals.add("Tiger");
+        animals.add("Bear");
+        
+        int numberOfAnimals = animals.size();
+        System.out.println("There are " + numberOfAnimals + " animals in the list.");
+        
+    
+        if (animals.contains("Bear")) {
+            System.out.println("The list contains a bear");
+        } else {
+            System.out.println("No bear in this list");
+        }
+        
+        
+        animals.set(2, "Panther");  // List is [Lion, Tiger, Panther]
+        //animals.set(4, "Cheetah");  // error!
+    
+        // Remove everything
+        animals.clear();
+    
+        animals.add("Lion");
+        animals.add("Tiger");
+        animals.add("Bear");
+        
+        animals.remove(2);  // Removes "Bear", list is [Lion, Tiger]
+        animals.remove(0);  // removes "Lion", list is [Tiger]
+        
+        // Remove everything
+        animals.clear();
+        
+        animals.add("Cat");
+        animals.add("Bird");
+        animals.add("Frog");
+    
+        animals.remove("Frog");   // List is now [Cat, Bird]
+        animals.remove("Zebra");  // No effect on list
+    
+        // Remove everything
+        animals.clear();
+        
         // Add some data and variables
         animals.add("Cat");
         animals.add("Parrot");
