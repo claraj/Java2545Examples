@@ -9,22 +9,24 @@ public class IntegerParsingException {
     
     public static void main(String[] args) {
         
+        // Converting Strings to integers
         
         String numberString = "5";
         
-        // number will be 5
-        // this works because numberString can be converted to an integer
-        int number = Integer.parseInt(numberString);
-        
+        // this works, because numberString can be converted to an integer
+        int number = Integer.parseInt(numberString);  // number will be 5
+        System.out.println(number);
         
         // What if the String can't be converted to an integer?
         
-        /*
+        
         
         // Uncomment this code to see it crash.
         
+        /*
         String catString = "cat";
         int catNumber = Integer.parseInt(catString);  // Crash! NumberFormatException
+        System.out.println(catNumber);
         */
         
         String birdString = "bird";
@@ -38,15 +40,16 @@ public class IntegerParsingException {
       
     
         // If you are converting an unknown String to an int,
-    
         
-        String userNumberString = stringInput("Enter an integer number");   // Try a number, or not a number
+        String userNumberString = stringInput("Enter an integer number");   // Hopefully a number, but we don't know
         try {
-            int userNumber = Integer.parseInt(userNumberString);  // Crash! NumberFormatException
-            System.out.println("You entered a valid integer. Your data is  " + userNumber);   // This line is never executed
+            int userNumber = Integer.parseInt(userNumberString);
+            System.out.println("You entered a valid integer. Your data is  " + userNumber);
         } catch (NumberFormatException e) {
             System.out.println("Error - " + userNumberString + " can't be turned into an integer");
         }
+    
+        System.out.println("Rest of program continues here ");
     
     
     
