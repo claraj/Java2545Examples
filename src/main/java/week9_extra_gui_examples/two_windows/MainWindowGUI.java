@@ -22,8 +22,10 @@ public class MainWindowGUI extends JFrame{
         openWindowForUserInputButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //Open another window.
+                // Open another window.
                 AskUserForInputGUI getUserInput = new AskUserForInputGUI(MainWindowGUI.this);
+                // Send data to the other GUI window
+                getUserInput.setMessage("Please enter some information");
             }
         });
 

@@ -3,31 +3,27 @@ package week3_methods.tires;
 import static input.InputUtils.doubleInput;
 import static input.InputUtils.stringInput;
 
+/**
+ * Created by clara on 2019-08-23.
+ * Since we'll need to repeat the calculation many times, move it into a method so
+ * that method can be called repeatedly, as many times as needed
+ */
+
 public class Tires2 {
-
+    
     public static void main(String[] args) {
-
-        // Move tire calculating code to a method.
-        // Now, can call method as many times as we need.
-        tirePricer();
-        tirePricer();
-        tirePricer();
-        tirePricer();
-
-        // We can still improve... see Tires3.primary_keys
-
+        String report = getTireInfo();
+        System.out.println(report);
     }
-
-    public static void tirePricer(){
-
+    
+    public static String getTireInfo() {
         String tireName = stringInput("Enter name of tire");
         double price = doubleInput("Enter price for " + tireName);
-        double miles = doubleInput("Enter miles for " + tireName);
-        double pricePer1000Miles =  price / miles * 1000;
-        System.out.println("The " + tireName + " tire costs " + pricePer1000Miles + " per 1000 miles." );
-
+        double miles = doubleInput("Enter warranty miles for " + tireName);
+        double pricePerMile = price / miles;
+        return "The " + tireName + " tire costs " + pricePerMile + " dollars per miles.";
     }
-
-
-
 }
+
+
+

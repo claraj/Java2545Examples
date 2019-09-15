@@ -10,6 +10,7 @@ public class AskUserForInputGUI extends JFrame{
     private JTextField colorTextField;
     private JButton saveAndReturnToMainButton;
     private JPanel userInputRootPanel;
+    private JLabel messageLabel;
 
     AskUserForInputGUI(final MainWindowGUI parentComponent) {
 
@@ -28,5 +29,9 @@ public class AskUserForInputGUI extends JFrame{
                 AskUserForInputGUI.this.dispose();               // Close this window
             }
         });
+    }
+
+    public void setMessage(String message) {
+        messageLabel.setText(message);
     }
 }

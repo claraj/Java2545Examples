@@ -2,40 +2,44 @@ package week3_methods.tires;
 
 import static input.InputUtils.*;
 
+/**
+ * Created by clara on 2019-08-23.
+ */
 public class Tires4 {
-
+    
     public static void main(String[] args) {
-
-
-        int tires = intInput("How many tires to compare?");
-
-        String[] tireReports = new String[tires];
-
-        for (int x = 0 ; x < tires ; x++) {
-            String report = tirePricer();
-            tireReports[x] = report;
+        
+        int numberOfTiresToCompare = positiveIntInput("Please enter the number of tires to compare");
+        String[] tireReports = new String[numberOfTiresToCompare];
+        
+        for (int t = 0; t < numberOfTiresToCompare; t++) {
+            String report = getTireInfo();
+            tireReports[t] = report;
         }
-
-        for (int x = 0 ; x < tires; x++) {
-            System.out.println(tireReports[x]);
+        
+        printReportTable(tireReports);
+    }
+    
+    private static String getTireInfo() {
+        String name = stringInput("What is the name of the tire?");
+        double price = positiveDoubleInput("Enter the price of " + name);
+        int mileWarranty = positiveIntInput("Enter the number of miles warranty");
+        
+        double dollarsPerMile = price / mileWarranty;
+        
+        return String.format("%s costs %f, has a %d mile warranty, costs $%.3f per mile",
+                name, price, mileWarranty, dollarsPerMile);
+    }
+    
+    private static void printReportTable(String[] tireReports) {
+        for (int t = 0; t < tireReports.length; t++) {
+            System.out.println(tireReports[t]);
         }
     }
-
-    // Return the output String from the tirePricer method.
-    // main method can save that string, and print all the report
-    // Strings together.
-
-    public static String tirePricer(){
-
-        String tireName = stringInput("Enter name of tire");
-        double price = doubleInput("Enter price for " + tireName);
-        double miles = doubleInput("Enter miles for " + tireName);
-        double pricePer1000Miles =  price / miles * 1000;
-        return "The " + tireName + " tire costs " + pricePer1000Miles
-                + " per 1000 miles." ;
-
-    }
-
-
-
 }
+
+
+
+
+
+

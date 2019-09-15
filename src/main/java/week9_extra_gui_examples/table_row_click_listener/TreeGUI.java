@@ -55,6 +55,7 @@ public class TreeGUI extends JFrame {
         treeTable.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         
         ListSelectionModel listSelectionModel = treeTable.getSelectionModel();
+
         listSelectionModel.addListSelectionListener(new ListSelectionListener() {
             @Override
             public void valueChanged(ListSelectionEvent e) {
