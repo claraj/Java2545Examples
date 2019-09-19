@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.konghq:unirest-java:standalone:2.3.17">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/konghq/unirest-java/2.3.17/unirest-java-2.3.17-standalone.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/konghq/unirest-java/2.3.17/unirest-java-2.3.17-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/konghq/unirest-java/2.3.17/unirest-java-2.3.17-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

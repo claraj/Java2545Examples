@@ -45,6 +45,22 @@
             <version>2.8.5</version>
         </dependency>
 
+        <!--  API requests -->
+        <dependency>
+            <groupId>com.konghq</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>2.3.17</version>
+            <classifier>standalone</classifier>
+        </dependency>
+
+        <!--  GSON JSON-to-Java Object Converter    -->
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.5</version>
+        </dependency>
+
     </dependencies>
     
 </project>
