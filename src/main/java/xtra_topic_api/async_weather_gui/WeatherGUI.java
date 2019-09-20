@@ -1,9 +1,11 @@
 package xtra_topic_api.async_weather_gui;
 
+import kong.unirest.JsonPatchItem;
 import kong.unirest.Unirest;
 
 import javax.swing.*;
 import java.awt.*;
+import java.sql.SQLOutput;
 
 /**
  * Created by clara on 2019-09-19.
@@ -31,6 +33,32 @@ public class WeatherGUI extends JFrame {
             double lat = 45;
             double lng = -91.3;    // Location of Minneapolis
             
+            currentConditions.setText("Fetching...");
+            getWeatherButton.setEnabled(false);
+            
+            WeatherWorker worker = new WeatherWorker(lat, lng);
+            worker.execute();
+            
+        });
+    }
+    
+    private void updateWeather(String weather) {
+        currentConditions.setText(weather);
+        getWeatherButton.setEnabled(true);
+    }
+    
+    class WeatherWorker extends SwingWorker<String, Void> {
+    
+        double lat;
+        double lng;
+        
+        WeatherWorker(double lat, double lng) {
+            this.lat = lat;
+            this.lng = lng;
+        }
+        
+        @Override
+        protected String doInBackground() throws Exception {
             Weather forecast = Unirest.get(DARK_SKY_URL)
                     .routeParam("api_key", DARK_SKY_KEY)
                     .routeParam("lat", Double.toString(lat))
@@ -38,8 +66,19 @@ public class WeatherGUI extends JFrame {
                     .asObject(Weather.class)
                     .getBody();
             
-            currentConditions.setText(forecast.minutely.summary);
-            
-        });
+            Unirest.shutDown();
+            return forecast.minutely.summary;
+        }
+        
+        @Override
+        protected void done() {
+            try {
+                String weather = get();
+                updateWeather(weather);
+            } catch (Exception e) {
+                System.out.println("Error because " + e);
+            }
+        }
     }
+    
 }

@@ -1,4 +1,4 @@
-package xtra_topic_api.api_yelp_gui;
+package xtra_topic_api.api_async_yelp_gui;
 
 import com.google.gson.Gson;
 import kong.unirest.ObjectMapper;

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="cleanup weather gui">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_oauth_yelp_gui/RestaurantFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_oauth_yelp_gui/RestaurantFinderGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_oauth_yelp_gui/RestaurantFinderGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_oauth_yelp_gui/YelpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="yelp cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_yelp_gui/RestaurantFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_async_yelp_gui/RestaurantFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_yelp_gui/RestaurantFinderGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_async_yelp_gui/RestaurantFinderGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_yelp_gui/RestaurantFinderGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_async_yelp_gui/RestaurantFinderGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_yelp_gui/YelpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_async_yelp_gui/YelpResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/async_weather_gui/WeatherGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/async_weather_gui/WeatherGUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,6 +99,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
@@ -141,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RestaurantFinder">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -296,12 +296,12 @@
       </method>
     </configuration>
     <configuration name="RestaurantFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xtra_topic_api.api_yelp_gui.RestaurantFinder" />
+      <option name="MAIN_CLASS_NAME" value="xtra_topic_api.api_async_yelp_gui.RestaurantFinder" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="xtra_topic_api.api_yelp_gui.*" />
+          <option name="PATTERN" value="xtra_topic_api.api_async_yelp_gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -458,8 +458,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeatherProgram" />
         <item itemvalue="Application.RestaurantFinder" />
+        <item itemvalue="Application.WeatherProgram" />
         <item itemvalue="Application.KanyeQuotes" />
         <item itemvalue="Application.StringEndsWith" />
         <item itemvalue="Application.BoredData" />
@@ -520,14 +520,9 @@
       <workItem from="1549289604370" duration="3991000" />
       <workItem from="1568519350171" duration="13045000" />
       <workItem from="1568844927805" duration="13094000" />
-      <workItem from="1568994039959" duration="4580000" />
-    </task>
-    <task id="LOCAL-00002" summary="String formatting in table">
-      <created>1485380077716</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1485380077716</updated>
+      <workItem from="1568994039959" duration="4649000" />
+      <workItem from="1568998868347" duration="494000" />
+      <workItem from="1568999409308" duration="232000" />
     </task>
     <task id="LOCAL-00003" summary="Menu example">
       <created>1490841340661</created>
@@ -865,7 +860,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568994542702</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="yelp cleanup">
+      <created>1568998843972</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1568998843973</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -914,7 +916,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="More examples for deleting from list" />
     <MESSAGE value="Default button in currency converter" />
     <MESSAGE value="Couple of typos in comments" />
     <MESSAGE value="Sortable JTable. And fixing running GUI infinite loop when starting at 0." />
@@ -939,7 +940,8 @@
     <MESSAGE value="Unirest API examples" />
     <MESSAGE value="hacky weather gui with async fetch" />
     <MESSAGE value="cleanup weather gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleanup weather gui" />
+    <MESSAGE value="yelp cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="yelp cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
