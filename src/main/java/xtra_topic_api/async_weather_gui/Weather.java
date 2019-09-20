@@ -3,7 +3,7 @@ package xtra_topic_api.async_weather_gui;
 /**
  * Created by clara on 2019-09-19.
  */
-public class Forecast {
+public class Weather {
 
     Minutely minutely;
     
@@ -14,7 +14,6 @@ public class Forecast {
                 '}';
     }
 }
-
 
 class Minutely {
     String summary;

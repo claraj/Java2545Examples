@@ -7,7 +7,7 @@ import kong.unirest.Unirest;
 /**
  * Created by clara on 2019-09-19.
  */
-public class Forecaster {
+public class WeatherProgram {
     
     public static void main(String[] args) {
     

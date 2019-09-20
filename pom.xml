@@ -61,6 +61,13 @@
             <version>2.8.5</version>
         </dependency>
 
+        <!--  Scribe for authenticating to APIs with OAUTH      -->
+        <dependency>
+            <groupId>com.github.scribejava</groupId>
+            <artifactId>scribejava-apis</artifactId>
+            <version>6.8.1</version>
+        </dependency>
+
     </dependencies>
     
 </project>

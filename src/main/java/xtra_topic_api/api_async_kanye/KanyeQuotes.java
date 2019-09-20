@@ -41,7 +41,7 @@ public class KanyeQuotes {
                 
             Quote quote = response.getBody();
             System.out.println("Kanye says: " + quote.getQuote());
-            
+            Unirest.shutDown();
         });
         
         System.out.println("Request made, waiting for quote...");
