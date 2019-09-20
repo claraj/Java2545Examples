@@ -7,6 +7,9 @@ import java.awt.*;
 
 /**
  * Created by clara on 2019-09-19.
+ * Very basic GUI fetching current conditons
+ * TO DO - update to use a background task
+ *
  */
 public class WeatherGUI extends JFrame {
     private JButton getWeatherButton;
@@ -26,21 +29,17 @@ public class WeatherGUI extends JFrame {
         
         getWeatherButton.addActionListener(ev -> {
             double lat = 45;
-            double lng = -91.3;
+            double lng = -91.3;    // Location of Minneapolis
             
-            currentConditions.setText("Fetching...");
-            getWeatherButton.setEnabled(false);
-            
-            Unirest.get(DARK_SKY_URL)
+            Weather forecast = Unirest.get(DARK_SKY_URL)
                     .routeParam("api_key", DARK_SKY_KEY)
                     .routeParam("lat", Double.toString(lat))
                     .routeParam("lng", Double.toString(lng))
-                    .asObjectAsync(Weather.class, response -> {
-                        Weather forecast = response.getBody();
-                        currentConditions.setText(forecast.minutely.summary);
-                        getWeatherButton.setEnabled(true);
-                        Unirest.shutDown();
-                    });
+                    .asObject(Weather.class)
+                    .getBody();
+            
+            currentConditions.setText(forecast.minutely.summary);
+            
         });
     }
 }
