@@ -1,4 +1,4 @@
-package week5_files_exceptions;
+package week6_files_exceptions;
 
 import static input.InputUtils.stringInput;
 

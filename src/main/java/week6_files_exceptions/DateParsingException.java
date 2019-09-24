@@ -1,4 +1,4 @@
-package week5_files_exceptions;
+package week6_files_exceptions;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="yelp cleanup">
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="error dialogs for no results found">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_yelp_gui/RestaurantFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_async_yelp_gui/RestaurantFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_yelp_gui/RestaurantFinderGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_async_yelp_gui/RestaurantFinderGUI.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_yelp_gui/RestaurantFinderGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_async_yelp_gui/RestaurantFinderGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_yelp_gui/YelpResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_async_yelp_gui/YelpResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/async_weather_gui/WeatherGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/async_weather_gui/WeatherGUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -522,14 +517,8 @@
       <workItem from="1568844927805" duration="13094000" />
       <workItem from="1568994039959" duration="4649000" />
       <workItem from="1568998868347" duration="494000" />
-      <workItem from="1568999409308" duration="232000" />
-    </task>
-    <task id="LOCAL-00003" summary="Menu example">
-      <created>1490841340661</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1490841340661</updated>
+      <workItem from="1568999409308" duration="491000" />
+      <workItem from="1569157980303" duration="911000" />
     </task>
     <task id="LOCAL-00004" summary="Click on link to open web browser">
       <created>1494461002849</created>
@@ -867,7 +856,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568998843973</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="error dialogs for no results found">
+      <created>1568999886349</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1568999886352</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -916,7 +912,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Default button in currency converter" />
     <MESSAGE value="Couple of typos in comments" />
     <MESSAGE value="Sortable JTable. And fixing running GUI infinite loop when starting at 0." />
     <MESSAGE value="Background task with progress bar updates" />
@@ -941,7 +936,8 @@
     <MESSAGE value="hacky weather gui with async fetch" />
     <MESSAGE value="cleanup weather gui" />
     <MESSAGE value="yelp cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="yelp cleanup" />
+    <MESSAGE value="error dialogs for no results found" />
+    <option name="LAST_COMMIT_MESSAGE" value="error dialogs for no results found" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
