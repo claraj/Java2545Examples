@@ -29,6 +29,15 @@ public class RoadTrip {
                 System.out.println(city);
             }
         }
+        
+        
+        // Alternative version, looping over keys
+        for (String city: distanceFromMinneapolis.keySet()) {
+            int drivingDistance = distanceFromMinneapolis.get(city);
+            if (drivingDistance <= maxDrivingDistance) {
+                System.out.println(city);
+            }
+        }
     
     }
 }
