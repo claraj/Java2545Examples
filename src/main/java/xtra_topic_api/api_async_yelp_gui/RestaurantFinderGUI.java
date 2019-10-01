@@ -18,8 +18,9 @@ public class RestaurantFinderGUI extends JFrame {
     
     private DefaultListModel<String> listModel;
     
-    final static String YELP_URL = "https://api.yelp.com/v3/businesses/search";
-    final static String YELP_API_KEY = System.getenv("YELP_API_KEY");  // make sure this is set
+    final static private String YELP_URL = "https://api.yelp.com/v3/businesses/search";
+    
+    final static private String YELP_API_KEY = System.getenv("YELP_API_KEY");  // make sure this is set
     
     
     RestaurantFinderGUI() {
