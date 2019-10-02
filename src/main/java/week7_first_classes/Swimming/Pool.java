@@ -16,9 +16,9 @@ public class Pool {
 
     @Override
     public String toString(){
-        return name + " pool is " +
-                length + " meters.";
+        return name + " pool is " + length + " meters long.";
     }
 }
+
 
 

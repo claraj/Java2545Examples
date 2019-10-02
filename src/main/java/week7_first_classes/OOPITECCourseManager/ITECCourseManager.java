@@ -5,7 +5,7 @@ package week7_first_classes.OOPITECCourseManager;
  */
 public class ITECCourseManager {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         ITECCourse maintenanceCourse = new ITECCourse();
         maintenanceCourse.name = "Microcomputer Systems Maintenance";
         maintenanceCourse.code = 1310;
@@ -32,6 +32,6 @@ public class ITECCourseManager {
         datacomCourse.writeCourseInfo();
 
     }
-
 }
+
 

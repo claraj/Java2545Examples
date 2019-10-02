@@ -1,23 +1,23 @@
 package week7_first_classes.OOPITECCourseManager;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Stores data about an ITEC course.
- *
  */
-public class ITECCourse {
 
+public class ITECCourse {
+    
     //Data that an ITECCourse object needs to store
     String name;
     int code;
-    ArrayList<String> students;
+    List<String> students;
     int maxStudents;
-
 
     void addStudent(String studentName) {
         if (students == null) {    //See if students has been set up yet – initialize it if not
-            students = new ArrayList<String>();
+            students = new ArrayList<>();
         }
         students.add(studentName);
     }
@@ -36,7 +36,6 @@ public class ITECCourse {
     int getNumberOfStudents() {
         return this.students.size();
     }
-
 }
 
 

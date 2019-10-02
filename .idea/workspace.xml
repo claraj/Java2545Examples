@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Hashmap entry set examples">
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Hashmap Speed test">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_map_data_structure/HashMapSpeedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_map_data_structure/HashMapSpeedTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week5_map_data_structure/RoadTrip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week5_map_data_structure/RoadTrip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPCourseManager_Access_Modifers_Getters_and_Setters/ITECCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager/ITECCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager/ITECCourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager/ITECCourseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_AccessModifiers/ITECCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/Swimming/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/Swimming/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/Swimming/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/Swimming/Pool.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +70,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/week8_first_gui/movie_sliders_and_checkboxes/MovieGUI.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager/ITECCourse.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -524,14 +538,7 @@
       <workItem from="1568998868347" duration="494000" />
       <workItem from="1568999409308" duration="491000" />
       <workItem from="1569157980303" duration="911000" />
-      <workItem from="1569342952849" duration="8910000" />
-    </task>
-    <task id="LOCAL-00008" summary="Replace scanners with InputUtils library - week 2 so far...">
-      <created>1502384607103</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1502384607103</updated>
+      <workItem from="1569342952849" duration="10817000" />
     </task>
     <task id="LOCAL-00009" summary="Replace scanners with InputUtils library - week 4 so far...">
       <created>1502384924311</created>
@@ -869,7 +876,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569949274796</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Hashmap Speed test">
+      <created>1569950615006</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1569950615006</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -918,7 +932,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Hello SQLite example" />
     <MESSAGE value="More sqlite db examples, primary keys" />
     <MESSAGE value="SQLite and swing JList DB example" />
     <MESSAGE value="JTable examples" />
@@ -943,7 +956,8 @@
     <MESSAGE value="extensions to todo list slide question" />
     <MESSAGE value="List.of" />
     <MESSAGE value="Hashmap entry set examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hashmap entry set examples" />
+    <MESSAGE value="Hashmap Speed test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hashmap Speed test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

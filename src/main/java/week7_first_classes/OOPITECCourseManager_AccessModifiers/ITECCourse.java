@@ -1,6 +1,7 @@
 package week7_first_classes.OOPITECCourseManager_AccessModifiers;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Stores data about an ITEC course.
@@ -12,14 +13,14 @@ public class ITECCourse {
     //Variables should be private
     private String name;
     private int code;
-    private ArrayList<String> students;
+    private List<String> students;
     private int maxStudents;
 
     //Constructor - public
     public ITECCourse(String courseName, int courseCode, int courseMaxStudents) {
         this.name = courseName;
         this.code = courseCode;
-        this.students = new ArrayList<String>();  //Set up the students list
+        this.students = new ArrayList<>();  //Set up the students list
         this.maxStudents = courseMaxStudents;
     }
 
@@ -36,8 +37,6 @@ public class ITECCourse {
             students.add(studentName);
         }
     }
-
-    //Rest of code follows, check in GitHub....
 
 
     public void removeStudent(String studentName) {

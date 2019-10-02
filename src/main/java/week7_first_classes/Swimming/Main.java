@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println(ymca);
 
-        // TODO print Edina pool
+        // TODO print Edina pool info
     }
 
 }

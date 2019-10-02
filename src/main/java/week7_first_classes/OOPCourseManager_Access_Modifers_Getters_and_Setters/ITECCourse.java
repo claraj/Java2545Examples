@@ -1,6 +1,7 @@
 package week7_first_classes.OOPCourseManager_Access_Modifers_Getters_and_Setters;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Stores data about an ITEC course.
@@ -13,7 +14,7 @@ public class ITECCourse {
     private String name;
     private int code;
     private int maxStudents;
-    private ArrayList<String> students;
+    private List<String> students;
 
     // Get and set methods for private variables
     // Only provide if other classes will need to modify these variables!
@@ -49,7 +50,7 @@ public class ITECCourse {
     public ITECCourse(String courseName, int courseCode, int courseMaxStudents) {
         this.name = courseName;
         this.code = courseCode;
-        this.students = new ArrayList<String>();  //Set up the students list
+        this.students = new ArrayList<>();  //Set up the students list
         this.maxStudents = courseMaxStudents;
     }
 

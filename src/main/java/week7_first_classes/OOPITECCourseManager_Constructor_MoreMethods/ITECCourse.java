@@ -1,24 +1,25 @@
 package week7_first_classes.OOPITECCourseManager_Constructor_MoreMethods;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Stores data about an ITEC course.
- *
  */
+
 public class ITECCourse {
 
     //Data that an ITECCourse object needs to store
     String name;
     int code;
-    ArrayList<String> students;
+    List<String> students;
     int maxStudents;
 
     //Constructor
     ITECCourse(String courseName, int courseCode, int courseMaxStudents) {
         this.name = courseName;
         this.code = courseCode;
-        this.students = new ArrayList<String>();  //Set up the students list
+        this.students = new ArrayList<>();  //Set up the students list
         this.maxStudents = courseMaxStudents;
     }
 
@@ -30,16 +31,13 @@ public class ITECCourse {
     void removeStudent(String studentName) {
         if (students.contains(studentName)) {
             students.remove(studentName);
-            System.out.println(studentName + " was un-enrolled from " + this.name);
+            System.out.println(studentName + " was un-enrolled from " + name);
         } else {
-            System.out.println(studentName + " was not found in " + this.name);
+            System.out.println(studentName + " was not found in " + name);
         }
     }
-
-
-    //Rest of ITECCourse follows...
-
-
+    
+    
     void writeCourseInfo() {
         System.out.println("Course Name: " + name);
         System.out.println("Course Code: " + code);
