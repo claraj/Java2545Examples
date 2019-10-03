@@ -1,10 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Regular list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/tires/Tire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/tires/TireComparison.java" afterDir="false" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="tires oop">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/tires_sorting/Tire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/tires_sorting/TireComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4265de56-7da4-4150-9e23-56042651096a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4265de56-7da4-4150-9e23-56042651096a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f302cbbb-556e-4d5c-ac6a-5aee5f09e089.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f302cbbb-556e-4d5c-ac6a-5aee5f09e089.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_intro_to_jdbc_sqlite/hellodb/HelloDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week9_intro_to_jdbc_sqlite/hellodb/HelloDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_intro_to_jdbc_sqlite/primary_keys/Desktops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week9_intro_to_jdbc_sqlite/primary_keys/Desktops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_intro_to_jdbc_sqlite/primary_keys/Laptops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week9_intro_to_jdbc_sqlite/primary_keys/Laptops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_intro_to_jdbc_sqlite/soccer/SoccerScores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_intro_to_jdbc_sqlite/vet/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week9_intro_to_jdbc_sqlite/vet/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/tires/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/tires/Tire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/tires/TireComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/tires/TireComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/LP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album/LP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/LP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/LP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/LP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/LP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/RecordStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album_Constructors_Match/CD_and_LP_and_Album_Constructors/RecordStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_no_inheritance/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_no_inheritance/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_no_inheritance/LP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_no_inheritance/LP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_no_inheritance/RecordStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_no_inheritance/RecordStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/Static_Variables_Assignment/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/Static_Variables_Assignment/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/creditcard/CCValidator.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/creditcard/CCValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/creditcard/CCValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/creditcard/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/creditcard/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/dog/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/DogGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/dog/DogGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/DogGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/dog/DogGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/dog/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/dog/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/BestTimesTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/lake_run_gui/BestTimesTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/FileIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/lake_run_gui/FileIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/Lake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/lake_run_gui/Lake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/lake_run_gui/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/lake_run_gui/RunningGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/movie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/movie/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/movie/MovieRatingGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/movie/MovieRatingGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/movie/MovieRatingGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/race/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/race/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/race/RaceGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/race/RaceGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/race/RaceGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/race/RaceGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/startingsalary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/startingsalary/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/startingsalary/SalaryGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo/ToDoList.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo/ToDoList.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo/ToDoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo_delete_button/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo_delete_button/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo_delete_button/ToDoList.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo_delete_button/ToDoList.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo_delete_button/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo_delete_button/ToDoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo_right_click_delete/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo_right_click_delete/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo_right_click_delete/ToDoList.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo_right_click_delete/ToDoList.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_and_more_gui_jlist_combobox/todo_right_click_delete/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo_right_click_delete/ToDoList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/DataEntry.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/card_layout_switch_views/DataEntry.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/DataEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/card_layout_switch_views/DataEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/card_layout_switch_views/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/card_layout_switch_views/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/custom_dialog/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/custom_dialog/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/custom_dialog/ShowDialogForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/custom_dialog/ShowDialogForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/custom_dialog/ShowDialogForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/custom_dialog/ShowDialogForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/date_spinner/DatesHere.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/date_spinner/DatesHere.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/date_spinner/DatesHere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/date_spinner/DatesHere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/date_spinner/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/date_spinner/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/ImageGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/display_image_from_file/ImageGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/ImageGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/display_image_from_file/ImageGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_file/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/display_image_from_file/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/ImageGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/display_image_from_web/ImageGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/ImageGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/display_image_from_web/ImageGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/display_image_from_web/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/display_image_from_web/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/file_chooser/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/file_chooser/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/file_chooser/SelectAFileGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/file_chooser/SelectAFileGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/file_chooser/SelectAFileGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/file_chooser/SelectAFileGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_abstract/HelloTableGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/hello_jtable/hello_jtable_abstract/HelloTableGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_abstract/HelloTableGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/hello_jtable/hello_jtable_abstract/HelloTableGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_abstract/HelloTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/hello_jtable/hello_jtable_abstract/HelloTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_abstract/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/hello_jtable/hello_jtable_abstract/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_default/HelloTableGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/hello_jtable/hello_jtable_default/HelloTableGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_default/HelloTableGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/hello_jtable/hello_jtable_default/HelloTableGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_default/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/hello_jtable/hello_jtable_default/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_abstract/HashMapTableModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/ide_jtable/ide_jtable_abstract/HashMapTableModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_abstract/IdeTableGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/ide_jtable/ide_jtable_abstract/IdeTableGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_abstract/IdeTableGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/ide_jtable/ide_jtable_abstract/IdeTableGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_abstract/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/ide_jtable/ide_jtable_default/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_default/IdeTableGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/ide_jtable/ide_jtable_default/IdeTableGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_default/IdeTableGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/ide_jtable/ide_jtable_default/IdeTableGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/ide_jtable_default/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/ide_jtable/ide_jtable_abstract/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/image_in_jtable/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/image_in_jtable/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/image_in_jtable/AnimalImageDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/image_in_jtable/AnimalImageDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/image_in_jtable/AnimalTableGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/image_in_jtable/AnimalTableGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/image_in_jtable/AnimalTableGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/image_in_jtable/AnimalTableGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/image_in_jtable/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/image_in_jtable/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/menus/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/MenuGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/menus/MenuGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/menus/MenuGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/menus/MenuGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/open_web_browser_from_gui/LinksGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/open_web_browser_from_gui/LinksGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/progress_bar/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/progress_bar/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/progress_bar/PeriodicUpdates.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/progress_bar/PeriodicUpdates.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/progress_bar/PeriodicUpdates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/progress_bar/PeriodicUpdates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/progress_bar/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/progress_bar/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/scroll_panes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/scroll_panes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/scroll_panes/ScrollingTextGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/scroll_panes/ScrollingTextGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/scroll_panes/ScrollingTextGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/scroll_panes/ScrollingTextGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/tabbed_j_frame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/MainForm.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/tabbed_j_frame/MainForm.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/MainForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/tabbed_j_frame/MainForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab1.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/tabbed_j_frame/Tab1.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/tabbed_j_frame/Tab1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab2.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/tabbed_j_frame/Tab2.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/tabbed_j_frame/Tab2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/tabbed_j_frame/Tab2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/table_row_click_listener/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener/TreeGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/table_row_click_listener/TreeGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener/TreeGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/table_row_click_listener/TreeGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_tooltips/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/table_tooltips/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_tooltips/TreeGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/table_tooltips/TreeGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_tooltips/TreeGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/table_tooltips/TreeGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/AskUserForInputGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/two_windows/AskUserForInputGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/AskUserForInputGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/two_windows/AskUserForInputGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/two_windows/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/MainWindowGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/two_windows/MainWindowGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/two_windows/MainWindowGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_extra_gui_examples/two_windows/MainWindowGUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +187,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/week8_first_gui/movie_sliders_and_checkboxes/MovieGUI.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGameGlobalVariable.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager/ITECCourse.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/x_not_used_week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" root0="SKIP_HIGHLIGHTING" />
@@ -92,7 +218,7 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;DDL Data Source" />
     <property name="dynamic.classpath" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/week7_first_classes/tires_with_comparison" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -115,11 +241,11 @@
       <recent name="week6_files_exceptions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/week7_first_classes/tires_with_comparison" />
       <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener" />
       <recent name="$PROJECT_DIR$/src/main/java/week11_database_and_gui/pizza_stats" />
       <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/hello_jtable/hello_jtable_default" />
       <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_default" />
-      <recent name="$PROJECT_DIR$/src/main/java/week11_database_and_gui/ide_jtable" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="week7_first_classes.tires" />
@@ -528,14 +654,8 @@
       <workItem from="1568998868347" duration="494000" />
       <workItem from="1568999409308" duration="491000" />
       <workItem from="1569157980303" duration="911000" />
-      <workItem from="1569342952849" duration="11702000" />
-    </task>
-    <task id="LOCAL-00010" summary="Replace scanners with InputUtils library">
-      <created>1502385212165</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1502385212165</updated>
+      <workItem from="1569342952849" duration="13157000" />
+      <workItem from="1570052357108" duration="802000" />
     </task>
     <task id="LOCAL-00011" summary="Replace scanners with InputUtils library">
       <created>1502387576139</created>
@@ -873,7 +993,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569984010356</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="tires oop">
+      <created>1569984990838</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1569984990839</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -922,7 +1049,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="SQLite and swing JList DB example" />
     <MESSAGE value="JTable examples" />
     <MESSAGE value="JTable examples - move to more appropriate package" />
     <MESSAGE value="JTable example with sqlite DB" />
@@ -947,7 +1073,8 @@
     <MESSAGE value="Hashmap entry set examples" />
     <MESSAGE value="Hashmap Speed test" />
     <MESSAGE value="Regular list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regular list" />
+    <MESSAGE value="tires oop" />
+    <option name="LAST_COMMIT_MESSAGE" value="tires oop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

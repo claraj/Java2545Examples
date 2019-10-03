@@ -22,7 +22,6 @@ public class TireComparison {
             tireReports.add(tire);
         } while (yesNoInput("More tires to add to comparison?"));
         
-        Collections.sort(tireReports);
         printReportTable(tireReports);
         
     }

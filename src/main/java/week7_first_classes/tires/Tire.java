@@ -3,7 +3,8 @@ package week7_first_classes.tires;
 /**
  * Created by clara on 2019-10-01.
  */
-public class Tire implements Comparable<Tire> {
+
+public class Tire {
     
     private String name;
     private double price;
@@ -21,7 +22,6 @@ public class Tire implements Comparable<Tire> {
         return ( price / (double) warrantyMiles ) * 1000;
     }
     
-    
     public double costForSet() {
         /* Returns how much 4 tires cost */
         return price * 4;
@@ -32,18 +32,5 @@ public class Tire implements Comparable<Tire> {
         return String.format("%s costs %.2f and has a warranty of %d miles. Cost per 1000 miles is $%.2f",
                 name, price, warrantyMiles, pricePer1000Miles());
     }
-    
-    
-    @Override
-    public int compareTo(Tire otherTire) {
-        return Double.compare(pricePer1000Miles(), otherTire.pricePer1000Miles());
-        
-        /*
-        // The line above effectively does this
-        if (pricePer1000Miles() > otherTire.pricePer1000Miles()) { return 1; }
-        else if (pricePer1000Miles() < otherTire.pricePer1000Miles()) { return -1; }
-        else { return 0; }
-        */
-    
-    }
 }
+

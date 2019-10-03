@@ -80,10 +80,8 @@ public class Game {
             int knockOutNumber;
 
             do {
-
                 knockOutNumber = intInput("Player " + p.getName() + ", " +
                         "please enter your knock-out number. It must be 6, 7, 8, or 9");
-
             } while ( knockOutNumber < 6 || knockOutNumber > 9 );     // Validation
 
             p.setKnockOutNumber(knockOutNumber);    // Set this player's knockout number

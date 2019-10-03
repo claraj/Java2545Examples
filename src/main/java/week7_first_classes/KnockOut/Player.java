@@ -52,8 +52,5 @@ public class Player {
     public boolean isKnockedOut() {
         return knockedOut;
     }
-
-
-
-
+    
 }
