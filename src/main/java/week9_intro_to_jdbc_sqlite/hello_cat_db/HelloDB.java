@@ -1,4 +1,4 @@
-package week9_intro_to_jdbc_sqlite.hellodb;
+package week9_intro_to_jdbc_sqlite.hello_cat_db;
 
 import java.sql.*;
 
@@ -7,7 +7,7 @@ public class HelloDB {
     
     public static void main(String[] args) throws SQLException {
         
-        String url =  "jdbc:sqlite:databases/hello.sqlite";     // Where's the database?
+        String url =  "jdbc:sqlite:databases/hello_cats.sqlite";     // Where's the database?
         
         Connection connection = DriverManager.getConnection(url);   // Connect
         
