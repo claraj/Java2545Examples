@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="JComboBox example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/VehicleGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/VehicleGUI.java" afterDir="false" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Vehicle JList setup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/race/RaceGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/race/RaceGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/VehicleGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/VehicleGUI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/VehicleGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/VehicleGUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,6 +98,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor/ITECCourse.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week3_methods/GuessingGame.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_Constructor_MoreMethods/ITECCourse.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/VehicleGUI.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/week7_first_classes/OOPITECCourseManager_CheckMaxStudents/ITECCourseManager.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IgnoredFileRootStore">
@@ -120,10 +119,10 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="table,&#9;PSI&#9;JAVA://week9_and_more_gui_jlist_combobox.lake_run_gui.RunningGUI#tableBestTimes&#10;tablemodel&#9;PSI&#9;JAVA://week9_and_more_gui_jlist_combobox.lake_run_gui.BestTimesTableModel&#10;Scanner&#9;PSI&#9;JAVA://week7_inheritance_abstract.CD_and_LP_and_Album_Constructors.RecordStore#stringScanner&#10;scanner&#9;PSI&#9;JAVA://week7_inheritance_abstract.CD_and_LP_and_Album.RecordStore#stringScanner" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="187" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="289" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="151" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;DDL Data Source" />
@@ -619,14 +618,7 @@
       <workItem from="1569157980303" duration="911000" />
       <workItem from="1569342952849" duration="13157000" />
       <workItem from="1570052357108" duration="15709000" />
-      <workItem from="1571243995348" duration="6727000" />
-    </task>
-    <task id="LOCAL-00016" summary="More exception handling examples">
-      <created>1504285672190</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1504285672196</updated>
+      <workItem from="1571243995348" duration="8923000" />
     </task>
     <task id="LOCAL-00017" summary="GUI Examples">
       <created>1505580452338</created>
@@ -964,7 +956,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571250039194</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Vehicle JList setup">
+      <created>1571678091343</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1571678091343</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1013,7 +1012,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Clean up extra variables" />
     <MESSAGE value="Tidy elevation GUI" />
     <MESSAGE value="JTable tool tip and list selection listener examples" />
     <MESSAGE value="Looked up how tall example trees are instead of wildly guessing" />
@@ -1038,7 +1036,8 @@
     <MESSAGE value="movie database examples" />
     <MESSAGE value="regex example" />
     <MESSAGE value="JComboBox example" />
-    <option name="LAST_COMMIT_MESSAGE" value="JComboBox example" />
+    <MESSAGE value="Vehicle JList setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vehicle JList setup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

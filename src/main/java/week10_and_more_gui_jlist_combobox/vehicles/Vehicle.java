@@ -50,5 +50,12 @@ public class Vehicle {
     public void setElectric(boolean electric) {
         this.electric = electric;
     }
+    
+    public String toString() {
+        String electricString = electric ? "Electric" : "Gasoline";
+        // Example String:  "Zeus: Tesla Model 3. Electric" or "Diana: Toyota Tacoma. Gasoline"
+        return String.format("%s: %s %s. %s", name, make, model, electricString);
+    }
 }
+
 
