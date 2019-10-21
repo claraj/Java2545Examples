@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="regex example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/t_shirt/TShirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/t_shirt/TShirtGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/t_shirt/TShirtGUI.java" afterDir="false" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="JComboBox example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/VehicleGUI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/vehicles/VehicleGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/race/RaceGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/race/RaceGUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,10 +120,10 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="table,&#9;PSI&#9;JAVA://week9_and_more_gui_jlist_combobox.lake_run_gui.RunningGUI#tableBestTimes&#10;tablemodel&#9;PSI&#9;JAVA://week9_and_more_gui_jlist_combobox.lake_run_gui.BestTimesTableModel&#10;Scanner&#9;PSI&#9;JAVA://week7_inheritance_abstract.CD_and_LP_and_Album_Constructors.RecordStore#stringScanner&#10;scanner&#9;PSI&#9;JAVA://week7_inheritance_abstract.CD_and_LP_and_Album.RecordStore#stringScanner" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="187" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="292" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="289" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;DDL Data Source" />
@@ -180,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -306,13 +308,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week9_intro_to_jdbc_sqlite.movie_database_constraints.MovieList" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10_and_more_gui_jlist_combobox.vehicles.Main" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week9_intro_to_jdbc_sqlite.movie_database_constraints.*" />
+          <option name="PATTERN" value="week10_and_more_gui_jlist_combobox.vehicles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,13 +322,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieList (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week9_intro_to_jdbc_sqlite.movie_database_primary_key.MovieList" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10_and_more_gui_jlist_combobox.race.Main" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week9_intro_to_jdbc_sqlite.movie_database_primary_key.*" />
+          <option name="PATTERN" value="week10_and_more_gui_jlist_combobox.race.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -490,18 +492,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MovieList" />
-      <item itemvalue="Application.MovieList (1)" />
-      <item itemvalue="Application.MovieList (2)" />
       <item itemvalue="Application.RegularExpressions" />
       <item itemvalue="Application.TShirt" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TShirt" />
         <item itemvalue="Application.RegularExpressions" />
         <item itemvalue="Application.MovieList" />
-        <item itemvalue="Application.MovieList (2)" />
-        <item itemvalue="Application.MovieList (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -617,14 +619,7 @@
       <workItem from="1569157980303" duration="911000" />
       <workItem from="1569342952849" duration="13157000" />
       <workItem from="1570052357108" duration="15709000" />
-      <workItem from="1571243995348" duration="4261000" />
-    </task>
-    <task id="LOCAL-00015" summary="Static vs instance example">
-      <created>1504226176963</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1504226176963</updated>
+      <workItem from="1571243995348" duration="6727000" />
     </task>
     <task id="LOCAL-00016" summary="More exception handling examples">
       <created>1504285672190</created>
@@ -962,7 +957,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570637610518</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="JComboBox example">
+      <created>1571250039193</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1571250039194</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1011,7 +1013,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix columns" />
     <MESSAGE value="Clean up extra variables" />
     <MESSAGE value="Tidy elevation GUI" />
     <MESSAGE value="JTable tool tip and list selection listener examples" />
@@ -1036,7 +1037,8 @@
     <MESSAGE value="renumber packages" />
     <MESSAGE value="movie database examples" />
     <MESSAGE value="regex example" />
-    <option name="LAST_COMMIT_MESSAGE" value="regex example" />
+    <MESSAGE value="JComboBox example" />
+    <option name="LAST_COMMIT_MESSAGE" value="JComboBox example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

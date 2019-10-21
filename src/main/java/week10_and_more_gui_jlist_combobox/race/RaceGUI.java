@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -67,9 +68,7 @@ public class RaceGUI extends JFrame {
             else if (percentIncrease < 1 || percentIncrease > 100) {
                 errorMessage = "Please enter a positive percent value, between 1 and 100";
             }
-        
-        
-        
+            
         } catch (NumberFormatException nfe) {
             errorMessage = "Please enter numerical values for all three inputs";
         }
@@ -79,17 +78,17 @@ public class RaceGUI extends JFrame {
             JOptionPane.showMessageDialog(RaceGUI.this, errorMessage);
         }
     
-        //Otherwise, data was validated successfully. Calculate the schedule and display.
+        // Otherwise, data was validated successfully. Calculate the schedule and display.
     
         else {
         
-            //Clear any data in the JList's model, which will also clear the GUI
+            // Clear any data in the JList's model, which will also clear the JList in the GUI
             distanceListModel.clear();
         
-            //Calculate the schedule, based on the data entered
-            ArrayList<String> schedule = raceSchedule(startDistance, targetDistance, percentIncrease);
+            // Calculate the schedule, based on the data entered
+            List<String> schedule = raceSchedule(startDistance, targetDistance, percentIncrease);
         
-            //And add to the list model
+            // And add to the list model
             for (String s : schedule) {
                 distanceListModel.addElement(s);
             }
@@ -98,9 +97,9 @@ public class RaceGUI extends JFrame {
     }
     
 
-    private ArrayList<String> raceSchedule(double startDistance, double targetDistance, double percentIncrease) {
+    private List<String> raceSchedule(double startDistance, double targetDistance, double percentIncrease) {
 
-        ArrayList<String> results = new ArrayList<String>();
+        List<String> results = new ArrayList<String>();
 
         double increase = 1 + (percentIncrease / 100);
 
