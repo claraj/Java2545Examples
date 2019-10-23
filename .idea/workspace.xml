@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Pool v2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/DateObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/JavaBuiltInObjectsYouKnow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="objects you know" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -618,14 +614,7 @@
       <workItem from="1569342952849" duration="13157000" />
       <workItem from="1570052357108" duration="15709000" />
       <workItem from="1571243995348" duration="10834000" />
-      <workItem from="1571763349891" duration="1565000" />
-    </task>
-    <task id="LOCAL-00019" summary="Comments">
-      <created>1506954021624</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1506954021624</updated>
+      <workItem from="1571763349891" duration="1690000" />
     </task>
     <task id="LOCAL-00020" summary="Comments">
       <created>1506955576310</created>
@@ -963,7 +952,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571774672046</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="objects you know">
+      <created>1571845631439</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1571845631439</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1012,7 +1008,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Looked up how tall example trees are instead of wildly guessing" />
     <MESSAGE value="Number of classes example from week 1" />
     <MESSAGE value="tidying" />
     <MESSAGE value="exception handling vs. checks" />
@@ -1037,7 +1032,8 @@
     <MESSAGE value="Vehicle JList setup" />
     <MESSAGE value="Vehicle JList example" />
     <MESSAGE value="Pool v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pool v2" />
+    <MESSAGE value="objects you know" />
+    <option name="LAST_COMMIT_MESSAGE" value="objects you know" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
