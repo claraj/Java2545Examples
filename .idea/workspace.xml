@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Object with Date class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_query_currency_gui/CurrencyGUI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_query_currency_gui/CurrencyGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_query_currency_gui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_query_currency_gui/ExchangeRate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/CurrencyConverter.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/CurrencyConverter.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_query_currency/ExchangeRate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_query_currency/ExchangeRate.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -624,14 +621,7 @@
       <workItem from="1571763349891" duration="1690000" />
       <workItem from="1571846456026" duration="538000" />
       <workItem from="1571951586163" duration="618000" />
-      <workItem from="1572364942005" duration="1701000" />
-    </task>
-    <task id="LOCAL-00021" summary="Knockout dice game rules">
-      <created>1507048867737</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1507048867737</updated>
+      <workItem from="1572364942005" duration="4373000" />
     </task>
     <task id="LOCAL-00022" summary="Clean up race schedule">
       <created>1507576573097</created>
@@ -969,7 +959,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571846645285</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Currency GUI with API">
+      <created>1572368188587</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1572368188596</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1018,7 +1015,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="tidying" />
     <MESSAGE value="exception handling vs. checks" />
     <MESSAGE value="Integer.valueOf()" />
     <MESSAGE value="date, integer parsing exception handling" />
@@ -1043,7 +1039,8 @@
     <MESSAGE value="Pool v2" />
     <MESSAGE value="objects you know" />
     <MESSAGE value="Object with Date class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object with Date class" />
+    <MESSAGE value="Currency GUI with API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Currency GUI with API" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
