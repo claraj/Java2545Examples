@@ -8,7 +8,6 @@ import java.util.ArrayList;
  */
 public class PlaceDB {
     
-    
     private static final String DB_CONNECTION_URL = "jdbc:sqlite:databases/places.sqlite";     //Connection string – where's the database?
     
     private static final String TABLE_NAME = "places";
@@ -16,6 +15,10 @@ public class PlaceDB {
     private static final String ELEV_COL = "elev";
     
     static final String OK = "Ok";
+    static final String DUPLICATE = "Duplicate place name";
+    
+    final int SQLITE_CONSTRAINT_PRIMARY_KEY_CODE = 19;
+    
     
     PlaceDB() {
         createTable();
@@ -32,8 +35,7 @@ public class PlaceDB {
             // and that's for queries, updates etc. , not creating tables.
             // You shouldn't make database schemas from user input anyway.
             
-            String createTableSQLTemplate = "CREATE TABLE IF NOT EXISTS %s (%s TEXT PRIMARY KEY, %s DOUBLE)";
-            String createTableSQL = String.format(createTableSQLTemplate, TABLE_NAME, NAME_COL, ELEV_COL);
+            String createTableSQL = "CREATE TABLE IF NOT EXISTS places (name TEXT PRIMARY KEY, elev DOUBLE)";
             
             statement.executeUpdate(createTableSQL);
             
@@ -44,12 +46,12 @@ public class PlaceDB {
     
     ArrayList<Place> fetchAllRecords() {
         
-        ArrayList<Place> allRecords = new ArrayList<Place>();
+        ArrayList<Place> allRecords = new ArrayList<>();
         
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
              Statement statement = conn.createStatement()) {
             
-            String selectAllSQL = "SELECT * FROM " + TABLE_NAME;
+            String selectAllSQL = "SELECT * FROM places";
             ResultSet rsAll = statement.executeQuery(selectAllSQL);
             
             while (rsAll.next()) {
@@ -71,8 +73,7 @@ public class PlaceDB {
     
     String addRecord(Place place)  {
         
-        String addPlaceSQL = "INSERT INTO " + TABLE_NAME + " VALUES ( ? , ? ) " ;
-        final int SQLITE_CONSTRAINT_PRIMARYKEY = 19;
+        String addPlaceSQL = "INSERT INTO places VALUES ( ? , ? )" ;
         
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
              PreparedStatement addPlacePs = conn.prepareStatement(addPlaceSQL)) {
@@ -85,12 +86,11 @@ public class PlaceDB {
             return OK;
             
         } catch (SQLException sqle) {
-            
-            if (sqle.getErrorCode() == SQLITE_CONSTRAINT_PRIMARYKEY){
-                return "Duplicate place name.";
-                
+            if (sqle.getErrorCode() == SQLITE_CONSTRAINT_PRIMARY_KEY_CODE){
+                return DUPLICATE;
             } else {
                 throw new RuntimeException(sqle);
+                // Different error - crash program so programmer can fix
             }
         }
         
@@ -99,7 +99,7 @@ public class PlaceDB {
     
     void delete(Place place) {
 
-        String deleteSQL = "DELETE FROM " + TABLE_NAME + " WHERE " + NAME_COL+ " = ?";
+        String deleteSQL = "DELETE FROM places WHERE name = ?";
 
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
              PreparedStatement deletePreparedStatement = conn.prepareStatement(deleteSQL)) {

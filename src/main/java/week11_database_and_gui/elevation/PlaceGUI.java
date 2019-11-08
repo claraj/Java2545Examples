@@ -23,22 +23,22 @@ public class PlaceGUI extends JFrame {
     private DefaultListModel<Place> allPlacesListModel;
     
     PlaceGUI(Controller controller) {
-        this.controller = controller;  //Store a reference to the controller object.
-        // Need this to make requests to the database.
+    
+        //Store a reference to the controller object.
+        // Need this to make requests to the controller, which will forward requests to the database.
+        this.controller = controller;
         
         //Configure the list model
-        allPlacesListModel = new DefaultListModel<Place>();
+        allPlacesListModel = new DefaultListModel<>();
         placeList.setModel(allPlacesListModel);
         
-        //and listeners
-        addListeners();
+        addListeners();   // Configure listeners in separate method
         
-        //Regular setup stuff for the window / JFrame
+        // Regular setup tasks for the window / JFrame
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setContentPane(mainPanel);
         pack();
         setVisible(true);
-        
     }
     
     
@@ -52,7 +52,7 @@ public class PlaceGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 
-                //Read data, send message to database via controller
+                // Read data, send message to database via controller
                 String place = placeNameText.getText();
                 
                 if (place.isEmpty()) {
@@ -87,8 +87,7 @@ public class PlaceGUI extends JFrame {
                 }
             }
         });
-    
-    
+        
         
         deleteButton.addActionListener(new ActionListener() {
             @Override
@@ -104,15 +103,12 @@ public class PlaceGUI extends JFrame {
                 }
             }
         });
-    
-    
     }
     
     
     void setListData(ArrayList<Place> data) {
-        
-        //Display data in allPlacesListModel
-        
+        // Convenience method to update list.
+        // Clear list model, and display all place data in JList
         allPlacesListModel.clear();
         
         if (data != null) {
@@ -121,7 +117,6 @@ public class PlaceGUI extends JFrame {
             }
         }
     }
-    
 }
 
 

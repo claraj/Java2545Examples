@@ -5,6 +5,7 @@ import java.util.ArrayList;
 /**
  * Created by clara on 4/16/18.
  */
+
 public class Controller {
     
     private PlaceGUI gui;
