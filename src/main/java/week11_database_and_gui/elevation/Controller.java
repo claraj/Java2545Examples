@@ -1,6 +1,6 @@
 package week11_database_and_gui.elevation;
 
-import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by clara on 4/16/18.
@@ -18,16 +18,16 @@ public class Controller {
     private void startApp() {
         db = new PlaceDB();
         
-        ArrayList<Place> allData = db.fetchAllRecords();
+        List<Place> allData = db.fetchAllRecords();
         
         gui = new PlaceGUI(this);
         gui.setListData(allData);
     }
     
-    ArrayList<Place> getAllData() {
+    List<Place> getAllData() {
         return db.fetchAllRecords();
     }
-
+    
     String addPlaceToDatabase(Place place) {
         return db.addRecord(place);
     }
@@ -36,6 +36,7 @@ public class Controller {
         db.delete(place);
     }
 }
+
 
 
 
