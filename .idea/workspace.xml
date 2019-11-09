@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="Object with Date class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_query_currency_gui/ExchangeRate.java" afterDir="false" />
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="currency converter - missing files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/CurrencyConverter.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/currency_converter_simple/CurrencyConverter.form" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +71,10 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="places" type="feb32156:DbDataSourceImpl" />
+      </path>
     </expand>
     <select />
   </component>
@@ -139,12 +141,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener" />
-      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_default" />
-      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_abstract" />
-      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable" />
-      <recent name="$PROJECT_DIR$/src/main/java/week10_intro_to_jdbc_sqlite" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="xtra_topic_api.api_oauth_yelp_gui" />
+      <recent name="xtra_topic_api.async_gui" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="week6_files_exceptions" />
@@ -157,15 +156,18 @@
       <recent name="$PROJECT_DIR$/src/main/java/week7_first_classes/tires_with_comparison" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="week11_database_and_gui.bird_abstract_table" />
       <recent name="week9_intro_to_jdbc_sqlite.movie_database" />
       <recent name="week7_first_classes.tires" />
       <recent name="week5_map_data_structure" />
       <recent name="week4_list_data_structure" />
-      <recent name="xtra_topic_api.api_1_basic" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="xtra_topic_api.api_oauth_yelp_gui" />
-      <recent name="xtra_topic_api.async_gui" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/table_row_click_listener" />
+      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_default" />
+      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable/hello_jtable_abstract" />
+      <recent name="$PROJECT_DIR$/src/main/java/week9_extra_gui_examples/ide_jtable" />
+      <recent name="$PROJECT_DIR$/src/main/java/week10_intro_to_jdbc_sqlite" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -306,13 +308,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7_first_classes.DateObjects" />
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week11_database_and_gui.elevation.Controller" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week7_first_classes.*" />
+          <option name="PATTERN" value="week11_database_and_gui.elevation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,12 +323,12 @@
       </method>
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week10_and_more_gui_jlist_combobox.vehicles.Main" />
+      <option name="MAIN_CLASS_NAME" value="week10_extra_gui_examples.ide_jtable.ide_jtable_default.Main" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week10_and_more_gui_jlist_combobox.vehicles.*" />
+          <option name="PATTERN" value="week10_extra_gui_examples.ide_jtable.ide_jtable_default.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,12 +337,12 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week7_first_classes.Swimming2.Main" />
+      <option name="MAIN_CLASS_NAME" value="week11_database_and_gui.movie_reviews.Main" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week7_first_classes.Swimming2.*" />
+          <option name="PATTERN" value="week11_database_and_gui.movie_reviews.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,13 +364,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TShirt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week10_and_more_gui_jlist_combobox.t_shirt.TShirt" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10_extra_gui_examples.hello_jtable.hello_jtable_default.Main" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week10_and_more_gui_jlist_combobox.t_shirt.*" />
+          <option name="PATTERN" value="week10_extra_gui_examples.hello_jtable.hello_jtable_default.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week11_database_and_gui.bird_default_table.Main" />
+      <module name="Examples" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week11_database_and_gui.bird_default_table.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -489,19 +505,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TShirt" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Controller" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
-      <item itemvalue="Application.DateObjects" />
-      <item itemvalue="Application.Main (3)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.DateObjects" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.TShirt" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Controller" />
       </list>
     </recent_temporary>
   </component>
@@ -512,44 +528,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@61a735ed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@940fdbe1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@61a735ed" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@44ae8721" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a438674c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a438674c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@b4239cb" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4a30ee2c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4a30ee2c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@6dc498b7" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@4a30ee2c" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@55a44e91" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ea230c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3ea230c3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3d522874" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@940fdbe1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@29be6f3e" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -621,14 +605,8 @@
       <workItem from="1571763349891" duration="1690000" />
       <workItem from="1571846456026" duration="538000" />
       <workItem from="1571951586163" duration="618000" />
-      <workItem from="1572364942005" duration="4373000" />
-    </task>
-    <task id="LOCAL-00022" summary="Clean up race schedule">
-      <created>1507576573097</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1507576573098</updated>
+      <workItem from="1572364942005" duration="4742000" />
+      <workItem from="1573048484717" duration="6514000" />
     </task>
     <task id="LOCAL-00023" summary="More examples for deleting from list">
       <created>1507579102471</created>
@@ -966,7 +944,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572368188596</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="currency converter - missing files">
+      <created>1572452216440</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1572452216446</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1015,7 +1000,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="exception handling vs. checks" />
     <MESSAGE value="Integer.valueOf()" />
     <MESSAGE value="date, integer parsing exception handling" />
     <MESSAGE value="Unirest API examples" />
@@ -1040,7 +1024,8 @@
     <MESSAGE value="objects you know" />
     <MESSAGE value="Object with Date class" />
     <MESSAGE value="Currency GUI with API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Currency GUI with API" />
+    <MESSAGE value="currency converter - missing files" />
+    <option name="LAST_COMMIT_MESSAGE" value="currency converter - missing files" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

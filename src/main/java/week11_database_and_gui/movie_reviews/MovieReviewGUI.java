@@ -21,12 +21,10 @@ public class MovieReviewGUI extends JFrame {
     private JButton deleteMovieButton;
     private JSpinner ratingSpinner;
     
-    
     private MovieDatabase db;
     
     private DefaultTableModel tableModel;
     private Vector columnNames;
-    
     
     MovieReviewGUI(MovieDatabase db) {
     
@@ -97,10 +95,15 @@ public class MovieReviewGUI extends JFrame {
             return;
         }
         
-        //Using a spinner means we are guaranteed to get a number in the range we set, so no validation needed.
-        int ratingData = (Integer)(ratingSpinner.getValue());
+        // Assuming we've configured the spinner correctly, the only choices are valid ones.
+        // So no validation needed.
+        int ratingData = (int) ratingSpinner.getValue();
         
         db.addMovie(titleData, yearData, ratingData);
+        
+        // Clear input JTextAreas for user to enter another movie
+        titleTextField.setText("");
+        yearTextField.setText("");
         
         updateTable();
         
@@ -126,14 +129,14 @@ public class MovieReviewGUI extends JFrame {
     
     private void configureTable() {
     
-        //Set up JTable
+        // Show a black grid - default is white and not visible on the white background
         movieDataTable.setGridColor(Color.BLACK);
         
-        //Enable sorting
+        // Enable sorting
         movieDataTable.setAutoCreateRowSorter(true);
     
         columnNames = db.getColumnNames();
-        Vector data = db.getAllMovies();
+        Vector<Vector> data = db.getAllMovies();
     
         // Custom methods for DefaultTableModel
         // Want to customize which cells are editable - the isCellEditable method
@@ -164,16 +167,12 @@ public class MovieReviewGUI extends JFrame {
         };
     
         movieDataTable.setModel(tableModel);
-    
     }
     
     
     private void updateTable() {
-        
-        Vector data = db.getAllMovies();
+        Vector<Vector> data = db.getAllMovies();
         tableModel.setDataVector(data, columnNames);
-    
     }
-    
     
 }

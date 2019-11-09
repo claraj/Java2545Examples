@@ -10,8 +10,6 @@ public class HelloTableGUI extends JFrame {
     
     HelloTableGUI() {
         setContentPane(containsTable);
-        setVisible(true);
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
     
         DefaultTableModel tableModel = new DefaultTableModel();
         
@@ -24,6 +22,9 @@ public class HelloTableGUI extends JFrame {
         helloTable.setModel(tableModel);
         
         pack();
+        setVisible(true);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    
     }
 }
 

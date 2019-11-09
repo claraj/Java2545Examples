@@ -1,4 +1,4 @@
-package week11_database_and_gui.bird_table;
+package week11_database_and_gui.bird_default_table;
 
 
 public class Main {

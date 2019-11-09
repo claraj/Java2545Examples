@@ -1,4 +1,4 @@
-package week11_database_and_gui.bird_table;
+package week11_database_and_gui.bird_default_table;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -25,12 +25,14 @@ public class BirdGUI extends JFrame {
     
     
     private void configureTable() {
-    
+
         Vector columnNames = db.getColumnNames();
-        Vector data = db.getAllBirds();
-    
+        Vector<Vector> data = db.getAllBirds();
+
         DefaultTableModel tableModel = new DefaultTableModel(data, columnNames);
         birdDataTable.setModel(tableModel);
-    
+
     }
 }
+
+

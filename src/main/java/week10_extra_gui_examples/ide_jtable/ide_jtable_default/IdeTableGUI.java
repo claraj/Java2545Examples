@@ -4,7 +4,7 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.HashMap;
+import java.util.Map;
 import java.util.Vector;
 
 /**
@@ -13,54 +13,51 @@ import java.util.Vector;
 public class IdeTableGUI extends JFrame {
     private JPanel containsTable;
     private JTable ideTable;
+    
     private JTextField newIde;
     private JTextField newLanguage;
     private JButton addButton;
     private JButton reportButton;
     
-    IdeTableGUI(HashMap<String, String> languages) {
-        setContentPane(containsTable);
-        setVisible(true);
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        
+    IdeTableGUI(Map<String, String> languages) {
+    
         DefaultTableModel tableModel = new DefaultTableModel();
-        
+     
         tableModel.addColumn("Language");
         tableModel.addColumn("IDE");
-        
+    
         // add the initial data to the JTable DefaultTableModel
-        for (String language: languages.keySet()) {
+        for (String language : languages.keySet()) {
             tableModel.addRow(new String[]{language, languages.get(language)});
         }
         
         ideTable.setModel(tableModel);
-        
         ideTable.setAutoCreateRowSorter(true);
-    
-        pack();
         
+        setContentPane(containsTable);
+        pack();
+        setVisible(true);
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+    
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String language = newLanguage.getText();
                 String ide = newIde.getText();
-                tableModel.addRow(new String[]{language, ide});
+                String[] newIdeRow = { language, ide };
+                tableModel.addRow(newIdeRow);
             }
         });
-        
-        reportButton.addActionListener(new ActionListener(){
     
+        reportButton.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {
-                for (Object row : tableModel.getDataVector()){
-                    Vector rowVector = (Vector) row;
-                    String language = (String) rowVector.get(0);
-                    String ide = (String) rowVector.get(1);
+                for (Vector row: tableModel.getDataVector()){
+                    String language = (String) row.get(0);
+                    String ide = (String) row.get(1);
                     System.out.println("An IDE for " + language + " is " + ide);
                 }
             }
         });
     }
 }
-
-
