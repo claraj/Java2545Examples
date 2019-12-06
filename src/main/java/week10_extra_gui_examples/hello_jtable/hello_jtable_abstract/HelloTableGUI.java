@@ -8,6 +8,9 @@ import javax.swing.*;
 public class HelloTableGUI extends JFrame {
     private JPanel containsTable;
     private JTable helloTable;
+    private JSlider rows;
+    private JSlider columns;
+    private JScrollPane table;
     
     HelloTableGUI() {
         setContentPane(containsTable);
