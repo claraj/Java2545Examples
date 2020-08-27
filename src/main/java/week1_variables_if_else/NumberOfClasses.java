@@ -15,14 +15,13 @@ public class NumberOfClasses {
         
         int numberOfClasses = positiveIntInput("How many classes are you taking this semester?");
         
-        String classPlural = "classes";
+        String units = "classes";
         
         if (numberOfClasses == 1) {
-            classPlural = "class";
+            units = "class";
         }
-    
-        System.out.println("You are taking " + numberOfClasses + " " + classPlural + " this semester.");
-        
+
+        System.out.println("You are taking " + numberOfClasses + " " + units + " this semester.");
     }
 }
 
