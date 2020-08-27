@@ -1,5 +1,7 @@
 package week1_variables_if_else;
 
+import java.util.List;
+
 public class StringLibraryMethods {
 
     public static void main(String[] args) {
@@ -88,6 +90,14 @@ public class StringLibraryMethods {
 
         String neatlyFormattedSalesInfo = String.format("A sale of %d %s at $%.2f each is a total of %.2f", quantity, product, price, totalSale);
         System.out.println(neatlyFormattedSalesInfo);
+
+        // Join - join a iterable sequence into a string, joined by another string
+        List<String> pieces = List.of("This", "is", "the", "end", "of", "the", "file");
+        String sentence = String.join(" ", pieces);
+        System.out.println(sentence);  // This is the end of the file
+
+        sentence = String.join(" *-*-*-* ", pieces);
+        System.out.println(sentence);  // This *-*-*-* is *-*-*-* the *-*-*-* end *-*-*-* of *-*-*-* the *-*-*-* file
 
     }
 
