@@ -17,7 +17,7 @@ public class StringLibraryMethods {
         //length - what you'd expect
         System.out.println(quote.length());
 
-        //indexof - find position of a character in a string
+        //indexOf - find position of a character in a string
         //remember count from 0
         System.out.println(quote.indexOf("J"));
         System.out.println(quote.indexOf("C"));
@@ -42,7 +42,7 @@ public class StringLibraryMethods {
 
 
         //startsWith and endsWith
-        
+
         //Does this string end with a period?
         System.out.println(quote.endsWith("."));
         //Does this string start with C#?
@@ -53,8 +53,8 @@ public class StringLibraryMethods {
         //Substring makes a new String by copying selected characters from a String
         //The arguments are the beginning character index and ending index
         //Omit the second index and the substring will assume the end is the end of the string
-        String endofstring = quote.substring(27);
-        System.out.println(endofstring);
+        String endOfString = quote.substring(27);
+        System.out.println(endOfString);
 
         String javascript = quote.substring(11, 21);
         System.out.println(javascript);
@@ -63,14 +63,14 @@ public class StringLibraryMethods {
         //  remember \t and \n, the tab and newline characters
         String spacesAndTabsAndNewlines = "    \t \t I'm a string      \t \t \n \n";
         System.out.println(spacesAndTabsAndNewlines);
-        String trimmed  = spacesAndTabsAndNewlines.trim();
+        String trimmed = spacesAndTabsAndNewlines.trim();
         System.out.println(trimmed);
 
         //Split up a string
         //Returns an array of strings. Arrays and loops next week.
         String[] words = quote.split(" ");
-        for (int i = 0 ; i < words.length ; i++ ) {
-            System.out.println(words[i]);
+        for (String word : words) {
+            System.out.println(word);
         }
 
         //Format strings
@@ -88,9 +88,6 @@ public class StringLibraryMethods {
 
         String neatlyFormattedSalesInfo = String.format("A sale of %d %s at $%.2f each is a total of %.2f", quantity, product, price, totalSale);
         System.out.println(neatlyFormattedSalesInfo);
-
-
-
 
     }
 
