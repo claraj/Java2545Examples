@@ -6,7 +6,6 @@ public class AboveFreezing {
     
     public static void main(String[] args) {
 
-
         System.out.println("Enter today's temperature in F");
         double temp = doubleInput();
 
