@@ -12,11 +12,11 @@ public class WriteReadArrayList {
 
     public static void main(String args[]) throws IOException {
 
-        String filename = "to_do_list.txt";
-        // Storing filenames in variables is useful, you typically need to refer to them more than once,
+        // Storing filenames in variables is useful, you often need to refer to them more than once,
         // and having the filename in a variable saves typing and makes sure it's always spelled correctly.
+        String filename = "to_do_list.txt";
 
-        //Create an example to-do list
+        // Create an example to-do list
         List<String> todo = new ArrayList<>();
         todo.add("Water plants");
         todo.add("Pay electricity bill");
@@ -25,8 +25,7 @@ public class WriteReadArrayList {
         //Create BufferedWriter, which wraps a FileWriter
         BufferedWriter bufWriter = new BufferedWriter(new FileWriter(filename));
 
-        //Write the to do list to the file, one item per line
-        // Would like to number the to do items, an example line should be
+        // Write the to do list to the file, one item per line, with numbers. An example line is
         // To do item 1 is : Grading
 
         int listNumber = 1;
@@ -36,8 +35,7 @@ public class WriteReadArrayList {
             listNumber++;    // increase counter. Could also do this in a regular for loop and use the loop counter
         }
 
-        //Close the BufferedWriter. This will also close the FileWriter it wraps
-        bufWriter.close();
+        bufWriter.close();     // Close the BufferedWriter. This will also close the FileWriter it wraps
 
         System.out.println("Created sample to-do list and wrote to " + filename);
 
@@ -47,17 +45,15 @@ public class WriteReadArrayList {
 
         List<String> numberedToDoList = new ArrayList<>();
 
-        //Read in one line...
-        String line = bReader.readLine();
+        String line = bReader.readLine();   //Read in one line...
 
         //And the rest of the file, while there are more lines to read. Add to numberedToDoList
-        while (line != null) {
-            numberedToDoList.add(line);
-            line = bReader.readLine();
+        while (line != null) {    // was the last line read equal to null?
+            numberedToDoList.add(line);  // Add the last line read to the ArrayList
+            line = bReader.readLine();   // And read the next line
         }
 
         System.out.println("Here is your to do list, read from the file");
         System.out.println(numberedToDoList);
-
     }
 }
