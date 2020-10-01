@@ -2,6 +2,7 @@ package week6_files_exceptions;
 
 import java.io.*;
 import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -16,9 +17,9 @@ public class WriteReadArrayList {
         // and having the filename in a variable saves typing and makes sure it's always spelled correctly.
 
         //Create an example to-do list
-        ArrayList<String> todo = new ArrayList<String>();
-        todo.add("Grading");
-        todo.add("Pay water bill");
+        List<String> todo = new ArrayList<>();
+        todo.add("Water plants");
+        todo.add("Pay electricity bill");
         todo.add("Grocery shopping");
 
         //Create BufferedWriter, which wraps a FileWriter
@@ -44,7 +45,7 @@ public class WriteReadArrayList {
         //Create BufferedReader, which wraps a FileReader
         BufferedReader bReader = new BufferedReader(new FileReader(filename));
 
-        ArrayList<String> numberedToDoList = new ArrayList<String>();
+        List<String> numberedToDoList = new ArrayList<>();
 
         //Read in one line...
         String line = bReader.readLine();
