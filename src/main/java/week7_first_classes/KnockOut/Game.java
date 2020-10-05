@@ -31,6 +31,7 @@ public class Game {
     }
 
     private DiceCup cup;
+    private ArrayList<Player> players;
 
     private void playGame() {
 
@@ -39,16 +40,16 @@ public class Game {
 
         // How many players? Create player objects
         int numberOfPlayers = intInput("How many players?");
-        ArrayList<Player> players = createPlayers(numberOfPlayers);
+        players = createPlayers(numberOfPlayers);
 
         // Get each player's knock-out number. Can only be 6, 7, 8 or 9
-        setKnockoutNumbers(players);
+        setKnockoutNumbers();
 
         // Play the game.
-        play(players);
+        play();
 
         // Print winner
-        printGameResults(players);
+        printGameResults();
 
     }
 
@@ -71,7 +72,7 @@ public class Game {
 
 
     // For all the players in the players ArrayList, set their knockout number.
-    private void setKnockoutNumbers(ArrayList<Player> players) {
+    private void setKnockoutNumbers() {
 
         for (Player p : players) {
 
@@ -80,7 +81,7 @@ public class Game {
             do {
                 knockOutNumber = intInput("Player " + p.getName() + ", " +
                         "please enter your knock-out number. It must be 6, 7, 8, or 9");
-            } while ( knockOutNumber < 6 || knockOutNumber > 9 );     // Validation
+            } while (knockOutNumber < 6 || knockOutNumber > 9);     // Validation
 
             p.setKnockOutNumber(knockOutNumber);    // Set this player's knockout number
 
@@ -93,13 +94,13 @@ public class Game {
 
 
     // Play the game for all of the players.
-    private void play(ArrayList<Player> players) {
+    private void play() {
 
         int playerIndex = 0;
         int totalPlayers = players.size();
 
         // Loop until there is only one player left.
-        while (moreThanOnePlayerInPlay(players)) {
+        while (moreThanOnePlayerInPlay()) {
 
             Player currentPlayer = players.get(playerIndex);
             System.out.println();
@@ -122,7 +123,7 @@ public class Game {
 
 
     //Count how many players are still in play
-    private boolean moreThanOnePlayerInPlay(ArrayList<Player> players) {
+    private boolean moreThanOnePlayerInPlay() {
 
         int totalInPlay = 0;
         for (Player p : players) {
@@ -138,7 +139,7 @@ public class Game {
 
 
     // Display the names of the players and who the winner is
-    private void printGameResults(ArrayList<Player> players) {
+    private void printGameResults() {
 
         System.out.println("\n**** GAME RESULTS ****\n");
 
