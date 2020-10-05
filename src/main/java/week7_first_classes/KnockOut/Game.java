@@ -2,44 +2,45 @@ package week7_first_classes.KnockOut;
 
 import java.util.ArrayList;
 
-import static input.InputUtils.intInput;
-import static input.InputUtils.stringInput;
+import static input.InputUtils.*;
 
 
 /**
- *
- * Simple Knockout dice game.  For small children learning to add up :)
- *
+ * Simple Knockout dice game.  For small children learning to add up
+ * <p>
  * Players: 2 or more
  * Equipment: 2 dice
- *
+ * <p>
  * Game play:
- *
+ * <p>
  * Each player picks their own knockout number: 6, 7, 8 or 9.
- *
+ * <p>
  * Each player takes turns rolling two dice. If the total of their dice is their knockout number,
  * they are knocked out of the game.
- *
+ * <p>
  * Play continues until only one player is left. The last player not knocked out is the winner.
- *
- * */
+ */
 
 public class Game {
 
-    public static void main(String[] args) {
-        new Game().playGame();
-    }
-
-    private DiceCup cup;
+    // Global variables - the entire game works with the dice cup
+    // and list of players
+    private DiceCup diceCup;
     private ArrayList<Player> players;
 
-    private void playGame() {
+    public static void main(String[] args) {
+        // Make a new Game object and start playing
+        Game knockout = new Game();
+        knockout.startGame();
+    }
+
+    private void startGame() {
 
         // Make a dice cup with 2 dice
-        cup = new DiceCup(2);
+        diceCup = new DiceCup(2);
 
         // How many players? Create player objects
-        int numberOfPlayers = intInput("How many players?");
+        int numberOfPlayers = positiveIntInput("How many players?");
         players = createPlayers(numberOfPlayers);
 
         // Get each player's knock-out number. Can only be 6, 7, 8 or 9
@@ -50,7 +51,6 @@ public class Game {
 
         // Print winner
         printGameResults();
-
     }
 
 
@@ -85,15 +85,10 @@ public class Game {
 
             p.setKnockOutNumber(knockOutNumber);    // Set this player's knockout number
 
-            // Nothing to return! Java objects are passed by reference, which means that there's only
-            // one copy of the ArrayList<Player> players. This players object is the same object as the
-            // players ArrayList<Player> in the playGame() method. So if this method modifies it,
-            // then it's changed in the calling method.
         }
     }
 
 
-    // Play the game for all of the players.
     private void play() {
 
         int playerIndex = 0;
@@ -112,7 +107,7 @@ public class Game {
                 stringInput("Player " + currentPlayer.getName() + ", press enter to roll:");
 
                 // Give the player the cup of dice, for them to roll the dice for their turn.
-                String turnResult = currentPlayer.playTurn(cup);
+                String turnResult = currentPlayer.playTurn(diceCup);
                 System.out.println(turnResult);
 
             }
@@ -122,7 +117,7 @@ public class Game {
     }
 
 
-    //Count how many players are still in play
+    //Count how many players are still in play - if more than one, return true
     private boolean moreThanOnePlayerInPlay() {
 
         int totalInPlay = 0;
