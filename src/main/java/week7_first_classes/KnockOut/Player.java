@@ -13,11 +13,13 @@ public class Player {
         this.knockedOut = false;
     }
 
-    String playTurn(DiceCup cup) {
+
+    // Plays one turn for this player
+    public String playTurn(DiceCup cup) {
 
         int score = cup.rollAll();
 
-        if (isKnockout(score)) {
+        if (playerKnockedOut(score)) {
             knockedOut = true;
         }
 
@@ -28,10 +30,16 @@ public class Player {
     }
 
 
+    // Identifies if the value on the dice is the same as the chosen knockout number
+    private boolean playerKnockedOut(int score) {
 
-    private boolean isKnockout(int score) {
-        return (score == knockOutNumber);
+        if (score == knockOutNumber) {
+            return true;
+        } else {
+            return false;
+        }
     }
+
 
     public int getKnockOutNumber() {
         return knockOutNumber;

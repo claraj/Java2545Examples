@@ -14,16 +14,17 @@ public class DiceCup {
 
         allDice = new ArrayList<>();
 
-        for (int d = 0 ; d < numberOfDice ; d++) {
+        for (int d = 0; d < numberOfDice; d++) {
             Dice dice = new Dice();
             allDice.add(dice);
         }
     }
 
-    public int rollAll() {
 
+    // Rolls all the dice, adds the values and returns the total of all dice
+    public int rollAll() {
         int total = 0;
-        for (Dice d: allDice) {
+        for (Dice d : allDice) {
             int diceRoll = d.roll();
             total += diceRoll;
         }

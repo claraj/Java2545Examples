@@ -8,7 +8,7 @@ import static input.InputUtils.stringInput;
 
 /**
  *
- * Simple Knockout dice game. Fun for very small children learning to add up :)
+ * Simple Knockout dice game.  For small children learning to add up :)
  *
  * Players: 2 or more
  * Equipment: 2 dice
@@ -44,9 +44,7 @@ public class Game {
         // Get each player's knock-out number. Can only be 6, 7, 8 or 9
         setKnockoutNumbers(players);
 
-        // Play one round of the game; until all players but one are knocked out
-
-        // All players take turns
+        // Play the game.
         play(players);
 
         // Print winner
@@ -95,7 +93,6 @@ public class Game {
 
 
     // Play the game for all of the players.
-
     private void play(ArrayList<Player> players) {
 
         int playerIndex = 0;
@@ -124,9 +121,8 @@ public class Game {
     }
 
 
+    //Count how many players are still in play
     private boolean moreThanOnePlayerInPlay(ArrayList<Player> players) {
-
-        //Count how many players are still in play
 
         int totalInPlay = 0;
         for (Player p : players) {
@@ -141,6 +137,7 @@ public class Game {
     }
 
 
+    // Display the names of the players and who the winner is
     private void printGameResults(ArrayList<Player> players) {
 
         System.out.println("\n**** GAME RESULTS ****\n");
@@ -154,6 +151,5 @@ public class Game {
 
             }
         }
-
     }
 }
