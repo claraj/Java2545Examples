@@ -13,7 +13,7 @@ import static input.InputUtils.*;
  * <p>
  * Game play:
  * <p>
- * Each player picks their own knockout number: 6, 7, 8 or 9.
+ * Each player picks a knockout number: 6, 7, 8 or 9.  More than one player can pick the same number.
  * <p>
  * Each player takes turns rolling two dice. If the total of their dice is their knockout number,
  * they are knocked out of the game.
@@ -23,7 +23,7 @@ import static input.InputUtils.*;
 
 public class Game {
 
-    // Global variables - the entire game works with the dice cup
+    // Fields - a Game object will work with the dice cup
     // and list of players
     private DiceCup diceCup;
     private ArrayList<Player> players;
@@ -41,7 +41,7 @@ public class Game {
 
         // How many players? Create player objects
         int numberOfPlayers = positiveIntInput("How many players?");
-        players = createPlayers(numberOfPlayers);
+        createPlayers(numberOfPlayers);
 
         // Get each player's knock-out number. Can only be 6, 7, 8 or 9
         setKnockoutNumbers();
@@ -54,12 +54,13 @@ public class Game {
     }
 
 
-    // Create and return an ArrayList of players.
-    private ArrayList<Player> createPlayers(int numberOfPlayers) {
+    // Initialize the ArrayList of players,
+    // get names and create Player objects
+    private void createPlayers(int numberOfPlayers) {
 
-        ArrayList<Player> players = new ArrayList<>();
+        players = new ArrayList<>();
 
-        for (int p = 1 ; p <= numberOfPlayers ; p++) {
+        for (int p = 1; p <= numberOfPlayers; p++) {
 
             String name = stringInput("Enter player " + p + "'s name:");
             Player player = new Player(name);
@@ -67,7 +68,6 @@ public class Game {
 
         }
 
-        return players;
     }
 
 
