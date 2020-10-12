@@ -8,11 +8,11 @@ import java.util.ArrayList;
  */
 public class ITECCourseManager_NoObjects {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         String maintenanceCourseName = "Microcomputer Systems Maintenance";
         int maintenanceCourseCode = 1310;
-        ArrayList<String> maintenanceCourseStudentList = new ArrayList<String>();
+        ArrayList<String> maintenanceCourseStudentList = new ArrayList<>();
         int maintenanceCourseMaxStudents = 20;
 
         //Add some students.   TODO check that we have not exceeded the max number for the class
@@ -22,7 +22,7 @@ public class ITECCourseManager_NoObjects {
 
         String datacomCourseName = "Data Communications";
         int datacomCourseCode = 1425;
-        ArrayList<String> datacomCourseStudentList = new ArrayList<String>();
+        ArrayList<String> datacomCourseStudentList = new ArrayList<>();
         int datacomCourseMaxStudents = 30;
 
         //Add some students
