@@ -5,6 +5,7 @@ import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -20,10 +21,10 @@ public class MovieGUI extends JFrame {
     
     MovieGUI() {
         setContentPane(mainPanel);
+//        setPreferredSize(new Dimension(500, 300));
         pack();
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        
         configureEventHandlers();
     }
     
@@ -75,11 +76,11 @@ public class MovieGUI extends JFrame {
                 
                 if (JOptionPane.showConfirmDialog(MovieGUI.this, "Are you sure you want to quit?",
                         "Quit", JOptionPane.OK_CANCEL_OPTION) == JOptionPane.OK_OPTION) {
-                    System.exit(0);
+                    dispose();
                 }
             }
         });
-        
+
     }
     
     
