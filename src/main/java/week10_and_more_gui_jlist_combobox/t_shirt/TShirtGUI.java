@@ -17,13 +17,15 @@ public class TShirtGUI extends JFrame {
     private JLabel selectedColorLabel;
     
     TShirtGUI() {
-        
+
+        setTitle("T-Shirt Order Form");
+
         sizeComboBox.addItem("Small");
         sizeComboBox.addItem("Medium");
         sizeComboBox.addItem("Large");
-        
-        String[] colors = { "Red", "Purple", "Green" };  // Or any colors of your choice
-        
+
+        String[] colors = {"Red", "Purple", "Green"};  // Or any colors of your choice
+
         DefaultComboBoxModel<String> colorModel = new DefaultComboBoxModel<>(colors);
         colorComboBox.setModel(colorModel);
         
@@ -43,16 +45,19 @@ public class TShirtGUI extends JFrame {
         String color3 = colorModel.getElementAt(3);   // Get element by position
         int magentaIndex = colorModel.getIndexOf("Magenta");
         int violetIndex = colorModel.getIndexOf("Violet");   // Not in the model, returns -1
-    
+
         System.out.println("There are " + numberOfColors + " colors. " +
                 "Element 2 is " + color3 + ". Magenta is at position " + magentaIndex +
                 " and Violet is at position " + violetIndex);
-        
+
         setContentPane(mainPanel);
         setPreferredSize(new Dimension(300, 150));
         pack();
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+
+        sizeComboBox.setSelectedIndex(-1);  // Unselect
+        colorComboBox.setSelectedIndex(-1);
 
         sizeComboBox.addActionListener(new ActionListener() {
             @Override
@@ -60,7 +65,7 @@ public class TShirtGUI extends JFrame {
                 selectedSizeLabel.setText("You selected " + sizeComboBox.getSelectedItem());
             }
         });
-        
+
         colorComboBox.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
