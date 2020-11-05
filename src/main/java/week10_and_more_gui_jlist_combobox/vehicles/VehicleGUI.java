@@ -22,6 +22,7 @@ public class VehicleGUI extends JFrame {
     private DefaultListModel<Vehicle> vehicleListModel;
     
     VehicleGUI() {
+        setTitle("Vehicle List");
         setContentPane(mainPanel);
         setPreferredSize(new Dimension(600, 600));
         pack();
