@@ -18,8 +18,10 @@ public class ToDoList extends JFrame {
     private JPanel rootPanel;
 
     protected ToDoList() {
+
+        setTitle("To Do List");
         setContentPane(rootPanel);
-        setPreferredSize(new Dimension(500, 500));
+        setPreferredSize(new Dimension(550, 500));
 
         listModel = new DefaultListModel<>();
         // Create a listModel. The list starts empty, so no data to add yet.

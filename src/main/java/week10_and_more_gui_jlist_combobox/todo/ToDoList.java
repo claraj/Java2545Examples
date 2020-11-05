@@ -18,6 +18,7 @@ public class ToDoList extends JFrame {
     private JPanel mainPanel;
     
     protected ToDoList() {
+        setTitle("To Do List");
         setContentPane(mainPanel);
         setPreferredSize(new Dimension(500, 500));
     
