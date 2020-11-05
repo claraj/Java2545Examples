@@ -1,4 +1,4 @@
-package week10_and_more_gui_jlist_combobox.race;
+package week10_and_more_gui_jlist_combobox.running_trainer;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -9,13 +9,13 @@ import java.util.List;
 
 /**
  * Created by clara on 11/1/2016.
- *
+ * <p>
  * GUI version of the Week 3 program - calculate a training schedule for a
  * runner who wants to increase the distance they can run over a period of weeks.
  */
 
 
-public class RaceGUI extends JFrame {
+public class RunningGUI extends JFrame {
     private JPanel root;
     private JButton calculateButton;
     private JList<String> distanceList;
@@ -24,10 +24,10 @@ public class RaceGUI extends JFrame {
     private JTextField startDistanceTextField;
     private DefaultListModel<String> distanceListModel;
 
-    RaceGUI () {
-    
+    RunningGUI() {
+
         setContentPane(root);
-    
+
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         distanceListModel = new DefaultListModel<>();
@@ -75,7 +75,7 @@ public class RaceGUI extends JFrame {
     
         //Show error dialog if errorMessage has been set
         if (errorMessage != null) {
-            JOptionPane.showMessageDialog(RaceGUI.this, errorMessage);
+            JOptionPane.showMessageDialog(RunningGUI.this, errorMessage);
         }
     
         // Otherwise, data was validated successfully. Calculate the schedule and display.
