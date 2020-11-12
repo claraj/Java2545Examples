@@ -87,16 +87,16 @@ public class PlaceDB {
     }
     
     
-    public void delete(Place place) {
-        
+    public void deleteRecord(Place place) {
+
         String deleteSQL = "DELETE FROM places WHERE name = ?";
-        
+
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
              PreparedStatement deletePreparedStatement = conn.prepareStatement(deleteSQL)) {
-            
+
             deletePreparedStatement.setString(1, place.getName());
             deletePreparedStatement.execute();
-            
+
         } catch (SQLException sqle) {
             System.err.println("Error deleting place " + place + " because " + sqle);
         }

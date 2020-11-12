@@ -25,7 +25,6 @@ public class Controller {
         List<Place> allData = db.fetchAllRecords();
 
         gui = new PlaceGUI(this);
-        gui.setListData(allData);
 
     }
     
@@ -38,7 +37,7 @@ public class Controller {
     }
     
     void deletePlace(Place place) {
-        db.delete(place);
+        db.deleteRecord(place);
     }
 
 }
