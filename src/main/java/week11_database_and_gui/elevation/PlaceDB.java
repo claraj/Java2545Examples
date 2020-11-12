@@ -14,9 +14,6 @@ public class PlaceDB {
 
     private final String DB_CONNECTION_URL;
 
-    private final String OK = "ok";
-    private final String DUPLICATE = "Duplicate place name";
-
     private final int SQLITE_DUPLICATE_PRIMARY_KEY_CODE = 19;
 
     PlaceDB(String connectionURL) {
