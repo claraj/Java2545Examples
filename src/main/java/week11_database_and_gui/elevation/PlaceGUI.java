@@ -1,6 +1,7 @@
 package week11_database_and_gui.elevation;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ public class PlaceGUI extends JFrame {
     private JButton addButton;
     private JPanel mainPanel;
     private JButton deleteButton;
-    
+
     private Controller controller;
     
     private DefaultListModel<Place> allPlacesListModel;
@@ -42,9 +43,10 @@ public class PlaceGUI extends JFrame {
 
         // Regular setup tasks for the window / JFrame
         setTitle("Place Elevation GUI");
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setPreferredSize(new Dimension(350, 400));
         setContentPane(mainPanel);
         pack();
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
     }
     
