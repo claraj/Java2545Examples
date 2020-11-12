@@ -60,32 +60,13 @@ public class PlaceGUI extends JFrame {
     }
     
     private void addListeners() {
-    
-        deleteButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // Identify which places are selected
-                List<Place> placesToDelete = placeList.getSelectedValuesList();
-                if (placesToDelete == null) {
-                    JOptionPane.showMessageDialog(PlaceGUI.this, "Please select at least one place to delete");
-                } else {
-                    for (Place place : placesToDelete) {
-                        controller.deletePlace(place);
-                    }
 
-                    // Get the updated list of places and display in JList
-                    List<Place> places = controller.getAllData();
-                    setListData(places);
-                }
-            }
-        });
-     
         addButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String place = placeNameText.getText();
+                String name = placeNameText.getText();
 
-                if (place.isBlank()) {
+                if (name.isBlank()) {
                     errorDialog("Enter a place name");
                     return;
                 }
@@ -99,7 +80,7 @@ public class PlaceGUI extends JFrame {
                     return;
                 }
 
-                Place placeRecord = new Place(place, elev);
+                Place placeRecord = new Place(name, elev);
                 boolean added = controller.addPlaceToDatabase(placeRecord);
 
                 if (added) {
@@ -115,6 +96,27 @@ public class PlaceGUI extends JFrame {
                 }
             }
         });
+
+
+        deleteButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // Identify which places are selected
+                List<Place> placesToDelete = placeList.getSelectedValuesList();
+                if (placesToDelete == null || placesToDelete.isEmpty()) {
+                    JOptionPane.showMessageDialog(PlaceGUI.this, "Please select at least one place to delete");
+                } else {
+                    for (Place place : placesToDelete) {
+                        controller.deletePlace(place);
+                    }
+
+                    // Get the updated list of places and display in JList
+                    List<Place> places = controller.getAllData();
+                    setListData(places);
+                }
+            }
+        });
+
     }
 
     void setListData(List<Place> places) {

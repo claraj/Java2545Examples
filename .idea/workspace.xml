@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="more tidying">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/places.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -534,20 +535,6 @@
       <workItem from="1604886650794" duration="273000" />
       <workItem from="1605186167065" duration="1647000" />
     </task>
-    <task id="LOCAL-00048" summary="Unirest API examples">
-      <created>1568851578178</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1568851578179</updated>
-    </task>
-    <task id="LOCAL-00049" summary="hacky weather gui with async fetch">
-      <created>1568922372969</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1568922372975</updated>
-    </task>
     <task id="LOCAL-00050" summary="cleanup weather gui">
       <created>1568994542701</created>
       <option name="number" value="00050" />
@@ -877,7 +864,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605188891516</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="better separation of concerns&#10;change delete method name">
+      <created>1605196091262</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1605196091262</updated>
+    </task>
+    <task id="LOCAL-00098" summary="get data on app load">
+      <created>1605197759270</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1605197759270</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -925,8 +926,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="currency converter - missing files" />
-    <MESSAGE value="rename variable" />
     <MESSAGE value="fix variable names" />
     <MESSAGE value="join example" />
     <MESSAGE value="config" />
@@ -950,7 +949,9 @@
     <MESSAGE value="Add title, fix instructions" />
     <MESSAGE value="set title, margin" />
     <MESSAGE value="Remove label, set size and title" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove label, set size and title" />
+    <MESSAGE value="better separation of concerns&#10;change delete method name" />
+    <MESSAGE value="get data on app load" />
+    <option name="LAST_COMMIT_MESSAGE" value="get data on app load" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -970,22 +971,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1604608643188" />
-    <state width="1178" height="118" key="GridCell.Tab.0.bottom" timestamp="1605194690322">
+    <state width="1178" height="118" key="GridCell.Tab.0.bottom" timestamp="1605197762351">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1178" height="118" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605194690322" />
-    <state width="1178" height="118" key="GridCell.Tab.0.center" timestamp="1605194690319">
+    <state width="1178" height="118" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605197762351" />
+    <state width="1178" height="118" key="GridCell.Tab.0.center" timestamp="1605197762350">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1178" height="118" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605194690319" />
-    <state width="1178" height="118" key="GridCell.Tab.0.left" timestamp="1605194690319">
+    <state width="1178" height="118" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605197762350" />
+    <state width="1178" height="118" key="GridCell.Tab.0.left" timestamp="1605197762349">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1178" height="118" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605194690319" />
-    <state width="1178" height="118" key="GridCell.Tab.0.right" timestamp="1605194690320">
+    <state width="1178" height="118" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605197762349" />
+    <state width="1178" height="118" key="GridCell.Tab.0.right" timestamp="1605197762350">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1178" height="118" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605194690320" />
+    <state width="1178" height="118" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605197762350" />
     <state width="233" height="457" key="HiddenNamespacesPopup" timestamp="1604095489227">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -994,10 +995,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="245" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1604094616616" />
-    <state x="281" y="225" key="Vcs.Push.Dialog.v2" timestamp="1605188892835">
+    <state x="281" y="225" key="Vcs.Push.Dialog.v2" timestamp="1605196094721">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="281" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1605188892835" />
+    <state x="281" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1605196094721" />
     <state x="637" y="367" width="618" height="470" key="new project wizard" timestamp="1598559811110">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

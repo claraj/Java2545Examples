@@ -36,15 +36,15 @@ public class PlaceDB {
 
 
     public List<Place> fetchAllRecords() {
-        
-        List<Place> allRecords = new ArrayList<>();
-        
+
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
              Statement statement = conn.createStatement()) {
-            
+
+            List<Place> allRecords = new ArrayList<>();
+
             String selectAllSQL = "SELECT * FROM places";
             ResultSet rsAll = statement.executeQuery(selectAllSQL);
-            
+
             while (rsAll.next()) {
                 String name = rsAll.getString("name");
                 double elevation = rsAll.getDouble("elevation");
@@ -92,17 +92,16 @@ public class PlaceDB {
         String deleteSQL = "DELETE FROM places WHERE name = ?";
 
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
-             PreparedStatement deletePreparedStatement = conn.prepareStatement(deleteSQL)) {
+             PreparedStatement deletePS = conn.prepareStatement(deleteSQL)) {
 
-            deletePreparedStatement.setString(1, place.getName());
-            deletePreparedStatement.execute();
+            deletePS.setString(1, place.getName());
+            deletePS.execute();
 
         } catch (SQLException sqle) {
             System.err.println("Error deleting place " + place + " because " + sqle);
         }
     }
-    
-    
+
 }
 
 
