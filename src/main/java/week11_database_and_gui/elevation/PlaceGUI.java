@@ -12,18 +12,23 @@ import java.util.List;
  */
 
 public class PlaceGUI extends JFrame {
-    
+
     private JTextField placeNameText;
     private JTextField elevationText;
     private JList<Place> placeList;
     private JButton addButton;
     private JPanel mainPanel;
     private JButton deleteButton;
+    private JButton searchButton;
+    private JTextField searchText;
+    private JButton changeElevationForPlaceButton;
+    private JTextField changeElevationForPlaceText;
+    private JTextField newElevationText;
 
     private Controller controller;
-    
+
     private DefaultListModel<Place> allPlacesListModel;
-    
+
     PlaceGUI(Controller controller) {
 
         // Store a reference to the controller object.
@@ -43,7 +48,7 @@ public class PlaceGUI extends JFrame {
 
         // Regular setup tasks for the window / JFrame
         setTitle("Place Elevation GUI");
-        setPreferredSize(new Dimension(350, 400));
+        setPreferredSize(new Dimension(350, 600));
         setContentPane(mainPanel);
         pack();
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
@@ -52,13 +57,23 @@ public class PlaceGUI extends JFrame {
         List<Place> allPlaces = controller.getAllData();
         setListData(allPlaces);
     }
-    
-    
-    private void errorDialog(String msg) {
+
+
+    private void showErrorDialog(String msg) {
         JOptionPane.showMessageDialog(PlaceGUI.this, msg, "Error",
                 JOptionPane.ERROR_MESSAGE);
     }
-    
+
+    private void selectPlaceInList(String name) {
+        for (int x = 0; x < allPlacesListModel.size(); x++) {
+            Place place = allPlacesListModel.get(x);
+            if (place.getName().equalsIgnoreCase(name)) {
+                placeList.setSelectedIndex(x);
+                break;
+            }
+        }
+    }
+
     private void addListeners() {
 
         addButton.addActionListener(new ActionListener() {
@@ -67,7 +82,7 @@ public class PlaceGUI extends JFrame {
                 String name = placeNameText.getText();
 
                 if (name.isBlank()) {
-                    errorDialog("Enter a place name");
+                    showErrorDialog("Enter a place name");
                     return;
                 }
             
@@ -76,7 +91,7 @@ public class PlaceGUI extends JFrame {
                 try {
                     elev = Double.parseDouble(elevationText.getText());
                 } catch (NumberFormatException nfe) {
-                    errorDialog("Enter a number for elevation");
+                    showErrorDialog("Enter a number for elevation");
                     return;
                 }
 
@@ -92,11 +107,10 @@ public class PlaceGUI extends JFrame {
                     setListData(allData);
 
                 } else {
-                    errorDialog("Unable to add this place.");
+                    showErrorDialog("Unable to add this place.");
                 }
             }
         });
-
 
         deleteButton.addActionListener(new ActionListener() {
             @Override
@@ -117,6 +131,59 @@ public class PlaceGUI extends JFrame {
             }
         });
 
+        searchButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String search = searchText.getText();
+                if (search.isBlank()) {
+                    showErrorDialog("Enter a place name to search for");
+                    placeList.clearSelection();
+                } else {
+                    Double elevation = controller.getElevationForPlace(search);
+                    if (elevation == null) {
+                        showErrorDialog("Place not found");
+                        placeList.clearSelection();
+                    } else {
+                        // select the place in the JList
+                        selectPlaceInList(search);
+
+                        JOptionPane.showMessageDialog(PlaceGUI.this,
+                                "The elevation of " + search + " is " + elevation + " meters");
+                    }
+                }
+            }
+        });
+
+        changeElevationForPlaceButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String name = changeElevationForPlaceText.getText();
+                if (name.isBlank()) {
+                    showErrorDialog("Enter a place name to change elevation for");
+                    return;
+                }
+
+                double newElevation;
+                try {
+                    newElevation = Double.parseDouble(newElevationText.getText());
+                } catch (NumberFormatException ex) {
+                    showErrorDialog("Enter a number for elevation");
+                    return;
+                }
+
+                Place updatedPlace = new Place(name, newElevation);
+                boolean success = controller.updatePlace(updatedPlace);
+                if (success) {
+                    List<Place> places = controller.getAllData();
+                    setListData(places);
+                    // select place that was updated in the list
+                    selectPlaceInList(name);
+                } else {
+                    showErrorDialog("Can't update place, check the place name is correct?");
+                    placeList.clearSelection();
+                }
+            }
+        });
     }
 
     void setListData(List<Place> places) {

@@ -102,6 +102,59 @@ public class PlaceDB {
         }
     }
 
+
+    public Double getElevationForPlaceName(String name) {
+
+        String searchSQL = "SELECT elevation FROM places WHERE LOWER(name) = LOWER(?)";
+
+        try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
+             PreparedStatement searchPS = conn.prepareStatement(searchSQL)) {
+
+            searchPS.setString(1, name);
+            ResultSet placeRS = searchPS.executeQuery();
+
+            if (placeRS.next()) {
+                // A place was found
+                double elevation = placeRS.getDouble("elevation");
+                return elevation;
+            } else {
+                // place not found
+                return null;  // ensure your return type is uppercase D Double
+            }
+
+        } catch (SQLException sqle) {
+            System.err.println("Error finding place " + name + " because " + sqle);
+            return null;
+        }
+    }
+
+
+    public boolean updatePlaceRecord(Place place) {
+
+        String searchSQL = "UPDATE places SET elevation = ? WHERE LOWER(name) = LOWER(?)";
+
+        try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
+             PreparedStatement updatePS = conn.prepareStatement(searchSQL)) {
+
+            updatePS.setDouble(1, place.getElevation());
+            updatePS.setString(2, place.getName());
+
+            int rowsUpdated = updatePS.executeUpdate();
+
+            if (rowsUpdated == 1) {
+                // place was found and DB updated
+                return true;
+            } else {
+                // no place with that name found, no rows changed
+                return false;
+            }
+
+        } catch (SQLException sqle) {
+            System.err.println("Error updating place " + place + " because " + sqle);
+            return false;
+        }
+    }
+
 }
 
 

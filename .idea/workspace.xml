@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="more tidying">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/places.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/places.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="dynamic.classpath" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -105,11 +106,11 @@
       <recent name="week6_files_exceptions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation" />
       <recent name="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_query_currency_gui" />
       <recent name="$PROJECT_DIR$/src/main/java/week9_intro_to_jdbc_sqlite/movie_database_primary_key" />
       <recent name="$PROJECT_DIR$/src/main/java/week9_intro_to_jdbc_sqlite" />
       <recent name="$PROJECT_DIR$/src/main/java/week9_intro_to_jdbc_sqlite/movie_database_constraints" />
-      <recent name="$PROJECT_DIR$/src/main/java/week7_first_classes/tires_with_comparison" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="week6_files_exceptions" />
@@ -535,13 +536,6 @@
       <workItem from="1604886650794" duration="273000" />
       <workItem from="1605186167065" duration="1647000" />
     </task>
-    <task id="LOCAL-00050" summary="cleanup weather gui">
-      <created>1568994542701</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1568994542702</updated>
-    </task>
     <task id="LOCAL-00051" summary="yelp cleanup">
       <created>1568998843972</created>
       <option name="number" value="00051" />
@@ -878,7 +872,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605197759270</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="fix variable names">
+      <created>1605205241949</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1605205241949</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -926,7 +927,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="fix variable names" />
     <MESSAGE value="join example" />
     <MESSAGE value="config" />
     <MESSAGE value="Guestlist program" />
@@ -951,7 +951,8 @@
     <MESSAGE value="Remove label, set size and title" />
     <MESSAGE value="better separation of concerns&#10;change delete method name" />
     <MESSAGE value="get data on app load" />
-    <option name="LAST_COMMIT_MESSAGE" value="get data on app load" />
+    <MESSAGE value="fix variable names" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix variable names" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -963,6 +964,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="548" y="253" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1604094570788" />
+    <state x="365" y="226" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605209528602">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="365" y="226" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1605209528602" />
     <state x="545" y="408" width="450" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602622310689">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -995,10 +1000,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="245" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1604094616616" />
-    <state x="281" y="225" key="Vcs.Push.Dialog.v2" timestamp="1605196094721">
+    <state x="281" y="225" key="Vcs.Push.Dialog.v2" timestamp="1605205243321">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="281" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1605196094721" />
+    <state x="281" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1605205243321" />
     <state x="637" y="367" width="618" height="470" key="new project wizard" timestamp="1598559811110">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

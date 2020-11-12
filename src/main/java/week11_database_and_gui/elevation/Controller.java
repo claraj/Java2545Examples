@@ -35,9 +35,18 @@ public class Controller {
     boolean addPlaceToDatabase(Place place) {
         return db.addRecord(place);
     }
-    
+
     void deletePlace(Place place) {
         db.deleteRecord(place);
+    }
+
+    public Double getElevationForPlace(String name) {
+        Double elevation = db.getElevationForPlaceName(name);
+        return elevation;
+    }
+
+    public boolean updatePlace(Place place) {
+        return db.updatePlaceRecord(place);
     }
 
 }
