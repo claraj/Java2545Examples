@@ -20,8 +20,9 @@ public class MovieGUI extends JFrame {
     private JButton quitButton;
     
     MovieGUI() {
+        setTitle("Movies");
         setContentPane(mainPanel);
-//        setPreferredSize(new Dimension(500, 300));
+        setPreferredSize(new Dimension(500, 300));
         pack();
         setVisible(true);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
