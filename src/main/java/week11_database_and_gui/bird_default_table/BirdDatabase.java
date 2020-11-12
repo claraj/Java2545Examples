@@ -4,7 +4,7 @@ import java.util.Vector;
 
 public class BirdDatabase {
     
-    private static final String DB_CONNECTION_URL = "jdbc:sqlite:birds:sqlite";
+    private static final String DB_CONNECTION_URL = "jdbc:sqlite:birds.sqlite";
     
     BirdDatabase() {
         

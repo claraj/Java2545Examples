@@ -19,12 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="config">
+    <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="more tidying">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4265de56-7da4-4150-9e23-56042651096a.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4265de56-7da4-4150-9e23-56042651096a/storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4265de56-7da4-4150-9e23-56042651096a/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f302cbbb-556e-4d5c-ac6a-5aee5f09e089.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f302cbbb-556e-4d5c-ac6a-5aee5f09e089/storage.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f302cbbb-556e-4d5c-ac6a-5aee5f09e089/storage_v2/_src_/schema/main.uQUzAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/DiceCup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/DiceCup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week7_first_classes/KnockOut/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birds:sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/hello_cats.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/databases/hello_cats.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week10_and_more_gui_jlist_combobox/todo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_default_table/BirdDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/bird_default_table/BirdDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11_database_and_gui/elevation/PlaceGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week8_first_gui/movie_sliders_and_checkboxes/MovieGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week8_first_gui/movie_sliders_and_checkboxes/MovieGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,71 +46,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hello.sqlite" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hello.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="movie_watchlist" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="movie_watchlist" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="movie_watchlist" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="movie_watchlist" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="movies: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="movie_watchlist_with_constraints_and_id" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="movie_watchlist_with_constraints_and_id" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="movie_watchlist_with_constraints_and_id" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="places" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -140,14 +88,14 @@
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="true" />
     <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="187" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="253" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="237" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;DDL Data Source" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="dynamic.classpath" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/xtra_topic_api/api_query_currency_gui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -157,7 +105,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -185,11 +133,12 @@
       <recent name="week5_map_data_structure" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="week11_database_and_gui.elevation" />
       <recent name="xtra_topic_api.api_oauth_yelp_gui" />
       <recent name="xtra_topic_api.async_gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserEntersData_WindowsVersion">
+  <component name="RunManager" selected="Application.Controller">
     <configuration default="true" type="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -312,13 +261,13 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadNumbersFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week6_files_exceptions.ReadNumbersFromFile" />
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week11_database_and_gui.elevation.Controller" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week6_files_exceptions.*" />
+          <option name="PATTERN" value="week11_database_and_gui.elevation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,13 +275,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsFromMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week6_files_exceptions.ThrowsFromMethod" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10_and_more_gui_jlist_combobox.vehicles.Main" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week6_files_exceptions.*" />
+          <option name="PATTERN" value="week10_and_more_gui_jlist_combobox.vehicles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -340,13 +289,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserEntersData_While" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week6_files_exceptions.UserEntersData_While" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10_and_more_gui_jlist_combobox.todo_right_click_delete.Main" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week6_files_exceptions.*" />
+          <option name="PATTERN" value="week10_and_more_gui_jlist_combobox.todo_right_click_delete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -354,13 +303,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserEntersData_WindowsVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week6_files_exceptions.UserEntersData_WindowsVersion" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10_and_more_gui_jlist_combobox.running_trainer.Main" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week6_files_exceptions.*" />
+          <option name="PATTERN" value="week10_and_more_gui_jlist_combobox.running_trainer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -368,13 +317,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteReadArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week6_files_exceptions.WriteReadArrayList" />
+    <configuration name="TShirt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week10_and_more_gui_jlist_combobox.t_shirt.TShirt" />
       <module name="Examples" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week6_files_exceptions.*" />
+          <option name="PATTERN" value="week10_and_more_gui_jlist_combobox.t_shirt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -496,19 +445,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.WriteReadArrayList" />
-      <item itemvalue="Application.ReadNumbersFromFile" />
-      <item itemvalue="Application.ThrowsFromMethod" />
-      <item itemvalue="Application.UserEntersData_WindowsVersion" />
-      <item itemvalue="Application.UserEntersData_While" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.TShirt" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Controller" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserEntersData_WindowsVersion" />
-        <item itemvalue="Application.UserEntersData_While" />
-        <item itemvalue="Application.ThrowsFromMethod" />
-        <item itemvalue="Application.ReadNumbersFromFile" />
-        <item itemvalue="Application.WriteReadArrayList" />
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.TShirt" />
+        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -587,91 +536,18 @@
       <workItem from="1599869285392" duration="1021000" />
       <workItem from="1600195716373" duration="1263000" />
       <workItem from="1601564457911" duration="5822000" />
-      <workItem from="1601903745151" duration="676000" />
-    </task>
-    <task id="LOCAL-00035" summary="JTable example with sqlite DB">
-      <created>1524110102192</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1524110102192</updated>
-    </task>
-    <task id="LOCAL-00036" summary="JTable example with sqlite DB">
-      <created>1524110807845</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1524110807845</updated>
-    </task>
-    <task id="LOCAL-00037" summary="fix columns">
-      <created>1524111195735</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1524111195735</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Clean up extra variables">
-      <created>1524111806226</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1524111806227</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Tidy elevation GUI">
-      <created>1524187453412</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1524187453412</updated>
-    </task>
-    <task id="LOCAL-00040" summary="JTable tool tip and list selection listener examples">
-      <created>1525093230286</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1525093230287</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Looked up how tall example trees are instead of wildly guessing">
-      <created>1525107199703</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1525107199703</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Number of classes example from week 1">
-      <created>1546828938708</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1546828938708</updated>
-    </task>
-    <task id="LOCAL-00043" summary="tidying">
-      <created>1549291751077</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1549291751078</updated>
-    </task>
-    <task id="LOCAL-00044" summary="exception handling vs. checks">
-      <created>1549291780473</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1549291780473</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Integer.valueOf()">
-      <created>1549292720860</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1549292720860</updated>
-    </task>
-    <task id="LOCAL-00046" summary="date, integer parsing exception handling">
-      <created>1568520217099</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1568520217099</updated>
+      <workItem from="1601903745151" duration="4773000" />
+      <workItem from="1602123020170" duration="2604000" />
+      <workItem from="1602248851867" duration="3717000" />
+      <workItem from="1602544888812" duration="2310000" />
+      <workItem from="1602776593161" duration="2751000" />
+      <workItem from="1602882112490" duration="147000" />
+      <workItem from="1603997456485" duration="1000" />
+      <workItem from="1604094493077" duration="1871000" />
+      <workItem from="1604606366913" duration="921000" />
+      <workItem from="1604608598514" duration="1573000" />
+      <workItem from="1604886650794" duration="273000" />
+      <workItem from="1605186167065" duration="1647000" />
     </task>
     <task id="LOCAL-00047" summary="date, integer parsing exception handling">
       <created>1568522722764</created>
@@ -932,7 +808,91 @@
       <option name="project" value="LOCAL" />
       <updated>1601586425279</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="dice game tidying">
+      <created>1601906036271</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1601906036271</updated>
+    </task>
+    <task id="LOCAL-00085" summary="dice game global players array">
+      <created>1601909638153</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1601909638153</updated>
+    </task>
+    <task id="LOCAL-00086" summary="more tidying">
+      <created>1601910245958</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1601910245958</updated>
+    </task>
+    <task id="LOCAL-00087" summary="use fields">
+      <created>1602529325765</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1602529325766</updated>
+    </task>
+    <task id="LOCAL-00088" summary="cleanup">
+      <created>1602529342897</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1602529342897</updated>
+    </task>
+    <task id="LOCAL-00089" summary="Examples of stack overflow and heap exception">
+      <created>1602622347432</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1602622347432</updated>
+    </task>
+    <task id="LOCAL-00090" summary="movie minor cleanup - padding, dispose instead of exit">
+      <created>1602784309253</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1602784309254</updated>
+    </task>
+    <task id="LOCAL-00091" summary="margin">
+      <created>1604607361727</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1604607361727</updated>
+    </task>
+    <task id="LOCAL-00092" summary="rename">
+      <created>1604608967311</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1604608967311</updated>
+    </task>
+    <task id="LOCAL-00093" summary="set name and unselect combo boxes on launch">
+      <created>1604608987971</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1604608987971</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Add title, fix instructions">
+      <created>1604609358441</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1604609358441</updated>
+    </task>
+    <task id="LOCAL-00095" summary="set title, margin">
+      <created>1604609394317</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1604609394317</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -980,18 +940,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Hashmap Speed test" />
-    <MESSAGE value="Regular list" />
-    <MESSAGE value="tires oop" />
-    <MESSAGE value="renumber packages" />
-    <MESSAGE value="movie database examples" />
-    <MESSAGE value="regex example" />
-    <MESSAGE value="JComboBox example" />
-    <MESSAGE value="Vehicle JList setup" />
-    <MESSAGE value="Vehicle JList example" />
-    <MESSAGE value="Pool v2" />
-    <MESSAGE value="objects you know" />
-    <MESSAGE value="Object with Date class" />
     <MESSAGE value="Currency GUI with API" />
     <MESSAGE value="currency converter - missing files" />
     <MESSAGE value="rename variable" />
@@ -1005,34 +953,66 @@
     <MESSAGE value="Remove unnecessary code" />
     <MESSAGE value="validation loops" />
     <MESSAGE value="file examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="file examples" />
+    <MESSAGE value="dice game tidying" />
+    <MESSAGE value="dice game global players array" />
+    <MESSAGE value="more tidying" />
+    <MESSAGE value="use fields" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="Examples of stack overflow and heap exception" />
+    <MESSAGE value="movie minor cleanup - padding, dispose instead of exit" />
+    <MESSAGE value="margin" />
+    <MESSAGE value="rename" />
+    <MESSAGE value="set name and unselect combo boxes on launch" />
+    <MESSAGE value="Add title, fix instructions" />
+    <MESSAGE value="set title, margin" />
+    <option name="LAST_COMMIT_MESSAGE" value="set title, margin" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1378" height="170" key="GridCell.Tab.0.bottom" timestamp="1601586431013">
+    <state x="457" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605188034888">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1378" height="170" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601586431013" />
-    <state width="1378" height="170" key="GridCell.Tab.0.center" timestamp="1601586431012">
+    <state x="457" y="110" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1605188034888" />
+    <state x="548" y="253" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604094570788">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1378" height="170" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601586431012" />
-    <state width="1378" height="170" key="GridCell.Tab.0.left" timestamp="1601586431012">
+    <state x="548" y="253" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1604094570788" />
+    <state x="545" y="408" width="450" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602622310689">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1378" height="170" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601586431012" />
-    <state width="1378" height="170" key="GridCell.Tab.0.right" timestamp="1601586431013">
+    <state x="545" y="408" width="450" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1602622310689" />
+    <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1604608643188">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1378" height="170" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601586431013" />
-    <state x="245" y="63" key="SettingsEditor" timestamp="1598976599035">
+    <state x="0" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.877@0.23.1440.877" timestamp="1604608643188" />
+    <state width="1227" height="111" key="GridCell.Tab.0.bottom" timestamp="1605188067718">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="245" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1598976599035" />
-    <state x="281" y="225" key="Vcs.Push.Dialog.v2" timestamp="1601586427606">
+    <state width="1227" height="111" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1605188067718" />
+    <state width="1227" height="111" key="GridCell.Tab.0.center" timestamp="1605188067717">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="281" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601586427606" />
+    <state width="1227" height="111" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1605188067717" />
+    <state width="1227" height="111" key="GridCell.Tab.0.left" timestamp="1605188067717">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1227" height="111" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1605188067717" />
+    <state width="1227" height="111" key="GridCell.Tab.0.right" timestamp="1605188067718">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1227" height="111" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1605188067718" />
+    <state width="233" height="457" key="HiddenNamespacesPopup" timestamp="1604095489227">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="233" height="457" key="HiddenNamespacesPopup/0.23.1440.877@0.23.1440.877" timestamp="1604095489227" />
+    <state x="245" y="63" key="SettingsEditor" timestamp="1604094616616">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="245" y="63" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1604094616616" />
+    <state x="281" y="225" key="Vcs.Push.Dialog.v2" timestamp="1604609396191">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="281" y="225" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604609396191" />
     <state x="637" y="367" width="618" height="470" key="new project wizard" timestamp="1598559811110">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
