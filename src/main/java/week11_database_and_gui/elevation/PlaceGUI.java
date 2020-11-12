@@ -48,6 +48,9 @@ public class PlaceGUI extends JFrame {
         pack();
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setVisible(true);
+
+        List<Place> allPlaces = controller.getAllData();
+        setListData(allPlaces);
     }
     
     
