@@ -3,38 +3,44 @@ package week11_database_and_gui.elevation;
 import java.util.List;
 
 /**
- * Created by clara on 4/16/18.
+ * Manages interactions between GUI and DB
  */
 
 public class Controller {
-    
+
+    private static final String DB_CONNECTION_URL = "jdbc:sqlite:places.sqlite";     //Connection string – where's the database?
+
+    // Fields to represent the GUI and Database Objects
     private PlaceGUI gui;
     private PlaceDB db;
-    
+
     public static void main(String[] args) {
         new Controller().startApp();
     }
-    
+
     private void startApp() {
-        db = new PlaceDB();
-        
+
+        db = new PlaceDB(DB_CONNECTION_URL);
+
         List<Place> allData = db.fetchAllRecords();
-        
+
         gui = new PlaceGUI(this);
         gui.setListData(allData);
+
     }
     
     List<Place> getAllData() {
         return db.fetchAllRecords();
     }
-    
-    String addPlaceToDatabase(Place place) {
+
+    boolean addPlaceToDatabase(Place place) {
         return db.addRecord(place);
     }
     
     void deletePlace(Place place) {
         db.delete(place);
     }
+
 }
 
 

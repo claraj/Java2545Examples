@@ -1,39 +1,43 @@
 package week11_database_and_gui.elevation;
 
+import javax.swing.plaf.nimbus.State;
+import java.io.IOError;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by clara on 4/16/18.
+ * Handles all interaction with the database.
  */
+
 public class PlaceDB {
-    
-    private static final String DB_CONNECTION_URL = "jdbc:sqlite:places.sqlite";     //Connection string – where's the database?
-    
-    private static final String NAME_COL = "name";
-    private static final String ELEV_COL = "elev";
-    
-    static final String OK = "ok";
-    static final String DUPLICATE = "Duplicate place name";
-    
-    static final int SQLITE_DUPLICATE_PRIMARY_KEY_CODE = 19;
-    
-    PlaceDB() {
+
+    private final String DB_CONNECTION_URL;
+
+    private final String OK = "ok";
+    private final String DUPLICATE = "Duplicate place name";
+
+    private final int SQLITE_DUPLICATE_PRIMARY_KEY_CODE = 19;
+
+    PlaceDB(String connectionURL) {
+
+        DB_CONNECTION_URL = connectionURL;     //Connection string – where's the database?
+
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
              Statement statement = conn.createStatement()) {
-            
-            // Create a table in the database, if it does not exist already
+
+            // Create a table in the database if it doesn't exist yet
             String createTableSQL = "CREATE TABLE IF NOT EXISTS places " +
-                    "(name TEXT PRIMARY KEY, elev DOUBLE)";
-            
+                    "(name TEXT PRIMARY KEY, elevation REAL, UNIQUE (name COLLATE NOCASE) )";   // prevent duplicate place names regardless of case
+
             statement.executeUpdate(createTableSQL);
-            
+
         } catch (SQLException sqle) {
-            throw new RuntimeException(sqle);
+            System.err.println("Error creating database at " + connectionURL + " because " + sqle);
         }
     }
-    
+
+
     public List<Place> fetchAllRecords() {
         
         List<Place> allRecords = new ArrayList<>();
@@ -45,39 +49,43 @@ public class PlaceDB {
             ResultSet rsAll = statement.executeQuery(selectAllSQL);
             
             while (rsAll.next()) {
-                String name = rsAll.getString(NAME_COL);
-                double elevation = rsAll.getDouble(ELEV_COL);
+                String name = rsAll.getString("name");
+                double elevation = rsAll.getDouble("elevation");
                 Place placeRecord = new Place(name, elevation);
                 allRecords.add(placeRecord);
             }
-            
-            return allRecords;    //If there's no data, this will be empty
-            
+
+            return allRecords;    //If there's no data, this will be an empty list
+
         } catch (SQLException sqle) {
-            throw new RuntimeException(sqle);  // Crashes program - programmer must fix cause
+            System.err.println("Error fetching all place because " + sqle);
+            return null;
         }
     }
-    
-    
-    public String addRecord(Place place)  {
-        
-        String addPlaceSQL = "INSERT INTO places VALUES ( ? , ? )" ;
-        
+
+
+    public boolean addRecord(Place place) {
+
+        // Inserts a new place and returns true if successful, false otherwise
+        String addPlaceSQL = "INSERT INTO places VALUES ( ? , ? )";
+
         try (Connection conn = DriverManager.getConnection(DB_CONNECTION_URL);
              PreparedStatement addPlacePs = conn.prepareStatement(addPlaceSQL)) {
-            
+
             addPlacePs.setString(1, place.getName());
             addPlacePs.setDouble(2, place.getElevation());
             addPlacePs.execute();
-            return OK;
+            return true;
             
         } catch (SQLException sqle) {
-            if (sqle.getErrorCode() == SQLITE_DUPLICATE_PRIMARY_KEY_CODE){
-                return DUPLICATE;
+            // this is a problem that the code can handle - it's a place that's
+            // already in the database, so the user can try again.
+            if (sqle.getErrorCode() == SQLITE_DUPLICATE_PRIMARY_KEY_CODE) {
+                System.out.println("Error adding place, already exists in database");
             } else {
-                throw new RuntimeException(sqle);
-                // Different error - crash program so programmer can fix
+                System.err.println("Error adding place " + place + " because " + sqle);
             }
+            return false;
         }
     }
     
@@ -93,7 +101,7 @@ public class PlaceDB {
             deletePreparedStatement.execute();
             
         } catch (SQLException sqle) {
-            throw new RuntimeException(sqle);
+            System.err.println("Error deleting place " + place + " because " + sqle);
         }
     }
     

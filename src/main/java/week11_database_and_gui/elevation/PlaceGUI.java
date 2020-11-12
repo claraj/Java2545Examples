@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by clara on 4/16/18.
+ * Handles all user interface tasks
  */
 
 public class PlaceGUI extends JFrame {
@@ -24,18 +24,24 @@ public class PlaceGUI extends JFrame {
     private DefaultListModel<Place> allPlacesListModel;
     
     PlaceGUI(Controller controller) {
-    
+
         // Store a reference to the controller object.
         // Use to make requests to the controller, which will forward requests to DB
         this.controller = controller;
-        
-        //Configure the list model
+
+        // Configure the list model
         allPlacesListModel = new DefaultListModel<>();
         placeList.setModel(allPlacesListModel);
-        
+
+        placeList.setSelectionMode(ListSelectionModel.MULTIPLE_INTERVAL_SELECTION);
+
+        // Add button is clicked when user presses Enter/Return key
+        getRootPane().setDefaultButton(addButton);
+
         addListeners();   // Configure listeners in separate method
-        
+
         // Regular setup tasks for the window / JFrame
+        setTitle("Place Elevation GUI");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setContentPane(mainPanel);
         pack();
@@ -53,12 +59,16 @@ public class PlaceGUI extends JFrame {
         deleteButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //Identify what is selected
-                Place place = placeList.getSelectedValue();
-                if (place == null) {
-                    JOptionPane.showMessageDialog(PlaceGUI.this, "Please select a place to delete");
+                // Identify which places are selected
+                List<Place> placesToDelete = placeList.getSelectedValuesList();
+                if (placesToDelete == null) {
+                    JOptionPane.showMessageDialog(PlaceGUI.this, "Please select at least one place to delete");
                 } else {
-                    controller.deletePlace(place);
+                    for (Place place : placesToDelete) {
+                        controller.deletePlace(place);
+                    }
+
+                    // Get the updated list of places and display in JList
                     List<Place> places = controller.getAllData();
                     setListData(places);
                 }
@@ -69,8 +79,8 @@ public class PlaceGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String place = placeNameText.getText();
-            
-                if (place.isEmpty()) {
+
+                if (place.isBlank()) {
                     errorDialog("Enter a place name");
                     return;
                 }
@@ -83,34 +93,32 @@ public class PlaceGUI extends JFrame {
                     errorDialog("Enter a number for elevation");
                     return;
                 }
-            
+
                 Place placeRecord = new Place(place, elev);
-                String result = controller.addPlaceToDatabase(placeRecord);
-            
-                if (result.equals(PlaceDB.OK)) {
+                boolean added = controller.addPlaceToDatabase(placeRecord);
+
+                if (added) {
                     placeNameText.setText("");
                     elevationText.setText("");
-                
+
                     // And request all data from DB to update list
                     List<Place> allData = controller.getAllData();
                     setListData(allData);
-                
+
                 } else {
-                    errorDialog(result);
+                    errorDialog("Unable to add this place.");
                 }
             }
         });
     }
-    
-    void setListData(List<Place> data) {
+
+    void setListData(List<Place> places) {
         // Convenience method to update list.
         // Clear list model, and display all place data in JList
         allPlacesListModel.clear();
-        
-        if (data != null) {
-            for (Place place : data) {
-                allPlacesListModel.addElement(place);
-            }
+
+        if (places != null) {
+            allPlacesListModel.addAll(places);
         }
     }
 }
