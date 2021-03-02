@@ -38,9 +38,9 @@ public class Database {
             preparedStatement.setString(1, movie.name);
             preparedStatement.setInt(2, movie.stars);
             preparedStatement.setBoolean(3, movie.watched);
-            
+
+
             preparedStatement.executeUpdate();
-            
             ResultSet keys = preparedStatement.getGeneratedKeys();
             keys.next();
             movie.id = keys.getInt(1);
