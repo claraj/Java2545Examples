@@ -3,51 +3,62 @@ package week5_map_data_structure;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
+import java.util.UUID;
 
 /**
  * Created by clara on 2019-10-01. Speed test for various HashMap loops
  */
+
 public class HashMapSpeedTest {
-    
-    static Random rnd = new Random();
-    
+
     public static void main(String[] args) {
-        
-        // Create a GINORMOUS HashMap
+
+        System.out.println("Creating a large HashMap, please wait...");
         Map<String, Integer> test = new HashMap<>();
-        
+
+        // Create a GINORMOUS HashMap by adding lots of key-value pairs
         // This might take a while
-        for (int value = 0; value < 10000000; value++) {
-            test.put(randomString(), value);
+
+        int size = 10000000;
+        double onePercent = size / 100.0;  // for a basic progress meter
+        int percentCounter = 0;
+
+        for (int pair = 0; pair < size; pair++) {
+            if (pair % onePercent == 0) {   // displays a dot for every 1% of the key-value pairs created
+                System.out.println(percentCounter++ + "%");
+            }
+            // add random key-value pair to HashMap
+            test.put(randomString(), pair);
         }
-    
-        System.out.println("Generated HashMap of size " + test.size());
-    
+
+        System.out.println("Done");
+        System.out.println("Generated HashMap of size " + test.size() + " key-value pairs.");
+
         // Speed tests
-        
-        timeValues(test);    // Example run 2023 ms, about 2 seconds
-        timeKeySet(test);    // Example run 1569 ms, about 1.5 seconds
-        timeEntrySet(test);  // Example run 3848 ms, about 4 seconds
-    
-        
-        // Conclusion: looping over keys or values is about 2-3 times faster than the EntrySet method
-        // Looping over keys is not that much slower than looping over values, because i'ts very fast to loop op value for a key
-        
+
+        timeValues(test);    // Example run with one million key-value pairs 1233 ms
+        timeKeySet(test);    // Example run with one million key-value pairs 1128 ms
+        timeEntrySet(test);  // Example run with one million key-value pairs 716 ms
+
+        // Try again...
+
+        timeValues(test);    // Example run with one million key-value pairs 622 ms
+        timeKeySet(test);    // Example run with one million key-value pairs 990 ms
+        timeEntrySet(test);  // Example run with one million key-value pairs 683 ms
+
+
+        // Conclusion: it's all about the same. Use whichever loop makes most sense in your program.
+
     }
     
     public static String randomString() {
-        
-        // Generate random strings of 10 capital letters
-        
-        StringBuilder b = new StringBuilder();
-        
-        for (int x = 0; x < 10 ; x++) {
-            String letter = Character.toString(rnd.nextInt(26) + 65);   // Generate random letter
-            b.append(letter);
-        }
-    
-        return b.toString();
+
+        // Create a random UUID value. UUID = Universally unique identifier, a
+        // long string that looks something like this, 7a7de706-0bf1-4443-9d08-b44cd510522c
+        // Each randomly generated UUID is unique.
+
+        UUID uuid = UUID.randomUUID();
+        return uuid.toString();
     }
     
     public static void timeEntrySet(Map<String, Integer> test ) {
