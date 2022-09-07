@@ -5,8 +5,8 @@ import static input.InputUtils.intInput;
 
 public class BloodDonor {
     
-    public static void main(String args[]) {
-        
+    public static void main(String[] args) {
+
         // Testing if two things are true with AND, the && operator
         // A person can be a blood donor if
         // they weigh at least 110lbs AND are 17 or over
